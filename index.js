@@ -55,7 +55,7 @@ function getPDF(eventNumber) {
 }
 
 async function makeRequest() {
-	for (let i = 0; i < 1000; i++) {
+	for (let i = 1; i < 1000; i++) {
 		var data = JSON.stringify({
 			eventIds: [],
 			reportIds: [],
@@ -75,6 +75,8 @@ async function makeRequest() {
 			pageSize: 100,
 			pageNumber: i,
 		});
+
+		console.log("On loop...", i);
 
 		var config = {
 			method: "post",
@@ -125,12 +127,16 @@ async function makeRequest() {
 					reportId = obj.reportId;
 					eventId = obj.eventId;
 					subType = obj.subType;
-				    console.log("eventId", eventId);
-                    // Write to a CSV file
-                    fs.appendFile('data.csv', `${eventId}, ${reportId}, ${subType} \n`, (err) => {
-                        if (err) throw err;
-                        console.log('Data added to CSV file successfully!', eventId);
-                      });
+					console.log("eventId", eventId);
+					// Write to a CSV file
+					fs.appendFile(
+						"data.csv",
+						`${eventId}, ${reportId}, ${subType} \n`,
+						(err) => {
+							if (err) throw err;
+							console.log("Data added to CSV file successfully!", eventId);
+						}
+					);
 				});
 			})
 			.catch(function (error) {
@@ -140,19 +146,21 @@ async function makeRequest() {
 }
 
 function readCSV() {
-    fs.readFile('data.csv', 'utf8', (err, data) => {
-        if (err) throw err;
-        const rows = data.trim().split('\n').map(row => row.split(','));
-        // const headers = rows.shift();
-        rows.forEach(row => {
-          const rowData = {};
-          console.log(row)
-          const eventId = row[0];
-          getPDF(eventId);
-        });
-      });
+	fs.readFile("data.csv", "utf8", (err, data) => {
+		if (err) throw err;
+		const rows = data
+			.trim()
+			.split("\n")
+			.map((row) => row.split(","));
+		// const headers = rows.shift();
+		rows.forEach((row) => {
+			const rowData = {};
+			console.log(row);
+			const eventId = row[0];
+			getPDF(eventId);
+		});
+	});
 }
-            
 
 // Generates the CSV
 makeRequest();
