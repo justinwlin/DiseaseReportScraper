@@ -1,0 +1,57 @@
+{
+  "eventId": 4693,
+  "isForCountry": false,
+  "isAquatic": false,
+  "country": {
+    "areaId": 107,
+    "name": "Hungary",
+    "isoCode": "HUN"
+  },
+  "disease": {
+    "id": 668,
+    "name": "High pathogenicity avian influenza viruses (poultry) (Inf. with)",
+    "group": "Aves",
+    "category": "OIE-listed",
+    "isDomestic": true,
+    "concernsAquatic": false,
+    "selfDeclaration": true,
+    "metaCharacterization": "Disease"
+  },
+  "causalAgent": {
+    "agentId": 252,
+    "name": "Highly pathogenic avian influenza virus",
+    "type": "Virus"
+  },
+  "subType": {
+    "disease": {
+      "id": 557,
+      "name": "H5N1",
+      "group": null,
+      "category": "OIE-listed",
+      "isDomestic": false,
+      "concernsAquatic": false,
+      "selfDeclaration": true,
+      "metaCharacterization": "Subtype of disease"
+    },
+    "diseaseType": null
+  },
+  "clinicalSigns": true,
+  "startedOn": "2022-11-02T23:00:00.000+00:00",
+  "confirmOn": "2022-11-04T00:00:00.000+00:00",
+  "lastOccurrence": "2022-06-14T00:00:00.000+00:00",
+  "endedOn": null,
+  "reason": {
+    "id": 280,
+    "keyValue": "reccurence disease",
+    "translation": "Recurrence of an eradicated disease",
+    "description": null
+  },
+  "eventStatus": {
+    "id": 136,
+    "keyValue": "ongoing",
+    "translation": "On-going",
+    "description": null
+  },
+  "eventComment": null,
+  "zoonoticDesc": null
+}
