@@ -55,7 +55,7 @@ function getPDF(eventNumber) {
 }
 
 async function makeRequest() {
-	for (let i = 1; i < 1000; i++) {
+	for (let i = 4; i < 50; i++) {
 		var data = JSON.stringify({
 			eventIds: [],
 			reportIds: [],
@@ -123,20 +123,21 @@ async function makeRequest() {
 			.then(function (response) {
 				responseData = response.data;
 				listOfEvents = responseData.list;
+                console.log(listOfEvents)
 				listOfEvents.map((obj) => {
 					reportId = obj.reportId;
 					eventId = obj.eventId;
 					subType = obj.subType;
 					console.log("eventId", eventId);
 					// Write to a CSV file
-					fs.appendFile(
-						"data.csv",
-						`${eventId}, ${reportId}, ${subType} \n`,
-						(err) => {
-							if (err) throw err;
-							console.log("Data added to CSV file successfully!", eventId);
-						}
-					);
+					// fs.appendFile(
+					// 	"data.csv",
+					// 	`${eventId}, ${reportId}, ${subType} \n`,
+					// 	(err) => {
+					// 		if (err) throw err;
+					// 		console.log("Data added to CSV file successfully!");
+					// 	}
+					// );
 				});
 			})
 			.catch(function (error) {
@@ -163,7 +164,7 @@ function readCSV() {
 }
 
 // Generates the CSV
-makeRequest();
+// makeRequest();
 
 // Reads the CSV
-// readCSV();
+readCSV();
