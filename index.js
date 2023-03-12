@@ -130,14 +130,14 @@ async function makeRequest() {
 					subType = obj.subType;
 					console.log("eventId", eventId);
 					// Write to a CSV file
-					// fs.appendFile(
-					// 	"data.csv",
-					// 	`${eventId}, ${reportId}, ${subType} \n`,
-					// 	(err) => {
-					// 		if (err) throw err;
-					// 		console.log("Data added to CSV file successfully!");
-					// 	}
-					// );
+					fs.appendFile(
+						"data.csv",
+						`${eventId}, ${reportId}, ${subType} \n`,
+						(err) => {
+							if (err) throw err;
+							console.log("Data added to CSV file successfully!");
+						}
+					);
 				});
 			})
 			.catch(function (error) {
