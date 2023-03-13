@@ -1,0 +1,99 @@
+location,longitude,latitude,start,end,epiUnit
+Saskatchewan - wildbirds,-104.62,50.43,6/30/2022,12/31/1969,Not applicable
+Québec - wildbirds,-71.22,46.81,4/6/2022,6/29/2022,Not applicable
+Québec - wildbirds,-71.22,46.81,6/30/2022,12/31/1969,Not applicable
+Nova Scotia - wildbirds,-63.55,44.66,6/30/2022,12/31/1969,Not applicable
+Prince Edward Island,-63.11,46.25,6/30/2022,12/31/1969,Not applicable
+Ontario - wildbirds,-79.39,43.65,6/30/2022,12/31/1969,Not applicable
+Newfoundland and Labrador - wildbirds,-52.7,47.585,6/30/2022,12/31/1969,Not applicable
+New Brunswick - wildbirds,-66.64,45.91,6/30/2022,12/31/1969,Not applicable
+Mountain View County (AB-IP55),-113.76,51.59,10/15/2022,2/26/2023,Backyard
+Manitoba - wildbirds,-97.14,49.91,6/30/2022,12/31/1969,Not applicable
+British Columbia - wildbirds,-123.36,48.42,6/30/2022,12/31/1969,Not applicable
+Alberta - wildbirds,-113.49,53.55,6/30/2022,12/31/1969,Not applicable
+Alberta - wildbirds,-113.49,53.55,4/6/2022,6/29/2022,Not applicable
+Lunenburg County (NS-IP5),-64.59,44.44,1/15/2023,12/31/1969,Backyard
+Rocky View County (AB-IP53),-114.33,51.03,10/13/2022,2/19/2023,Backyard
+Vermilion River County (AB-IP19),-110.14,53.51,4/22/2022,5/16/2022,Backyard
+Kent County  (NB-IP2),-64.67,46.31,12/30/2022,12/31/1969,Backyard
+Township of Spallumcheen (BC-IP21),-119.3,50.37,8/30/2022,1/11/2023,Backyard
+Brant County (ON-IP29),-80.21,43.14,9/13/2022,10/11/2022,Backyard
+Red Deer County (AB-IP54),-113.06,52.09,10/18/2022,12/13/2022,Backyard
+City of Owen Sound (ON-IP28),-80.91,44.6,9/14/2022,12/20/2022,Backyard
+Rural Municipality of Woodlands (MB-IP21),-97.74,50.07,11/7/2022,12/5/2022,Backyard
+Regional District of Bulkley–Nechako (BC-IP29),-127.17,54.79,11/3/2022,11/21/2022,Backyard
+Northwest Territories - wildbird,-114.37,62.47,6/19/2022,6/19/2022,Not applicable
+Yukon - wildbirds,-135.03,60.72,5/1/2022,5/30/2022,Not applicable
+Manitoba - wildbirds,-97.14,49.91,4/11/2022,9/18/2022,Not applicable
+Nunavut - wildbirds,-82.05,62.945,7/12/2022,7/13/2022,Not applicable
+Prince Edward Island - wildbirds,-63.11,46.25,5/28/2022,9/10/2022,Not applicable
+Nova Scotia - wildbirds,-63.55,44.66,3/15/2022,9/3/2022,Not applicable
+New Brunswick - wildbirds,-66.64,45.91,3/4/2022,7/19/2022,Not applicable
+Newfoundland and Labrador - wildbirds,-52.7,47.585,5/10/2022,8/25/2022,Not applicable
+Saskatchewan - wildbirds,-104.62,50.43,3/27/2022,8/8/2022,Not applicable
+Ontario - wildbirds,-79.39,43.65,5/2/2022,10/28/2022,Not applicable
+British Columbia - wildbirds,-123.36,48.42,5/15/2022,9/26/2022,Not applicable
+Drummond (QC-IP15),-72.36,45.72,8/14/2022,11/11/2022,Backyard
+Township of West Lincoln (ON-IP32),-79.6,43.09,9/25/2022,11/15/2022,Backyard
+Nouvelle-Beauce Regional County Municipality (QC-IP21),-71.15,46.61,10/30/2022,11/18/2022,Backyard
+Langley Township (BC-IP26),-122.53,49.07,10/8/2022,11/9/2022,Backyard
+Minburn County (AB-IP58),-111.41,53.31,10/29/2022,12/31/1969,Backyard
+Lacombe County (AB-IP52),-113.32,52.5,10/10/2022,12/31/1969,Backyard
+Rocky View County (AB-IP16),-113.67,51.06,4/9/2022,5/30/2022,Backyard
+Rural Municipality of Shellbrook No. 493 (SK-IP16),-106.04,53.34,9/12/2022,10/28/2022,Backyard
+Rural Municipality of Hazel Dell No. 335 (SK-IP25),-103.08,52.06,10/7/2022,10/21/2022,Backyard
+Wetaskiwin County (AB-IP51),-113.22,52.97,10/10/2022,10/20/2022,Backyard
+Rural Municipality of Buckland No. 491 (SK-IP21),-105.78,53.22,9/13/2022,12/31/1969,Backyard
+Township of Grimsby (ON-IP30),-79.53,43.17,9/19/2022,12/31/1969,Backyard
+Regional District of Cariboo (BC-IP20),-121.38,51.67,9/8/2022,10/5/2022,Backyard
+Rural Municipality of Rockwood (MB-IP10),-97.22,50.29,9/23/2022,10/5/2022,Backyard
+Peterborough County (ON-IP18),-78.46,44.22,4/19/2022,5/15/2022,Backyard
+Rural Municipality of Loreburn (SK-IP3),-106.57,51.13,4/18/2022,6/1/2022,Backyard
+Cypress County (AB-IP29),-110.71,49.98,5/16/2022,6/19/2022,Backyard
+City of Richmond (BC-IP10),-123.16,49.18,5/12/2022,6/1/2022,Other
+Rural Municipality of Louise (MB-IP3),-98.79,49.19,5/26/2022,7/20/2022,Backyard
+Rural Municipality of Harrison Park (MB-IP2),-100.02,50.53,6/6/2022,6/19/2022,Backyard
+Municipal District of Provost (AB-IP28),-110.15,52.35,5/9/2022,6/26/2022,Backyard
+Eastern Nova Scotia (NS-IP1),-63.3,44.76,1/22/2022,6/21/2022,Backyard
+Regional District of Central Okanagan (BC-IP5),-119.36,49.92,4/4/2022,5/13/2022,Backyard
+La Rivière-du-Nord (QC-IP7),-73.98,45.82,5/2/2022,5/20/2022,Backyard
+Sturgeon County (AB-IP15),-113.38,53.85,4/14/2022,5/25/2022,Backyard
+Municipality of Wainwright (AB-IP30),-110.49,52.83,5/25/2022,7/10/2022,Backyard
+Western Nova Scotia (NS-IP4),-64.06,44.64,3/8/2022,7/14/2022,Backyard
+Clear Hills County (AB-IP31),-118.67,56.47,5/15/2022,6/19/2022,Backyard
+The County of Two Hills (AB-IP25),-110.98,53.64,5/6/2022,6/26/2022,Backyard
+Foothills County (AB-IP27),-114,50.73,4/27/2022,5/24/2022,Backyard
+Avalon Peninsula (NL-IP2),-52.7808,47.5473,12/30/2021,2/7/2022,Backyard
+Avalon Peninsula  (NL-IP1),-52.72,47.56,12/8/2021,4/5/2022,Farm
+Regional District of Peace River (BC-IP13),-120.5,56,5/3/2022,6/19/2022,Backyard
+Camrose County	 (AB-IP20),-112.52,53.19,4/23/2022,6/6/2022,Backyard
+Avalon Peninsula,-52.75,47.54,11/25/2021,3/11/2022,Not applicable
+Avalon Peninsula,-53.37,47.7,3/31/2022,3/31/2022,Not applicable
+Southwest Coast NL,-58.61,47.88,3/24/2022,3/24/2022,Not applicable
+Northern Peninsula,-57.92,49.58,1/17/2022,1/17/2022,Not applicable
+Eastern Ontario,-75.76,45.04,3/14/2022,4/6/2022,Not applicable
+Southern Ontario,-80.7,43.37,3/9/2022,4/15/2022,Not applicable
+Central PEI,-63.23,46.34,1/21/2022,5/24/2022,Not applicable
+Eastern PEI,-62.5,46.38,2/22/2022,5/21/2022,Not applicable
+Western PEI,-63.79,46.4,3/17/2022,3/17/2022,Not applicable
+Prairie Mountain Health Authority ,-100,49.88,4/7/2022,4/9/2022,Not applicable
+Southwestern SK,-107.4,50.4,3/31/2022,4/3/2022,Not applicable
+West Central SK,-107.98,51.17,3/26/2022,3/26/2022,Not applicable
+Metro Vancouver,-123.15,49.31,2/2/2022,2/3/2022,Not applicable
+Moncton/South-East Area,-64.78,46.33,2/9/2022,3/16/2022,Not applicable
+Fundy Shore and Saint John Area,-65.71,45.57,2/11/2022,4/23/2022,Not applicable
+Centre du Québec,-72.49,46.11,3/28/2022,3/28/2022,Not applicable
+Estrie,-72.69,45.41,3/24/2022,5/1/2022,Not applicable
+Montérégie,-73.55,45.27,3/16/2022,4/24/2022,Not applicable
+Western Nova Scotia,-66.1,43.86,2/6/2022,2/6/2022,Not applicable
+Northern Nova Scotia,-62.38,45.59,1/31/2022,2/14/2022,Not applicable
+Cape Breton,-59.95,46.18,1/30/2022,3/8/2022,Not applicable
+Western Nova Scotia,-64.2,45.03,1/25/2022,3/27/2022,Not applicable
+Eastern Nova Scotia,-63.25,44.68,1/11/2022,3/1/2022,Not applicable
+Sable Island,-59.9,43.93,3/20/2022,3/22/2022,Not applicable
+Miramichi Area,-65.43,46.96,4/29/2022,4/29/2022,Not applicable
+Southern Lake Area,-134.29,60.29,5/1/2022,5/1/2022,Not applicable
+Rural Municipality of Aberdeen No. 373 (SK-IP9),-106.26,52.3,4/30/2022,6/6/2022,Backyard
+The Rural Municipality of Moose Jaw No. 161 (SK-IP11),-105.59,50.41,5/9/2022,6/6/2022,Backyard
+Regional District of North Okanagan (BC-IP7),-119.14,50.46,4/26/2022,5/14/2022,Backyard
+Kelowna (BC-IP2),-119.37,49.9,4/18/2022,5/13/2022,Backyard

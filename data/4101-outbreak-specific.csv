@@ -1,0 +1,82 @@
+location,longitude,latitude,start,end,epiUnit
+Walldorf,8.63,49.31,3/2/2023,12/31/1969,Zoo
+Karlsruhe,8.41,49,2/22/2023,12/31/1969,Not applicable
+Wutöschingen,8.35,47.64,2/20/2023,12/31/1969,Not applicable
+Rainau,10.159,48.906,2/21/2023,3/1/2023,Not applicable
+Friedrichshafen,9.475636,47.650846,2/23/2023,2/28/2023,Not applicable
+Hartheim,7.62,47.935,2/23/2023,2/28/2023,Not applicable
+Heidelberg,8.66,49.41,2/28/2023,12/31/1969,Not applicable
+Esslingen am Neckar,9.33,48.72,2/22/2023,12/31/1969,Not applicable
+Efringen-Kirchen,7.57,47.65,2/18/2023,2/26/2023,Not applicable
+Abtsgmünd,9.98,48.93,2/20/2023,2/23/2023,Not applicable
+Appenweier,7.98,48.57,2/21/2023,2/26/2023,Not applicable
+Iffezheim,8.11,48.83,2/15/2023,12/31/1969,Not applicable
+Freiburg im Breisgau,7.8,48,2/18/2023,2/26/2023,Not applicable
+Breisach am Rhein,7.65,47.99,2/21/2023,12/31/1969,Not applicable
+Rheinau,7.88,48.64,2/19/2023,12/31/1969,Not applicable
+Lörrach,7.67,47.61,2/12/2023,2/19/2023,Not applicable
+Laupheim,9.87,48.24,2/14/2023,2/19/2023,Not applicable
+Waldenbuch,9.12,48.63,2/14/2023,2/19/2023,Not applicable
+Ellwangen (Jagst),10.21,48.96,2/11/2023,2/16/2023,Not applicable
+Möckmühl,9.35,49.3,2/16/2023,12/31/1969,Not applicable
+Remseck am Neckar,9.25,48.86,2/12/2023,12/31/1969,Not applicable
+Brühl,8.53,49.39,2/14/2023,3/2/2023,Not applicable
+Weil am Rhein,7.583,47.613,2/8/2023,2/26/2023,Not applicable
+Heilbronn,9.2,49.14,2/14/2023,2/26/2023,Not applicable
+Deizisau,9.383,48.716,2/9/2023,2/14/2023,Not applicable
+Stuttgart,9.24,48.77,2/8/2023,2/16/2023,Not applicable
+Königsbronn,10.15,48.73,2/4/2023,12/31/1969,Not applicable
+Linkenheim-Hochstetten,8.378,49.119,2/5/2023,2/27/2023,Not applicable
+Pfinztal,8.53,48.99,1/31/2023,2/27/2023,Not applicable
+Freiburg im Breisgau,7.8,48,2/1/2023,12/31/1969,Not applicable
+Stuttgart,9.26,48.75,2/6/2023,2/12/2023,Not applicable
+Rainau,10.15,48.909,1/25/2023,2/7/2023,Not applicable
+Mössingen,9.08,48.39,1/12/2023,1/18/2023,Not applicable
+Hildrizhausen,8.973,48.626,1/31/2023,12/31/1969,Not applicable
+Weil am Rhein,7.59,47.59,1/31/2023,12/31/1969,Not applicable
+Leonberg,9.01,48.79,1/18/2023,2/5/2023,Not applicable
+Kirchentellinsfurt,9.15,48.54,1/2/2023,1/8/2023,Not applicable
+Tübingen,9.1,48.53,1/1/2023,1/12/2023,Not applicable
+Tübingen,9.1,48.536,1/1/2023,1/4/2023,Not applicable
+Sindelfingen,9.004,48.711,3/13/2022,4/14/2022,Not applicable
+Eggenstein-Leopoldshafen,8.382,49.078,4/25/2022,4/27/2022,Not applicable
+Ellwangen (Jagst),10.133,48.981,3/27/2022,4/6/2022,Not applicable
+Rainau,10.154,48.907,3/25/2022,4/6/2022,Not applicable
+Westhausen,10.268,48.916,2/23/2022,4/14/2022,Not applicable
+Westhausen,10.21,48.888,3/18/2022,4/14/2022,Not applicable
+Rainau,10.161,48.906,3/15/2022,3/27/2022,Not applicable
+Westhausen,10.267,48.914,3/14/2022,3/22/2022,Not applicable
+Rainau,10.159,48.906,3/13/2022,3/22/2022,Not applicable
+Westhausen,10.268,48.914,3/7/2022,3/16/2022,Not applicable
+Westhausen,10.268,48.915,3/10/2022,3/13/2022,Not applicable
+Rainau,10.159,48.905,3/2/2022,3/13/2022,Not applicable
+Rainau,10.157,48.906,2/28/2022,3/8/2022,Not applicable
+Rainau,10.15,48.909,2/24/2022,3/3/2022,Not applicable
+Rainau,10.151,48.91,2/22/2022,3/2/2022,Not applicable
+Rainau,10.149,48.91,3/8/2022,3/20/2022,Not applicable
+Sindelfingen,9.003,48.711,3/22/2022,3/22/2022,Not applicable
+Sindelfingen,9.003,48.711,3/20/2022,3/20/2022,Not applicable
+Böblingen,9.034,48.681,3/20/2022,3/20/2022,Not applicable
+Böblingen,9.013,48.681,3/16/2022,3/16/2022,Not applicable
+Böblingen,9.012,48.681,3/10/2022,3/10/2022,Not applicable
+Sindelfingen,9.022,48.704,3/9/2022,3/9/2022,Not applicable
+Sindelfingen,9.049,48.703,2/27/2022,2/27/2022,Not applicable
+Böblingen,9.024,48.678,2/24/2022,2/24/2022,Not applicable
+Böblingen,9.009,48.682,2/27/2022,3/27/2022,Not applicable
+Böblingen,9,48.682,3/3/2022,3/3/2022,Not applicable
+Rainau,10.159957,48.905363,2/16/2022,4/14/2022,Not applicable
+Karlsruhe,8.395,48.9863,2/22/2022,2/22/2022,Not applicable
+Mannheim,8.4284,49.544,2/16/2022,2/23/2022,Not applicable
+Donaueschingen,8.58,47.92,11/14/2021,2/14/2022,Forest
+Karlsruhe,8.4,48.99,2/7/2022,2/7/2022,Not applicable
+Karlsruhe,8.403,48.998,2/1/2022,5/5/2022,Not applicable
+Heidelberg,8.662,49.414,1/4/2022,2/24/2022,Not applicable
+Mannheim,8.49,49.48,2/2/2022,2/3/2022,Not applicable
+Karlsruhe,8.37,49,1/23/2022,1/27/2022,Not applicable
+Donaueschingen,8.553,47.933,1/2/2022,1/11/2022,Not applicable
+Donaueschingen,8.461,47.95,11/29/2021,1/1/2022,Not applicable
+Donaueschingen,8.537,47.931,11/29/2021,1/5/2022,Not applicable
+Donaueschingen,8.58,47.92,11/14/2021,11/18/2021,Forest
+Donaueschingen,8.586,47.928,11/14/2021,11/18/2021,Forest
+Donaueschingen,8.587,47.92,11/14/2021,11/18/2021,Forest
+Donaueschingen,8.549,47.939,11/21/2021,11/23/2021,Forest
