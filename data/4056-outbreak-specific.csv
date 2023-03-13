@@ -1,110 +1,110 @@
 location,longitude,latitude,start,end,epiUnit
-Attleborough, Breckland,0.95,52.47,9/23/2022,11/6/2022,Farm
-Poulton-le-Fylde, Wyre,-2.91,53.87,9/20/2022,10/29/2022,Farm
-Hadleigh, Babergh,0.93,52.1,9/18/2022,10/29/2022,Farm
-Northwold, King's Lynn and West Norfolk, Norfolk,0.58,52.52,9/19/2022,10/30/2022,Farm
-Attleborough, Breckland,0.92,52.48,9/13/2022,10/23/2022,Farm
-Heybridge, Maldon,0.76,51.76,9/1/2022,10/9/2022,Farm
-Dartington, South Hams ,-3.74,50.5,9/15/2022,1/23/2023,Farm
-Lowestoft, East Suffolk,1.65,52.44,9/26/2022,12/12/2022,Farm
-Selby, Selby,-0.98,53.85,9/24/2022,11/27/2022,Farm
-Honington, West Suffolk,0.78,52.35,9/8/2022,11/30/2022,Farm
-HONINGTON, WEST SUFFOLK ,0.79,52.35,9/12/2022,11/30/2022,Farm
-Easingwold, Hambleton,-1.3,54.15,9/16/2022,11/16/2022,Farm
-Constantine, Camborne & Redruth ,-5.22,50.12,8/26/2022,10/19/2022,Backyard
-South Molton, North Devon,-3.79,51.04,8/15/2022,10/19/2022,Other
-Torpoint, South East Cornwall,-4.22,50.34,9/4/2022,11/7/2022,Backyard
-Milford Haven, Pembrokeshire,-5.11,51.73,8/31/2022,10/30/2022,Farm
-BRIDLINGTON, EAST RIDING OF YORKSHIRE,-0.16,54.11,8/30/2022,10/17/2022,Farm
-Bridlington, East Riding of Yorkshire ,-0.21,54.12,8/24/2022,10/17/2022,Farm
-Cullompton, Mid Devon,-3.3,50.85,8/16/2022,10/4/2022,Farm
-Tiverton, Mid Devon ,-3.34,50.92,8/6/2022,10/4/2022,Farm
-Cullompton, Mid Devon,-3.29,50.86,8/5/2022,10/4/2022,Farm
-Cullompton, Mid Devon,-3.29,50.86,7/26/2022,10/4/2022,Farm
-Gayton, King’s Lynn and West Norfolk,0.64,52.74,8/1/2022,9/26/2022,Farm
-Ashburton, Teignbridge ,-3.71,50.51,7/31/2022,9/11/2022,Backyard
-Dartington, South Hams,-3.72,50.48,7/13/2022,9/11/2022,Farm
-Birsay, Orkney Islands,-3.29,59.13,6/30/2022,8/7/2022,Backyard
-Ludlow, Ludlow,-2.62,52.34,5/31/2022,7/11/2022,Farm
-Ludlow, Ludlow,-2.72,52.32,5/25/2022,7/11/2022,Farm
-Island of Whalsay, Shetlands,-1.01,60.34,5/22/2022,7/2/2022,Farm
-Ilminster, South Somerset,-2.97,50.93,4/1/2022,5/10/2022,Backyard
-Tedburn St Mary, Teignbridge,-3.61,50.73,4/10/2022,6/8/2022,Farm
-Newton St Cyres, Mid Devon,-3.57,50.76,3/30/2022,6/8/2022,Farm
-Market Weston, West Suffolk,0.96,52.36,3/7/2022,5/30/2022,Farm
-Redgrave, Mid Suffolk,1.02,52.32,3/9/2022,5/30/2022,Farm
-Redgrave, Mid Suffolk,0.98,52.36,2/25/2022,5/30/2022,Farm
-Eye, Mid Suffolk,1.06,52.27,3/30/2022,5/30/2022,Farm
-Near Thirsk, Hambleton,-1.42,54.23,11/17/2021,3/4/2022,Farm
-Southwell, Newark and Sherwood ,-1.02,53.08,5/16/2022,7/10/2022,Backyard
-Alford, East Lindsey,0.17,53.33,12/11/2021,3/23/2022,Farm
-Alford, East Lindsey,0.22,53.24,12/11/2021,3/23/2022,Farm
-Barrow Upon Soar, Charnwood,-1.11,52.76,12/1/2021,2/3/2022,Farm
-Ballinderry, Co. Londonderry ,-6.55,54.66,12/16/2021,1/21/2022,Farm
-Watlington, King’s Lynn and West Norfolk,0.53,52.68,12/25/2021,2/8/2022,Farm
-Willington, South Derbyshire,-1.51,52.86,11/13/2021,2/13/2022,Farm
-Coagh, County Londonderry,-6.58,54.66,12/8/2021,1/14/2022,Farm
-Markethill, County Armagh,-6.57,54.32,12/7/2021,1/12/2022,Farm
-Broughshane, County Antrim,-6.2,54.87,11/25/2021,1/2/2022,Farm
-Aughnacloy, County Tyrone,-6.89,54.4,11/27/2021,1/10/2022,Farm
-Strichen, Aberdeenshire,-2.04,57.58,3/8/2022,4/29/2022,Farm
-Ledbury, North Herefordshire,-2.37,52.03,2/11/2022,3/30/2022,Other
-Blaydon, Gateshead,-1.73,54.93,2/18/2022,4/19/2022,Backyard
-Welshpool, Montgomeryshire,-3.11,52.68,2/17/2022,3/29/2022,Farm
-Newtown, Montgomeryshire,-3.37,52.54,2/17/2022,3/29/2022,Farm
-Grimbsy, North East Lincolnshire,-0.15,53.53,2/17/2022,4/1/2022,Farm
-Holy Island, Berwick Upon Tweed,-1.79,55.67,2/6/2022,4/5/2022,Backyard
-Bishop’s Waltham, Winchester,-1.23,50.96,1/25/2022,4/11/2022,Farm
-Byker, Newcastle Upon Tyne,-1.59,54.97,1/20/2022,4/13/2022,Farm
-Calveley, Cheshire East,-2.59,53.12,1/25/2022,4/4/2022,Farm
-Crewe, Cheshire East,-2.45,53.13,1/18/2022,4/4/2022,Farm
-Tattenhall, Cheshire West and Chester,-2.67,53.15,1/9/2022,4/4/2022,Other
-Tattenhall, Cheshire West and Chester,-2.8,53.09,1/9/2022,4/4/2022,Farm
-Lazonby, Eden,-2.7,54.79,12/29/2021,2/11/2022,Farm
-Louth, East Lindsey,-0.05,53.38,12/27/2021,3/27/2022,Farm
-Louth, East Lindsey,0.01,53.41,1/5/2022,3/27/2022,Farm
-Louth, East Lindsey,0.09,53.44,1/2/2022,3/27/2022,Farm
-North Somercotes, East Lindsey,0.12,53.47,12/25/2021,3/27/2022,Farm
-Helsby, Cheshire West and Chester,-2.75,53.27,12/14/2021,3/7/2022,Farm
-Wem, North Shropshire,-2.76,52.84,12/11/2021,2/8/2022,Farm
-Alford, East Lindsey,0.18,53.28,12/12/2021,3/23/2022,Farm
-Alford, East Lindsey,0.19,53.25,12/12/2021,3/23/2022,Farm
-Alford, East Lindsey,0.23,53.26,12/11/2021,3/23/2022,Farm
-Alford, East Lindsey,0.2,53.28,12/7/2021,3/23/2022,Farm
-Alford, East Lindsey,0.19,53.25,12/6/2021,3/23/2022,Farm
-Alford, East Lindsey,0.2,53.25,12/9/2021,3/23/2022,Farm
-Alford, East Lindsey,0.16,53.24,12/4/2021,3/23/2022,Farm
-Clifford, Hereford and South Herefordshire,-3.1,52.1,12/7/2021,1/24/2022,Farm
-Aspatria, Allerdale,-3.3,54.8,12/5/2021,1/30/2022,Farm
-Thirsk, Hambleton,-1.32,54.19,12/5/2021,3/4/2022,Farm
-Sudbury, Babergh,0.77,52.02,12/2/2021,1/25/2022,Farm
-Pocklington, East Yorkshire,-0.73,53.91,12/11/2021,2/18/2022,Farm
-Pocklington, East Yorkshire,-0.71,53.9,12/1/2021,2/18/2022,Farm
-Richmond, Richmondshire,-1.78,54.46,11/27/2021,2/5/2022,Backyard
-Crickhowell, Brecon and Radnorshire,-3.23,51.85,11/28/2021,1/9/2022,Farm
-Gretna, Dumfriesshire,-3.11,55.02,11/28/2021,1/17/2022,Farm
-Leominster, North Herefordshire,-2.86,52.24,11/27/2021,1/13/2022,Farm
-Poulton le Fylde, Wyre ,-2.95,53.93,11/19/2021,2/19/2022,Other
-Barrow Upon Soar, Charnwood,-1.07,52.77,12/3/2021,2/3/2022,Farm
-near barrow upon soar, charnwood,-1.11,52.76,11/24/2021,2/3/2022,Farm
-Barrow upon Soar, Charnwood,-1.11,52.76,11/20/2021,2/3/2022,Farm
-Thirsk, Hambleton,-1.44,54.22,12/10/2021,3/4/2022,Farm
-Thirsk, Hambleton,-1.42,54.19,11/30/2021,3/4/2022,Farm
-Thirsk, Hambleton,-1.41,54.21,11/30/2021,3/4/2022,Farm
-Near Thirsk, Hambleton,-1.42,54.22,11/24/2021,3/4/2022,Farm
-Thirsk, Hambleton,-1.42,54.23,11/21/2021,3/4/2022,Farm
-Near Thirsk, Hambleton,-1.44,54.22,11/18/2021,3/4/2022,Farm
-Near North Fambridge, Maldon,0.66,51.65,11/17/2021,12/21/2021,Backyard
-Mouldsworth, Chesire West and Chester,-2.78,53.22,11/17/2021,3/7/2022,Farm
-Silecroft, Copeland,-3.35,54.23,11/14/2021,1/3/2022,Farm
-Pokesdown, Bournemouth,-1.81,50.73,11/15/2021,12/19/2021,Backyard
-Leeming Bar, Hambleton,-1.42,54.22,11/20/2021,3/4/2022,Farm
-Leeming Bar, Hambleton,-1.5,54.29,11/9/2021,3/4/2022,Farm
-Salwick, Fylde,-2.79,53.79,11/8/2021,12/28/2021,Farm
-Frinton on Sea, Tendring,1.21,51.84,10/30/2021,12/16/2021,Other
-Near Alcester, Bidford,-1.85,52.14,11/1/2021,12/7/2021,Farm
-Lowdham, Newark and Sherwood,-1.04,53.03,5/3/2022,7/10/2022,Farm
-Ilkeston, Erewash,-1.3,52.93,4/15/2022,7/5/2022,Backyard
-Ely, East Cambridgeshire,0.2,52.44,4/2/2022,5/24/2022,Farm
-Woodbridge, East Suffolk,1.19,52.1,3/22/2022,5/25/2022,Farm
-Woodbridge, East Suffolk,1.27,52.13,3/15/2022,5/25/2022,Farm
+Attleborough Breckland,0.95,52.47,9/23/2022,11/6/2022,Farm
+Poulton-le-Fylde Wyre,-2.91,53.87,9/20/2022,10/29/2022,Farm
+Hadleigh Babergh,0.93,52.1,9/18/2022,10/29/2022,Farm
+Northwold King's Lynn and West Norfolk Norfolk,0.58,52.52,9/19/2022,10/30/2022,Farm
+Attleborough Breckland,0.92,52.48,9/13/2022,10/23/2022,Farm
+Heybridge Maldon,0.76,51.76,9/1/2022,10/9/2022,Farm
+Dartington South Hams ,-3.74,50.5,9/15/2022,1/23/2023,Farm
+Lowestoft East Suffolk,1.65,52.44,9/26/2022,12/12/2022,Farm
+Selby Selby,-0.98,53.85,9/24/2022,11/27/2022,Farm
+Honington West Suffolk,0.78,52.35,9/8/2022,11/30/2022,Farm
+HONINGTON WEST SUFFOLK ,0.79,52.35,9/12/2022,11/30/2022,Farm
+Easingwold Hambleton,-1.3,54.15,9/16/2022,11/16/2022,Farm
+Constantine Camborne & Redruth ,-5.22,50.12,8/26/2022,10/19/2022,Backyard
+South Molton North Devon,-3.79,51.04,8/15/2022,10/19/2022,Other
+Torpoint South East Cornwall,-4.22,50.34,9/4/2022,11/7/2022,Backyard
+Milford Haven Pembrokeshire,-5.11,51.73,8/31/2022,10/30/2022,Farm
+BRIDLINGTON EAST RIDING OF YORKSHIRE,-0.16,54.11,8/30/2022,10/17/2022,Farm
+Bridlington East Riding of Yorkshire ,-0.21,54.12,8/24/2022,10/17/2022,Farm
+Cullompton Mid Devon,-3.3,50.85,8/16/2022,10/4/2022,Farm
+Tiverton Mid Devon ,-3.34,50.92,8/6/2022,10/4/2022,Farm
+Cullompton Mid Devon,-3.29,50.86,8/5/2022,10/4/2022,Farm
+Cullompton Mid Devon,-3.29,50.86,7/26/2022,10/4/2022,Farm
+Gayton King’s Lynn and West Norfolk,0.64,52.74,8/1/2022,9/26/2022,Farm
+Ashburton Teignbridge ,-3.71,50.51,7/31/2022,9/11/2022,Backyard
+Dartington South Hams,-3.72,50.48,7/13/2022,9/11/2022,Farm
+Birsay Orkney Islands,-3.29,59.13,6/30/2022,8/7/2022,Backyard
+Ludlow Ludlow,-2.62,52.34,5/31/2022,7/11/2022,Farm
+Ludlow Ludlow,-2.72,52.32,5/25/2022,7/11/2022,Farm
+Island of Whalsay Shetlands,-1.01,60.34,5/22/2022,7/2/2022,Farm
+Ilminster South Somerset,-2.97,50.93,4/1/2022,5/10/2022,Backyard
+Tedburn St Mary Teignbridge,-3.61,50.73,4/10/2022,6/8/2022,Farm
+Newton St Cyres Mid Devon,-3.57,50.76,3/30/2022,6/8/2022,Farm
+Market Weston West Suffolk,0.96,52.36,3/7/2022,5/30/2022,Farm
+Redgrave Mid Suffolk,1.02,52.32,3/9/2022,5/30/2022,Farm
+Redgrave Mid Suffolk,0.98,52.36,2/25/2022,5/30/2022,Farm
+Eye Mid Suffolk,1.06,52.27,3/30/2022,5/30/2022,Farm
+Near Thirsk Hambleton,-1.42,54.23,11/17/2021,3/4/2022,Farm
+Southwell Newark and Sherwood ,-1.02,53.08,5/16/2022,7/10/2022,Backyard
+Alford East Lindsey,0.17,53.33,12/11/2021,3/23/2022,Farm
+Alford East Lindsey,0.22,53.24,12/11/2021,3/23/2022,Farm
+Barrow Upon Soar Charnwood,-1.11,52.76,12/1/2021,2/3/2022,Farm
+Ballinderry Co. Londonderry ,-6.55,54.66,12/16/2021,1/21/2022,Farm
+Watlington King’s Lynn and West Norfolk,0.53,52.68,12/25/2021,2/8/2022,Farm
+Willington South Derbyshire,-1.51,52.86,11/13/2021,2/13/2022,Farm
+Coagh County Londonderry,-6.58,54.66,12/8/2021,1/14/2022,Farm
+Markethill County Armagh,-6.57,54.32,12/7/2021,1/12/2022,Farm
+Broughshane County Antrim,-6.2,54.87,11/25/2021,1/2/2022,Farm
+Aughnacloy County Tyrone,-6.89,54.4,11/27/2021,1/10/2022,Farm
+Strichen Aberdeenshire,-2.04,57.58,3/8/2022,4/29/2022,Farm
+Ledbury North Herefordshire,-2.37,52.03,2/11/2022,3/30/2022,Other
+Blaydon Gateshead,-1.73,54.93,2/18/2022,4/19/2022,Backyard
+Welshpool Montgomeryshire,-3.11,52.68,2/17/2022,3/29/2022,Farm
+Newtown Montgomeryshire,-3.37,52.54,2/17/2022,3/29/2022,Farm
+Grimbsy North East Lincolnshire,-0.15,53.53,2/17/2022,4/1/2022,Farm
+Holy Island Berwick Upon Tweed,-1.79,55.67,2/6/2022,4/5/2022,Backyard
+Bishop’s Waltham Winchester,-1.23,50.96,1/25/2022,4/11/2022,Farm
+Byker Newcastle Upon Tyne,-1.59,54.97,1/20/2022,4/13/2022,Farm
+Calveley Cheshire East,-2.59,53.12,1/25/2022,4/4/2022,Farm
+Crewe Cheshire East,-2.45,53.13,1/18/2022,4/4/2022,Farm
+Tattenhall Cheshire West and Chester,-2.67,53.15,1/9/2022,4/4/2022,Other
+Tattenhall Cheshire West and Chester,-2.8,53.09,1/9/2022,4/4/2022,Farm
+Lazonby Eden,-2.7,54.79,12/29/2021,2/11/2022,Farm
+Louth East Lindsey,-0.05,53.38,12/27/2021,3/27/2022,Farm
+Louth East Lindsey,0.01,53.41,1/5/2022,3/27/2022,Farm
+Louth East Lindsey,0.09,53.44,1/2/2022,3/27/2022,Farm
+North Somercotes East Lindsey,0.12,53.47,12/25/2021,3/27/2022,Farm
+Helsby Cheshire West and Chester,-2.75,53.27,12/14/2021,3/7/2022,Farm
+Wem North Shropshire,-2.76,52.84,12/11/2021,2/8/2022,Farm
+Alford East Lindsey,0.18,53.28,12/12/2021,3/23/2022,Farm
+Alford East Lindsey,0.19,53.25,12/12/2021,3/23/2022,Farm
+Alford East Lindsey,0.23,53.26,12/11/2021,3/23/2022,Farm
+Alford East Lindsey,0.2,53.28,12/7/2021,3/23/2022,Farm
+Alford East Lindsey,0.19,53.25,12/6/2021,3/23/2022,Farm
+Alford East Lindsey,0.2,53.25,12/9/2021,3/23/2022,Farm
+Alford East Lindsey,0.16,53.24,12/4/2021,3/23/2022,Farm
+Clifford Hereford and South Herefordshire,-3.1,52.1,12/7/2021,1/24/2022,Farm
+Aspatria Allerdale,-3.3,54.8,12/5/2021,1/30/2022,Farm
+Thirsk Hambleton,-1.32,54.19,12/5/2021,3/4/2022,Farm
+Sudbury Babergh,0.77,52.02,12/2/2021,1/25/2022,Farm
+Pocklington East Yorkshire,-0.73,53.91,12/11/2021,2/18/2022,Farm
+Pocklington East Yorkshire,-0.71,53.9,12/1/2021,2/18/2022,Farm
+Richmond Richmondshire,-1.78,54.46,11/27/2021,2/5/2022,Backyard
+Crickhowell Brecon and Radnorshire,-3.23,51.85,11/28/2021,1/9/2022,Farm
+Gretna Dumfriesshire,-3.11,55.02,11/28/2021,1/17/2022,Farm
+Leominster North Herefordshire,-2.86,52.24,11/27/2021,1/13/2022,Farm
+Poulton le Fylde Wyre ,-2.95,53.93,11/19/2021,2/19/2022,Other
+Barrow Upon Soar Charnwood,-1.07,52.77,12/3/2021,2/3/2022,Farm
+near barrow upon soar charnwood,-1.11,52.76,11/24/2021,2/3/2022,Farm
+Barrow upon Soar Charnwood,-1.11,52.76,11/20/2021,2/3/2022,Farm
+Thirsk Hambleton,-1.44,54.22,12/10/2021,3/4/2022,Farm
+Thirsk Hambleton,-1.42,54.19,11/30/2021,3/4/2022,Farm
+Thirsk Hambleton,-1.41,54.21,11/30/2021,3/4/2022,Farm
+Near Thirsk Hambleton,-1.42,54.22,11/24/2021,3/4/2022,Farm
+Thirsk Hambleton,-1.42,54.23,11/21/2021,3/4/2022,Farm
+Near Thirsk Hambleton,-1.44,54.22,11/18/2021,3/4/2022,Farm
+Near North Fambridge Maldon,0.66,51.65,11/17/2021,12/21/2021,Backyard
+Mouldsworth Chesire West and Chester,-2.78,53.22,11/17/2021,3/7/2022,Farm
+Silecroft Copeland,-3.35,54.23,11/14/2021,1/3/2022,Farm
+Pokesdown Bournemouth,-1.81,50.73,11/15/2021,12/19/2021,Backyard
+Leeming Bar Hambleton,-1.42,54.22,11/20/2021,3/4/2022,Farm
+Leeming Bar Hambleton,-1.5,54.29,11/9/2021,3/4/2022,Farm
+Salwick Fylde,-2.79,53.79,11/8/2021,12/28/2021,Farm
+Frinton on Sea Tendring,1.21,51.84,10/30/2021,12/16/2021,Other
+Near Alcester Bidford,-1.85,52.14,11/1/2021,12/7/2021,Farm
+Lowdham Newark and Sherwood,-1.04,53.03,5/3/2022,7/10/2022,Farm
+Ilkeston Erewash,-1.3,52.93,4/15/2022,7/5/2022,Backyard
+Ely East Cambridgeshire,0.2,52.44,4/2/2022,5/24/2022,Farm
+Woodbridge East Suffolk,1.19,52.1,3/22/2022,5/25/2022,Farm
+Woodbridge East Suffolk,1.27,52.13,3/15/2022,5/25/2022,Farm

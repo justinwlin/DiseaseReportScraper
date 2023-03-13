@@ -1,9 +1,9 @@
 location,longitude,latitude,start,end,epiUnit
-Holt, North Norfolk,1.14,52.87,8/28/2022,10/6/2022,Backyard
-Crewe, Cheshire East,-2.46,53.12,9/10/2022,1/19/2023,Backyard
-Clacton-on-Sea, Tendring,1.13,51.82,9/14/2022,12/13/2022,Backyard
-Bury St Edmunds, West Suffolk,0.75,52.31,9/7/2022,11/30/2022,Backyard
-Preston, Fylde,-2.81,53.8,11/16/2021,11/16/2021,Other
+Holt North Norfolk,1.14,52.87,8/28/2022,10/6/2022,Backyard
+Crewe Cheshire East,-2.46,53.12,9/10/2022,1/19/2023,Backyard
+Clacton-on-Sea Tendring,1.13,51.82,9/14/2022,12/13/2022,Backyard
+Bury St Edmunds West Suffolk,0.75,52.31,9/7/2022,11/30/2022,Backyard
+Preston Fylde,-2.81,53.8,11/16/2021,11/16/2021,Other
 St Helens,-2.76,53.44,12/21/2021,4/4/2022,Other
 Northampton,-0.88,52.23,11/19/2021,11/28/2021,Other
 Lichfield,-1.94,52.66,11/10/2021,11/21/2021,Other
@@ -18,12 +18,12 @@ Middlesbrough,-1.22,54.6,11/11/2021,11/28/2021,Other
 Bury,-2.34,53.56,11/8/2021,11/28/2021,Other
 Reading,-0.91,51.44,11/4/2021,11/30/2021,Other
 Silloth,-3.38,54.83,11/25/2021,12/3/2021,Other
-Biggar, Scottish Borders,-3.51,55.6,11/24/2021,11/29/2021,Other
+Biggar Scottish Borders,-3.51,55.6,11/24/2021,11/29/2021,Other
 Workington,-3.54,54.64,11/30/2021,11/30/2021,Other
 Hull,-0.23,53.74,11/4/2021,12/14/2021,Other
 Ferndown,-1.9,50.78,12/7/2021,12/14/2021,Other
 Ludham,1.52,52.7,11/24/2021,12/18/2021,Other
-Melton, Nottingham,-0.91,52.85,11/15/2021,12/21/2021,Other
+Melton Nottingham,-0.91,52.85,11/15/2021,12/21/2021,Other
 Stranraer,-5,54.9,11/15/2021,12/21/2021,Other
 Brampton,-2.61,54.91,12/16/2021,1/30/2022,Other
 Leyburn,-1.88,54.3,11/1/2021,12/28/2021,Other
@@ -32,14 +32,14 @@ Stockport,-2.05,53.41,11/11/2021,12/30/2021,Other
 Dumfries,-3.6,55.06,12/7/2021,12/29/2021,Other
 Hightown,-2.25,53.19,11/18/2021,1/5/2022,Other
 Ellesmere,-2.88,52.91,11/30/2021,1/5/2022,Other
-Charnwood, Leicester,-1.2,52.68,11/14/2021,1/7/2022,Other
+Charnwood Leicester,-1.2,52.68,11/14/2021,1/7/2022,Other
 Caerlaverock,-3.49,54.97,11/8/2021,12/30/2021,Other
-Caulkerbush, Southerness,-3.68,54.88,11/16/2021,1/7/2022,Other
+Caulkerbush Southerness,-3.68,54.88,11/16/2021,1/7/2022,Other
 Dumfries,-3.76,55.06,12/13/2021,1/7/2022,Other
 Lanark,-3.75,55.66,12/15/2021,1/10/2022,Other
 Oxton,-2.76,55.76,12/14/2021,1/5/2022,Other
 Walsall,-1.94,52.61,11/21/2021,1/1/2022,Other
-Tipton, Birmingham,-2.05,52.29,11/21/2021,1/16/2022,Other
+Tipton Birmingham,-2.05,52.29,11/21/2021,1/16/2022,Other
 Castle Douglas,-3.93,54.93,11/15/2021,1/17/2022,Other
 Ross-on-Wye,-2.58,51.94,1/21/2022,1/24/2022,Other
 Carlisle,-2.95,54.89,11/7/2021,1/24/2022,Other
@@ -83,7 +83,7 @@ Cumbernauld,-4,55.93,2/23/2022,3/25/2022,Other
 Biggar,-3.51,55.61,12/6/2021,3/25/2022,Other
 Auchterarder,-3.7,56.31,1/3/2022,3/27/2022,Other
 Maryculter,-2.24,57.05,3/22/2022,3/22/2022,Other
-Harewood, Leeds,-1.49,53.88,11/24/2021,3/29/2022,Other
+Harewood Leeds,-1.49,53.88,11/24/2021,3/29/2022,Other
 Topsham,-3.47,50.68,3/8/2022,3/29/2022,Other
 Birmingham,-1.9,52.45,1/1/2022,3/29/2022,Other
 Welshpool,-3.16,52.61,11/9/2021,3/29/2022,Other
@@ -99,7 +99,7 @@ Kirkintilloch,-4.17,55.93,2/14/2022,4/7/2022,Other
 Sauchie,-3.77,56.14,2/8/2022,4/13/2022,Other
 Braco,-3.87,56.26,3/6/2022,4/16/2022,Other
 Turriff,-2.46,57.53,3/28/2022,4/20/2022,Other
-Aboyne, Aberdeen,-2.76,57.08,11/18/2021,4/7/2022,Other
+Aboyne Aberdeen,-2.76,57.08,11/18/2021,4/7/2022,Other
 Ladybank,-3.08,56.26,11/5/2021,4/22/2022,Other
 Torryburn,-3.56,56.05,2/17/2022,4/22/2022,Other
 Tickton,-0.39,53.88,12/30/2021,5/1/2022,Other
@@ -114,192 +114,192 @@ Perth,-3.47,56.4,11/13/2021,5/3/2022,Other
 Rufford,-1.05,53.16,3/29/2022,5/15/2022,Other
 Southwell,-0.92,53.08,4/11/2022,5/15/2022,Other
 Newburgh,-2,57.32,2/15/2022,5/18/2022,Other
-Islay, Argyll and Bute ,-6.13,55.91,2/8/2022,2/8/2022,Other
-St Mary’s, Orkney ,-2.91,58.9,5/16/2022,5/16/2022,Other
+Islay Argyll and Bute ,-6.13,55.91,2/8/2022,2/8/2022,Other
+St Mary’s Orkney ,-2.91,58.9,5/16/2022,5/16/2022,Other
 Nairn,-3.93,57.56,12/28/2021,6/7/2022,Other
 Leith,-3.151,55.9608,10/22/2021,6/6/2022,Other
 Aberdeen,-2.17,57.14,1/25/2022,6/6/2022,Other
 Berwick-upon-Tweed,-2,55.78,11/11/2021,6/7/2022,Other
-Fair Isle, Shetland,-1.63,59.53,4/28/2022,5/5/2022,Other
+Fair Isle Shetland,-1.63,59.53,4/28/2022,5/5/2022,Other
 Scatness,-1.31,59.87,5/8/2022,5/15/2022,Other
 Uyeasound,-0.9,60.69,5/8/2022,5/19/2022,Other
-Leiston, Suffolk Coastal,1.61,52.17,11/15/2021,6/13/2022,Other
+Leiston Suffolk Coastal,1.61,52.17,11/15/2021,6/13/2022,Other
 Ashington,-1.55,55.19,12/30/2021,6/7/2022,Other
 St Andrews,-2.81,56.34,3/21/2022,6/8/2022,Other
-East Wemyss, Fife,-3.0573,56.1615,6/7/2022,6/7/2022,Other
+East Wemyss Fife,-3.0573,56.1615,6/7/2022,6/7/2022,Other
 Annan,-3.26,54.98,11/15/2021,6/17/2022,Other
 Peterhead,-1.78,57.47,2/21/2022,6/18/2022,Other
 Banff,-2.51,57.66,1/1/2022,6/18/2022,Other
 Bamburgh,-1.71,55.61,11/10/2021,6/10/2022,Other
 Hastings,0.65,50.89,11/16/2021,6/20/2022,Other
-Brighton, East Sussex,-0.1,50.81,6/12/2022,6/20/2022,Other
-Lower Brora, Highland,-3.85,58.01,6/30/2022,6/30/2022,Other
-Amble, Northumberland,-1.5509,55.32,6/8/2022,6/21/2022,Other
-Newhaven, East Sussex,0.05,50.79,6/20/2022,6/23/2022,Other
+Brighton East Sussex,-0.1,50.81,6/12/2022,6/20/2022,Other
+Lower Brora Highland,-3.85,58.01,6/30/2022,6/30/2022,Other
+Amble Northumberland,-1.5509,55.32,6/8/2022,6/21/2022,Other
+Newhaven East Sussex,0.05,50.79,6/20/2022,6/23/2022,Other
 Barnes,-0.23,51.47,4/1/2022,7/4/2022,Other
 Kildary,-4.04,57.74,12/1/2021,6/30/2022,Other
 Mansfield,-1.22,53.13,1/31/2022,7/5/2022,Other
-St Abbs, Scottish Borders,-2.13,55.9,6/7/2022,7/4/2022,Other
-Kingsbarns, Fife,-2.64,56.3,6/8/2022,7/3/2022,Other
-Scolt Head Island, Norfolk,0.7,52.97,6/13/2022,7/7/2022,Other
+St Abbs Scottish Borders,-2.13,55.9,6/7/2022,7/4/2022,Other
+Kingsbarns Fife,-2.64,56.3,6/8/2022,7/3/2022,Other
+Scolt Head Island Norfolk,0.7,52.97,6/13/2022,7/7/2022,Other
 Elgin,-3.34,57.63,2/7/2022,7/7/2022,Other
-Canvey Island, Essex,0.55,51.53,6/30/2022,7/11/2022,Other
-Saltburn, North Yorkshire,-0.98,54.58,6/11/2022,7/11/2022,Other
+Canvey Island Essex,0.55,51.53,6/30/2022,7/11/2022,Other
+Saltburn North Yorkshire,-0.98,54.58,6/11/2022,7/11/2022,Other
 Lerwick,-1.14,60.15,4/19/2022,7/10/2022,Other
 Cullen,-2.81,57.69,12/20/2021,7/11/2022,Other
 Sandhaven,-2.06,57.69,2/23/2022,7/12/2022,Other
 Uig,-6.28,57.54,11/13/2021,7/20/2022,Other
-Glenmachrie, Argyll and Bute,-6.25,55.66,7/6/2022,7/18/2022,Other
+Glenmachrie Argyll and Bute,-6.25,55.66,7/6/2022,7/18/2022,Other
 Arundel,-0.54,50.86,3/24/2022,7/16/2022,Other
 Whitby,-0.67,54.5,2/16/2022,7/22/2022,Other
 Dorchester,-2.6,50.65,11/17/2021,7/25/2022,Other
 Timmergreens,-2.6,56.56,2/27/2022,7/24/2022,Other
-Borrowfield,,-2.47,56.72,2/27/2022,6/24/2022,Other
-Isle of Rum, Highland,-6.29,56.97,6/28/2022,7/14/2022,Other
-Isle of May, Fife,-2.55,56.18,6/20/2022,7/26/2022,Other
+Borrowfield,-2.47,56.72,2/27/2022,6/24/2022,Other
+Isle of Rum Highland,-6.29,56.97,6/28/2022,7/14/2022,Other
+Isle of May Fife,-2.55,56.18,6/20/2022,7/26/2022,Other
 Great Staughton,-0.34,52.24,12/30/2021,8/2/2022,Other
 Old Hartley,-1.47,55.07,1/16/2022,8/1/2022,Other
 Earlsferry,-2.83,56.19,3/15/2022,7/31/2022,Other
 Findhorn,-3.59,57.65,1/3/2022,7/30/2022,Other
 Tyne and Wear,-1.47,54.98,12/19/2021,8/5/2022,Other
-St Leonards, East Sussex,0.53,50.85,6/20/2022,8/10/2022,Other
-Keep, Aberdeenshire,-2.2,56.94,6/17/2022,8/8/2022,Other
+St Leonards East Sussex,0.53,50.85,6/20/2022,8/10/2022,Other
+Keep Aberdeenshire,-2.2,56.94,6/17/2022,8/8/2022,Other
 Cullompton,-3.4,50.85,4/15/2022,8/7/2022,Other
 Bridlington,-0.23,54.08,1/24/2022,8/11/2022,Other
-Sawley, Lockington, Hemington,-1.29,52.87,5/26/2022,8/14/2022,Other
+Sawley Lockington Hemington,-1.29,52.87,5/26/2022,8/14/2022,Other
 Dornoch,-4.07,57.87,3/27/2022,8/7/2022,Other
 Thurmaston,-1.11,52.67,2/8/2022,8/18/2022,Other
-Crooklets, Cornwall,-4.55,50.83,7/4/2022,8/7/2022,Other
+Crooklets Cornwall,-4.55,50.83,7/4/2022,8/7/2022,Other
 St Merryn,-5,50.54,8/27/2022,9/27/2022,Other
 Lytham St Annes,-2.98,53.75,11/10/2021,8/26/2022,Other
-Monk Hesledon, Durham,-1.27,54.74,7/11/2022,8/24/2022,Other
+Monk Hesledon Durham,-1.27,54.74,7/11/2022,8/24/2022,Other
 Broadsands,-3.55,50.4,3/30/2022,8/30/2022,Other
 Brough,-0.57,53.75,12/3/2021,12/3/2021,Other
-Penshaw, Houghton le Spring,-1.47,54.87,11/28/2021,8/14/2022,Other
+Penshaw Houghton le Spring,-1.47,54.87,11/28/2021,8/14/2022,Other
 Dawlish,-3.47,50.58,11/29/2021,8/30/2022,Other
 Cardenden,-3.23,56.15,10/13/2021,8/31/2022,Other
-Torridge, Devon,-4.13,51.01,1/16/2022,8/24/2022,Other
-Devonport, Devon,-4.18,50.38,8/30/2022,9/5/2022,Other
+Torridge Devon,-4.13,51.01,1/16/2022,8/24/2022,Other
+Devonport Devon,-4.18,50.38,8/30/2022,9/5/2022,Other
 Helston,-5.29,50.07,8/27/2022,9/6/2022,Other
 Falmouth,-5.05,50.15,8/31/2022,9/17/2022,Other
 Longrock,-5.5,50.13,1/18/2022,9/7/2022,Other
-Withernsea, East Riding of Yorkshire,0.03,53.72,9/10/2022,9/10/2022,Other
-Filey, North Yorkshire,-0.27,54.18,9/10/2022,9/10/2022,Other
-Par, Cornwall,-4.68,50.34,9/6/2022,9/7/2022,Other
+Withernsea East Riding of Yorkshire,0.03,53.72,9/10/2022,9/10/2022,Other
+Filey North Yorkshire,-0.27,54.18,9/10/2022,9/10/2022,Other
+Par Cornwall,-4.68,50.34,9/6/2022,9/7/2022,Other
 Exmouth,-3.4,50.62,1/13/2022,9/8/2022,Other
-Abersoch, Gwynedd,-4.5,52.8,9/7/2022,9/7/2022,Other
+Abersoch Gwynedd,-4.5,52.8,9/7/2022,9/7/2022,Other
 Knutsford,-2.34,55.3,12/19/2021,9/9/2022,Other
-Uzmaston, Pembrokeshire,-4.95,51.81,9/10/2022,9/10/2022,Other
-Soay Mor, Western Isles,-6.96,57.96,4/30/2022,4/30/2022,Other
+Uzmaston Pembrokeshire,-4.95,51.81,9/10/2022,9/10/2022,Other
+Soay Mor Western Isles,-6.96,57.96,4/30/2022,4/30/2022,Other
 Hartlepool,-1.22,54.66,11/28/2021,9/13/2022,Other
-Rosemarkie, Highland,-4.11,57.58,6/18/2022,9/11/2022,Other
-Gwithian, Cornwall,-5.38,50.22,8/16/2022,9/12/2022,Other
-Hirta, Invernessshire,-8.59,57.81,5/6/2022,8/25/2022,Other
-Paignton, Torbay,-3.57,50.42,8/23/2022,11/3/2022,Zoo
-Arthog, Gwynedd,-4,52.71,9/1/2022,10/6/2022,Backyard
+Rosemarkie Highland,-4.11,57.58,6/18/2022,9/11/2022,Other
+Gwithian Cornwall,-5.38,50.22,8/16/2022,9/12/2022,Other
+Hirta Invernessshire,-8.59,57.81,5/6/2022,8/25/2022,Other
+Paignton Torbay,-3.57,50.42,8/23/2022,11/3/2022,Zoo
+Arthog Gwynedd,-4,52.71,9/1/2022,10/6/2022,Backyard
 Llanelli,-4.12,51.66,11/1/2021,9/25/2022,Other
 Cheshire,-2.33,53.09,9/13/2022,9/20/2022,Other
 Gloucester,-2.34,51.8,11/11/2021,9/21/2022,Other
 Kelso,-2.44,55.6,12/22/2021,9/25/2022,Other
 Burscough,-2.86,53.62,10/28/2021,9/25/2022,Other
-Maywick, Shetland,-1.32,60,4/5/2022,5/22/2022,Other
-Tiverton, Mid Devon,-3.4,50.9,6/30/2022,10/4/2022,Backyard
-Newlyn, St Ives,-5.54,50.079,8/15/2022,10/13/2022,Other
-Haveringland, Norfolk,1.19,52.74,9/22/2022,9/22/2022,Other
-Fakenham Magna, Suffolk ,0.8,52.35,9/24/2022,9/24/2022,Other
-Porthtowan, Cornwall ,-5.24,50.28,9/25/2022,9/25/2022,Other
+Maywick Shetland,-1.32,60,4/5/2022,5/22/2022,Other
+Tiverton Mid Devon,-3.4,50.9,6/30/2022,10/4/2022,Backyard
+Newlyn St Ives,-5.54,50.079,8/15/2022,10/13/2022,Other
+Haveringland Norfolk,1.19,52.74,9/22/2022,9/22/2022,Other
+Fakenham Magna Suffolk ,0.8,52.35,9/24/2022,9/24/2022,Other
+Porthtowan Cornwall ,-5.24,50.28,9/25/2022,9/25/2022,Other
 Lincolnshire ,-0.62,52.83,9/26/2022,9/26/2022,Other
-Newquay, Cornwall,-5.04,50.44,9/12/2022,9/12/2022,Other
-Reiss, Highlands,-3.12,58.48,9/11/2022,9/11/2022,Other
-Stratton, Dorset,-2.49,50.73,9/21/2022,9/21/2022,Other
-Bedford, Bedfordshire,-0.45,52.13,9/17/2022,9/17/2022,Other
-Gislingham, Suffolk,1.03,52.29,9/21/2022,9/21/2022,Other
+Newquay Cornwall,-5.04,50.44,9/12/2022,9/12/2022,Other
+Reiss Highlands,-3.12,58.48,9/11/2022,9/11/2022,Other
+Stratton Dorset,-2.49,50.73,9/21/2022,9/21/2022,Other
+Bedford Bedfordshire,-0.45,52.13,9/17/2022,9/17/2022,Other
+Gislingham Suffolk,1.03,52.29,9/21/2022,9/21/2022,Other
 Nantwich,-2.52,53.05,12/30/2021,9/20/2022,Other
-South Cerney, Gloucestershire,-1.9,51.67,9/12/2022,9/12/2022,Other
-Callington, Cornwall,-4.31,50.5,9/13/2022,9/13/2022,Other
-Southbourne, Dorset ,-1.79,50.72,9/18/2022,9/18/2022,Other
-Sidmouth, Devon,-3.24,50.68,9/5/2022,9/5/2022,Other
-Bigbury-on-Sea, Devon,-3.9,50.28,9/5/2022,9/5/2022,Other
-Llannor, Gwynedd,-4.32,52.91,9/7/2022,9/7/2022,Other
-Beaulieu, Hampshire,-1.41,50.77,9/4/2022,9/4/2022,Other
+South Cerney Gloucestershire,-1.9,51.67,9/12/2022,9/12/2022,Other
+Callington Cornwall,-4.31,50.5,9/13/2022,9/13/2022,Other
+Southbourne Dorset ,-1.79,50.72,9/18/2022,9/18/2022,Other
+Sidmouth Devon,-3.24,50.68,9/5/2022,9/5/2022,Other
+Bigbury-on-Sea Devon,-3.9,50.28,9/5/2022,9/5/2022,Other
+Llannor Gwynedd,-4.32,52.91,9/7/2022,9/7/2022,Other
+Beaulieu Hampshire,-1.41,50.77,9/4/2022,9/4/2022,Other
 Torpoint,-4.21,50.37,8/30/2022,8/30/2022,Other
 Stoke Fleming,-3.61,50.32,8/29/2022,8/29/2022,Other
 Looe Island,-4.44,50.36,9/1/2022,9/1/2022,Other
-Western Rocks, Isles of Scilly,-6.387,49.867,8/23/2022,8/23/2022,Other
-Perranporth Beach, Cornwall,-5.15,50.36,8/22/2022,8/22/2022,Other
-Aberystwyth, Ceredigion,-4.08,52.41,8/24/2022,8/24/2022,Other
+Western Rocks Isles of Scilly,-6.387,49.867,8/23/2022,8/23/2022,Other
+Perranporth Beach Cornwall,-5.15,50.36,8/22/2022,8/22/2022,Other
+Aberystwyth Ceredigion,-4.08,52.41,8/24/2022,8/24/2022,Other
 Ladock,-5.01,50.34,8/22/2022,8/22/2022,Other
 Buckenham,1.47,52.6,8/25/2022,8/25/2022,Other
-Sandy, Central Bedfordshire,-0.3,52.15,7/18/2022,9/14/2022,Farm
+Sandy Central Bedfordshire,-0.3,52.15,7/18/2022,9/14/2022,Farm
 St Dogmaels ,-4.7,52.08,8/17/2022,8/17/2022,Other
-Framfield, East Sussex,0.15,50.96,8/16/2022,8/16/2022,Other
-Ettrick Bay, Argyll and Bute,-5.13,55.84,8/10/2022,8/10/2022,Other
-Shelton, Staffordshire,-2.17,53.01,8/8/2022,8/8/2022,Other
-Hamerton, Cambridgeshire,-0.32,52.4,7/25/2022,7/25/2022,Other
+Framfield East Sussex,0.15,50.96,8/16/2022,8/16/2022,Other
+Ettrick Bay Argyll and Bute,-5.13,55.84,8/10/2022,8/10/2022,Other
+Shelton Staffordshire,-2.17,53.01,8/8/2022,8/8/2022,Other
+Hamerton Cambridgeshire,-0.32,52.4,7/25/2022,7/25/2022,Other
 Isle of Mule,-6.07,56.39,7/29/2022,7/29/2022,Other
 Attenborough,-1.23,52.9,7/28/2022,7/28/2022,Other
 Grassholm Island,-5.48,51.73,7/26/2022,7/26/2022,Other
-Blackwaterfoot Beach, Ayrshire,-5.33,55.5,7/23/2022,7/23/2022,Other
-Whiting Bay, Ayrshire,-5.09,55.5,7/22/2022,7/22/2022,Other
-Swona,  Orkney,-3.06,58.74,7/18/2022,7/18/2022,Other
-Maidens, Ayrshire,-4.81,55.33,7/22/2022,7/22/2022,Other
-Esplanade, Ayrshire,-4.64,55.46,7/18/2022,7/18/2022,Other
-Troon, Ayrshire,-4.63,55.53,7/18/2022,7/18/2022,Other
-Girvan, Ayrshire,-4.86,55.23,7/18/2022,7/18/2022,Other
-Foula, Shetland,-2.08,60.13,7/10/2022,7/10/2022,Other
-Spike Island, Bristol,-2.61,51.44,7/13/2022,7/13/2022,Other
-RSPB Rainham, Essex,0.22,51.48,7/11/2022,7/11/2022,Other
-Salsey, Chichester,-0.75,50.75,6/29/2022,6/29/2022,Other
-Gruinard Island, Highland,-5.47,57.88,7/7/2022,7/7/2022,Other
-Bardfield Saling, Essex,0.45,51.92,6/30/2022,6/30/2022,Other
-Bowers Marsh, Essex,0.53,51.54,6/30/2022,6/30/2022,Other
-Handa Island, Highlands,-5.18,58.38,6/19/2022,6/19/2022,Other
-Highland, Scotland,-4.8,58.39,6/22/2022,6/22/2022,Other
-Colsterdale, North Yorkshire,-1.81,54.24,6/26/2022,6/26/2022,Other
-Ingleton, North Yorkshire,-2.36,54.24,6/26/2022,6/26/2022,Other
-Hailsham, East Sussex,0.25,50.85,6/23/2022,6/23/2022,Other
-Eastbourne, East Sussex,0.26,50.78,6/23/2022,6/23/2022,Other
-Lydd, Kent,0.93,50.93,6/20/2022,6/23/2022,Other
-Caithness, Highlands,-3.33,58.62,4/30/2022,4/30/2022,Other
-Cove Bay, Aberdeen,-2.08,57.1,6/17/2022,6/17/2022,Other
-Gardenstown, Aberdeenshire,-2.32,57.67,6/18/2022,6/18/2022,Other
-New Quay, Ceredigion,-4.36,52.21,5/11/2022,5/11/2022,Other
-Beaumaris, Isle of Anglesey,-4.09,53.27,6/16/2022,6/16/2022,Other
-Millom, Cumbria,-3.26,54.12,6/19/2022,6/19/2022,Other
-Guestling Green, Rother,0.64,50.88,6/15/2022,8/4/2022,Other
-Birsay, Orkney,-3.34,59.09,5/25/2022,5/25/2022,Other
-Clachan, Highland,-4.29,57.36,6/14/2022,6/14/2022,Other
-Petterden, Angus,-2.93,56.54,6/9/2022,6/9/2022,Other
-Balallan, Western Isles,-6.62,58.08,6/1/2022,6/1/2022,Other
-Stornoway, Western Isles,-6.34,58.21,6/3/2022,6/4/2022,Other
-Rousay, Orkney,-3.09,59.18,5/25/2022,5/25/2022,Other
+Blackwaterfoot Beach Ayrshire,-5.33,55.5,7/23/2022,7/23/2022,Other
+Whiting Bay Ayrshire,-5.09,55.5,7/22/2022,7/22/2022,Other
+Swona  Orkney,-3.06,58.74,7/18/2022,7/18/2022,Other
+Maidens Ayrshire,-4.81,55.33,7/22/2022,7/22/2022,Other
+Esplanade Ayrshire,-4.64,55.46,7/18/2022,7/18/2022,Other
+Troon Ayrshire,-4.63,55.53,7/18/2022,7/18/2022,Other
+Girvan Ayrshire,-4.86,55.23,7/18/2022,7/18/2022,Other
+Foula Shetland,-2.08,60.13,7/10/2022,7/10/2022,Other
+Spike Island Bristol,-2.61,51.44,7/13/2022,7/13/2022,Other
+RSPB Rainham Essex,0.22,51.48,7/11/2022,7/11/2022,Other
+Salsey Chichester,-0.75,50.75,6/29/2022,6/29/2022,Other
+Gruinard Island Highland,-5.47,57.88,7/7/2022,7/7/2022,Other
+Bardfield Saling Essex,0.45,51.92,6/30/2022,6/30/2022,Other
+Bowers Marsh Essex,0.53,51.54,6/30/2022,6/30/2022,Other
+Handa Island Highlands,-5.18,58.38,6/19/2022,6/19/2022,Other
+Highland Scotland,-4.8,58.39,6/22/2022,6/22/2022,Other
+Colsterdale North Yorkshire,-1.81,54.24,6/26/2022,6/26/2022,Other
+Ingleton North Yorkshire,-2.36,54.24,6/26/2022,6/26/2022,Other
+Hailsham East Sussex,0.25,50.85,6/23/2022,6/23/2022,Other
+Eastbourne East Sussex,0.26,50.78,6/23/2022,6/23/2022,Other
+Lydd Kent,0.93,50.93,6/20/2022,6/23/2022,Other
+Caithness Highlands,-3.33,58.62,4/30/2022,4/30/2022,Other
+Cove Bay Aberdeen,-2.08,57.1,6/17/2022,6/17/2022,Other
+Gardenstown Aberdeenshire,-2.32,57.67,6/18/2022,6/18/2022,Other
+New Quay Ceredigion,-4.36,52.21,5/11/2022,5/11/2022,Other
+Beaumaris Isle of Anglesey,-4.09,53.27,6/16/2022,6/16/2022,Other
+Millom Cumbria,-3.26,54.12,6/19/2022,6/19/2022,Other
+Guestling Green Rother,0.64,50.88,6/15/2022,8/4/2022,Other
+Birsay Orkney,-3.34,59.09,5/25/2022,5/25/2022,Other
+Clachan Highland,-4.29,57.36,6/14/2022,6/14/2022,Other
+Petterden Angus,-2.93,56.54,6/9/2022,6/9/2022,Other
+Balallan Western Isles,-6.62,58.08,6/1/2022,6/1/2022,Other
+Stornoway Western Isles,-6.34,58.21,6/3/2022,6/4/2022,Other
+Rousay Orkney,-3.09,59.18,5/25/2022,5/25/2022,Other
 Montrose,-2.28,56.83,6/9/2022,6/9/2022,Other
-Clarendon, Kent,1.31,51.12,6/12/2022,6/12/2022,Other
-Hermaness, Shetland,-0.87,60.81,5/19/2022,5/19/2022,Other
-Fetlar, Shetland,-0.89,60.59,4/4/2022,4/4/2022,Other
-North Berwick, East Lothian,-2.72,56.05,6/6/2022,6/6/2022,Other
-Bexhill-on-Sea, Rother,0.47,50.85,6/10/2022,7/25/2022,Backyard
-Broxburn, East Lothian,-2.46,55.98,6/6/2022,6/6/2022,Other
-Tedburn St Mary, Teignbridge,-3.7,50.74,3/31/2022,6/8/2022,Backyard
-Stowmarket, Mid Suffolk,0.92,52.18,3/24/2022,5/30/2022,Backyard
-Elmswell, Mid Suffolk,0.99,52.28,2/13/2022,5/30/2022,Backyard
-Dounreay, Highland,-3.74,58.58,5/27/2022,5/27/2022,Other
-Enniskillen, Co. Fermanagh,-7.6926,54.3301,1/23/2022,3/9/2022,Backyard
-Fakenham, North Norfolk,0.88,52.82,1/30/2022,4/25/2022,Other
-Inverurie, Aberdeenshire,-2.32,57.39,1/21/2022,2/23/2022,Backyard
+Clarendon Kent,1.31,51.12,6/12/2022,6/12/2022,Other
+Hermaness Shetland,-0.87,60.81,5/19/2022,5/19/2022,Other
+Fetlar Shetland,-0.89,60.59,4/4/2022,4/4/2022,Other
+North Berwick East Lothian,-2.72,56.05,6/6/2022,6/6/2022,Other
+Bexhill-on-Sea Rother,0.47,50.85,6/10/2022,7/25/2022,Backyard
+Broxburn East Lothian,-2.46,55.98,6/6/2022,6/6/2022,Other
+Tedburn St Mary Teignbridge,-3.7,50.74,3/31/2022,6/8/2022,Backyard
+Stowmarket Mid Suffolk,0.92,52.18,3/24/2022,5/30/2022,Backyard
+Elmswell Mid Suffolk,0.99,52.28,2/13/2022,5/30/2022,Backyard
+Dounreay Highland,-3.74,58.58,5/27/2022,5/27/2022,Other
+Enniskillen Co. Fermanagh,-7.6926,54.3301,1/23/2022,3/9/2022,Backyard
+Fakenham North Norfolk,0.88,52.82,1/30/2022,4/25/2022,Other
+Inverurie Aberdeenshire,-2.32,57.39,1/21/2022,2/23/2022,Backyard
 Buchanty,-3.74,56.44,5/3/2022,5/3/2022,Other
 Hamnavoe,-1.33,60.1,5/8/2022,5/8/2022,Other
 Oxton,-1.08,53.05,5/10/2022,5/10/2022,Other
-Helsby, Cheshire West ,-2.74,53.26,12/16/2021,3/7/2022,Backyard
-Alford, East Lindsey,0.15,53.33,12/30/2021,3/23/2022,Backyard
-Mablethorpe, East Lindsey,0.22,53.36,12/23/2021,3/23/2022,Backyard
-Market Bosworth, Hinckley,-1.51,52.61,12/3/2021,2/8/2022,Backyard
-Middleton- In-Teesdale, Durham,-2.06,54.62,12/7/2021,2/16/2022,Backyard
-Highworth, Swindon,-1.79,51.65,12/6/2021,1/28/2022,Backyard
-Moffat, Dumfriesshire ,-3.39,55.27,12/4/2021,1/13/2022,Backyard
-Annan, Dumfriesshire,-3.21,55.04,12/5/2021,1/15/2022,Other
-Newent, Forest of Dean,-2.33,51.9,11/23/2021,1/23/2022,Other
-Near Arbroath, Constituency of Angus,-2.6,56.64,10/29/2021,12/4/2021,Backyard
+Helsby Cheshire West ,-2.74,53.26,12/16/2021,3/7/2022,Backyard
+Alford East Lindsey,0.15,53.33,12/30/2021,3/23/2022,Backyard
+Mablethorpe East Lindsey,0.22,53.36,12/23/2021,3/23/2022,Backyard
+Market Bosworth Hinckley,-1.51,52.61,12/3/2021,2/8/2022,Backyard
+Middleton- In-Teesdale Durham,-2.06,54.62,12/7/2021,2/16/2022,Backyard
+Highworth Swindon,-1.79,51.65,12/6/2021,1/28/2022,Backyard
+Moffat Dumfriesshire ,-3.39,55.27,12/4/2021,1/13/2022,Backyard
+Annan Dumfriesshire,-3.21,55.04,12/5/2021,1/15/2022,Other
+Newent Forest of Dean,-2.33,51.9,11/23/2021,1/23/2022,Other
+Near Arbroath Constituency of Angus,-2.6,56.64,10/29/2021,12/4/2021,Backyard
 CHIRK,-3.07,52.94,10/28/2021,12/2/2021,Backyard
 Wychavon,-2.12,52.29,10/14/2021,11/26/2021,Other
 Llandudno,-3.82,53.32,5/9/2022,5/9/2022,Other
@@ -323,18 +323,18 @@ West Acre,0.63,52.7,3/29/2022,3/29/2022,Other
 Fort George,-4.07,57.585,3/28/2022,3/28/2022,Other
 South Cardonald,-4.33,55.83,3/29/2022,3/29/2022,Other
 Crewe,-2.47,53.11,3/20/2022,3/20/2022,Other
-Woodbridge, East Suffolk,1.24,52.13,3/23/2022,5/25/2022,Backyard
+Woodbridge East Suffolk,1.24,52.13,3/23/2022,5/25/2022,Backyard
 Newmachar,-2.22,57.25,3/20/2022,3/20/2022,Other
 Harray,-3.18,59.04,3/17/2022,3/17/2022,Other
 Cawthorne,-1.57,53.56,3/16/2022,3/16/2022,Other
 Thixendale,-0.72,54.02,3/16/2022,3/16/2022,Other
-Beith, North Aryshire,-4.58,55.74,2/26/2022,4/21/2022,Other
+Beith North Aryshire,-4.58,55.74,2/26/2022,4/21/2022,Other
 Gruinart Flats,-6.35,55.82,3/8/2022,3/8/2022,Other
 Kilmacolm,-4.63,55.86,3/7/2022,3/7/2022,Other
 West Hallam,-1.32,52.96,3/8/2022,3/8/2022,Other
 Chedzoy,-2.91,51.12,3/9/2022,3/9/2022,Other
 No Man's Heath,-2.69,53.02,12/22/2021,12/22/2021,Other
-Collieston, Aberdeenshire,-1.92,57.37,3/1/2022,4/11/2022,Backyard
+Collieston Aberdeenshire,-1.92,57.37,3/1/2022,4/11/2022,Backyard
 Shorwell,-1.35,50.66,2/27/2022,2/27/2022,Other
 Walkerburn,-3.02,55.62,2/20/2022,2/20/2022,Other
 Longhope,-2.43,51.87,2/18/2022,2/18/2022,Other
@@ -342,24 +342,24 @@ Tintwistle,-1.96,53.48,2/8/2022,2/8/2022,Other
 Nassington,-0.4,52.53,2/16/2022,2/16/2022,Other
 Rockcliffe,-3.05,54.96,2/14/2022,2/14/2022,Other
 Huntly,-2.77,57.45,2/9/2022,2/9/2022,Other
-Wooler, Berwick Upon Tweed,-2.03,55.54,2/8/2022,4/6/2022,Backyard
+Wooler Berwick Upon Tweed,-2.03,55.54,2/8/2022,4/6/2022,Backyard
 Canterbury,1.18,51.3,2/6/2022,2/6/2022,Other
 Strathblane,-4.31,55.97,2/5/2022,2/5/2022,Other
 Little Leigh,-2.56,53.27,2/7/2022,2/7/2022,Other
 Sutton Upon Derwent,-0.91,53.92,2/3/2022,2/3/2022,Other
 Meigle,-3.15,56.57,2/3/2022,2/3/2022,Other
-Washington, Sunderland,-1.48,54.89,11/30/2021,3/5/2022,Other
+Washington Sunderland,-1.48,54.89,11/30/2021,3/5/2022,Other
 Llangadog,-3.9,51.94,1/28/2022,1/28/2022,Other
 Errol,-3.18,56.41,1/30/2022,1/30/2022,Other
 Burton,-3.02,53.25,2/1/2022,2/1/2022,Other
 Chorley,-2.75,53.63,2/1/2022,2/1/2022,Other
-Ashleworth, Tewkesbury,-2.26,51.93,1/24/2022,3/14/2022,Backyard
+Ashleworth Tewkesbury,-2.26,51.93,1/24/2022,3/14/2022,Backyard
 Melbourne,-1.42,52.81,1/26/2022,1/26/2022,Other
 Bowdon,-2.36,53.37,1/25/2022,1/25/2022,Other
 Leek,-2,53.11,1/25/2022,1/25/2022,Other
 Hinton St Mary,-2.3,50.93,1/17/2022,1/17/2022,Other
-Whitby, Scarborough,-0.6,54.46,1/23/2022,3/10/2022,Other
-Ross-on-Wye, Hereford and South Herefordshire,-2.56,51.91,1/16/2022,3/1/2022,Backyard
+Whitby Scarborough,-0.6,54.46,1/23/2022,3/10/2022,Other
+Ross-on-Wye Hereford and South Herefordshire,-2.56,51.91,1/16/2022,3/1/2022,Backyard
 Maybole,-4.62,55.36,1/21/2022,1/21/2022,Other
 Newport-on-Tay,-2.94,56.43,1/20/2022,1/20/2022,Other
 Edzell,-2.7,56.8,1/16/2022,1/16/2022,Other
@@ -373,7 +373,7 @@ Stonham Aspal,1.13,52.18,1/17/2022,1/17/2022,Other
 Kirkoswald,-2.69,54.76,1/13/2022,1/13/2022,Other
 Barrow-in-Furness,-3.15,54.11,12/28/2021,12/28/2021,Other
 Port Logan,-4.92,54.73,1/1/2022,1/1/2022,Other
-Upholland, West Lancashire,-2.71,53.56,12/24/2021,3/13/2022,Other
+Upholland West Lancashire,-2.71,53.56,12/24/2021,3/13/2022,Other
 Erskine,-4.44,55.88,12/28/2021,12/28/2021,Other
 Coventry,-1.5,52.41,1/5/2022,1/5/2022,Other
 Helsby,-2.75,53.27,12/31/2021,12/31/2021,Other
@@ -384,20 +384,20 @@ Bilston,-3.19,55.86,12/14/2021,12/14/2021,Other
 Laisterdyke,-1.71,53.79,12/22/2021,12/22/2021,Other
 Lound,-0.94,53.37,12/31/2021,12/31/2021,Other
 Otley,-1.72,53.89,12/30/2021,12/30/2021,Other
-Eton, Windsor and Maidenhead,-0.62,51.48,12/28/2021,3/21/2022,Other
-Romsey, Test Valley,-1.6,51,12/27/2021,2/4/2022,Backyard
+Eton Windsor and Maidenhead,-0.62,51.48,12/28/2021,3/21/2022,Other
+Romsey Test Valley,-1.6,51,12/27/2021,2/4/2022,Backyard
 Renfrew,-4.38,55.88,12/15/2021,12/15/2021,Other
 Barthol Chapel,-2.32,57.39,12/14/2021,12/14/2021,Other
 Wick St Lawrence,-2.91,51.39,12/21/2021,12/21/2021,Other
 Dolphinton,-3.43,55.7,12/21/2021,12/21/2021,Other
-Buckfastleigh, Teignbridge,-3.77,50.48,12/16/2021,2/10/2022,Backyard
+Buckfastleigh Teignbridge,-3.77,50.48,12/16/2021,2/10/2022,Backyard
 Ashill,0.77,52.6,12/17/2021,12/17/2021,Other
 Auldgirth,-3.76,55.19,12/14/2021,12/14/2021,Other
 Mendip,-2.45,51.23,12/13/2021,12/13/2021,Other
 Wigan,-2.55,53.52,12/13/2021,12/13/2021,Other
 Ightfield,-2.56,52.92,12/14/2021,12/14/2021,Other
-Gretna, Dumfriesshire,-3.11,55.03,12/12/2021,1/17/2022,Backyard
-Willington, South Derbyshire,-1.51,52.86,12/6/2021,2/13/2022,Farm
+Gretna Dumfriesshire,-3.11,55.03,12/12/2021,1/17/2022,Backyard
+Willington South Derbyshire,-1.51,52.86,12/6/2021,2/13/2022,Farm
 Kippax,-1.36,53.77,12/2/2021,12/2/2021,Other
 Kirkcudbright,-4.2,54.82,11/29/2021,11/29/2021,Other
 Brereton,-2.29,53.18,11/29/2021,11/29/2021,Other
@@ -412,11 +412,11 @@ Wareham,-2.11,50.68,11/27/2021,11/27/2021,Other
 Cheddar,-2.76,51.24,11/19/2021,11/19/2021,Other
 Boreham,0.55,51.75,11/26/2021,11/26/2021,Other
 North Walsham,1.36,52.84,11/24/2021,11/24/2021,Other
-Marlingford, Norwich,1.15,52.63,11/24/2021,11/24/2021,Other
-Tutbury, East Staffordshire,-1.75,52.87,11/21/2021,1/28/2022,Backyard
-Clitheroe, Ribble Valley,-2.41,53.88,11/16/2021,2/8/2022,Backyard
-Near Gaerwen, Isle of Anglesey,-4.29,53.21,11/21/2021,12/26/2021,Backyard
-Thirsk, Hambleton,-1.4,54.25,11/20/2021,3/4/2022,Backyard
+Marlingford Norwich,1.15,52.63,11/24/2021,11/24/2021,Other
+Tutbury East Staffordshire,-1.75,52.87,11/21/2021,1/28/2022,Backyard
+Clitheroe Ribble Valley,-2.41,53.88,11/16/2021,2/8/2022,Backyard
+Near Gaerwen Isle of Anglesey,-4.29,53.21,11/21/2021,12/26/2021,Backyard
+Thirsk Hambleton,-1.4,54.25,11/20/2021,3/4/2022,Backyard
 Falkirk,-3.75,56,11/21/2021,11/21/2021,Other
 Cambridge,0.07,52.16,11/23/2021,11/23/2021,Other
 Peterborough,-0.24,52.53,11/23/2021,11/23/2021,Other
@@ -425,10 +425,10 @@ West Belfast Lough,-5.87,54.62,11/26/2021,11/26/2021,Other
 Belfast,-5.94,54.65,11/21/2021,11/21/2021,Other
 Bromyard,-2.51,52.18,11/18/2021,11/18/2021,Other
 Ingleton,-2.47,54.14,11/20/2021,11/20/2021,Other
-Sedgefield, Middlesbrough,-1.46,54.65,11/16/2021,11/16/2021,Other
-Hambleton, Wyre,-2.89,53.93,11/16/2021,11/16/2021,Other
-Longton, Preston,-2.75,53.72,11/16/2021,11/16/2021,Other
-Wells-next-the-Sea, North Norfolk,0.79,52.92,11/15/2021,12/23/2021,Backyard
+Sedgefield Middlesbrough,-1.46,54.65,11/16/2021,11/16/2021,Other
+Hambleton Wyre,-2.89,53.93,11/16/2021,11/16/2021,Other
+Longton Preston,-2.75,53.72,11/16/2021,11/16/2021,Other
+Wells-next-the-Sea North Norfolk,0.79,52.92,11/15/2021,12/23/2021,Backyard
 Breckland,0.64,52.51,11/2/2021,11/2/2021,Other
 Worcester,-2.22,52.18,10/28/2021,10/28/2021,Other
 Burscough,-2.86,53.62,10/29/2021,10/29/2021,Other
@@ -436,7 +436,7 @@ Burscough,-2.86,53.62,10/27/2021,10/27/2021,Other
 Burscough,-2.86,53.62,10/24/2021,10/24/2021,Other
 Snettisham,0.49,52.87,11/12/2021,11/12/2021,Other
 Lancaster,-2.79,54.04,11/11/2021,11/11/2021,Other
-Kirkham, Fylde,-2.83,53.78,11/11/2021,12/28/2021,Backyard
+Kirkham Fylde,-2.83,53.78,11/11/2021,12/28/2021,Backyard
 Worcester,-2.24,52.16,11/4/2021,11/4/2021,Other
 Arun,-0.7,50.78,11/8/2021,11/8/2021,Other
 Sefton,-3.01,53.65,11/10/2021,11/10/2021,Other

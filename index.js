@@ -100,6 +100,7 @@ function getOutbreakData(path, outbreaks) {
   for (let i = 0; i < outbreaks.length; i++) {
     curr = outbreaks[i];
     location = curr.location;
+    location = location.replace(/,/g, '');
     longitude = curr.longitude;
     latitude = curr.latitude;
     start = new Date(curr.startDate).toLocaleDateString("en-US");
