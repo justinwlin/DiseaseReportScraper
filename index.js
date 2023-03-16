@@ -2,27 +2,29 @@ const fs = require("fs");
 var axios = require("axios");
 const path = require("path");
 
+// write data out to csv files. takes in a json object
 function appendToCSV(filePath, data) {
-	const directory = path.dirname(filePath);
-	const csvRow = Object.values(data).join(",");
-	const csvData = `${csvRow}\n`;
+  const directory = path.dirname(filePath);
+  const csvRow = Object.values(data).join(",");
+  const csvData = `${csvRow}\n`;
 
-	fs.mkdirSync(directory, { recursive: true });
+  fs.mkdirSync(directory, { recursive: true });
 
-	if (!fs.existsSync(filePath)) {
-		// file does not exist, so append headers along with data
-		const csvHeaders = Object.keys(data).join(",");
-		const csvHeaderRow = `${csvHeaders}\n${csvData}`;
+  if (!fs.existsSync(filePath)) {
+    // file does not exist, so append headers along with data
+    const csvHeaders = Object.keys(data).join(",");
+    const csvHeaderRow = `${csvHeaders}\n${csvData}`;
 
-		fs.writeFileSync(filePath, csvHeaderRow);
-	} else {
-		// file exists, so only append data
-		fs.appendFileSync(filePath, csvData);
-	}
+    fs.writeFileSync(filePath, csvHeaderRow);
+  } else {
+    // file exists, so only append data
+    fs.appendFileSync(filePath, csvData);
+  }
 
-	console.log(`Successfully appended to CSV file at ${filePath}`);
+  console.log(`Successfully appended to CSV file at ${filePath}`);
 }
 
+// get data from a single event
 function getData(eventNumber) {
   const eventSpecificPath = `./data/${eventNumber}-event-specific.csv`;
   const outbreakSpecificPath = `./data/${eventNumber}-outbreak-specific.csv`;
@@ -86,26 +88,43 @@ function getData(eventNumber) {
         species,
         deaths,
         cases,
-        isWild
+        isWild,
       };
       // write
-      appendToCSV(eventSpecificPath, event_specific_data);
+      // appendToCSV(eventSpecificPath, event_specific_data);
     })
     .catch(function (error) {
       console.log(error);
     });
 }
 
+// getting data for indiidual outbreaks
 function getOutbreakData(path, outbreaks) {
-  for (let i = 0; i < outbreaks.length; i++) {
+  for (let i = 0; i < 2; i++) {
+    // for (let i = 0; i < outbreaks.length; i++) {
     curr = outbreaks[i];
+    id = curr.id;
     location = curr.location;
-    location = location.replace(/,/g, '');
+    location = location.replace(/,/g, "");
     longitude = curr.longitude;
     latitude = curr.latitude;
     start = new Date(curr.startDate).toLocaleDateString("en-US");
     end = new Date(curr.endDate).toLocaleDateString("en-US");
     epiUnit = curr.epiUnitType;
+    // make another request to get the death and cases using the id
+    // var config = {
+    //   method: "get",
+    //   url: `https://wahis.woah.org/api/v1/pi/review/event/4898/outbreak/${id}}/all-information?language=en`,
+    //   headers: {},
+    // };
+
+    // axios(config)
+    //   .then(function (response) {
+    //     console.log(JSON.stringify(response.data));
+    //   })
+    //   .catch(function (error) {
+    //     console.log(error);
+    //   });
 
     // convert the fields into an object
     const data = {
@@ -117,10 +136,30 @@ function getOutbreakData(path, outbreaks) {
       epiUnit,
     };
     // writing to csv
-    appendToCSV(path, data);
+    // appendToCSV(path, data);
   }
 }
 
+// get deaths and case data from an individual outbreak
+function getDeath(id) {
+  var config = {
+    method: "get",
+    url: `https://wahis.woah.org/api/v1/pi/review/event/4898/outbreak/${id}}/all-information?language=en`,
+    headers: {},
+  };
+
+  axios(config)
+    .then(function (response) {
+      console.log(JSON.stringify(response.data));
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+}
+
+// might need to remove as we are now getting
+// death cases and potentially animal type
+// from individual outbreaks
 function getQuantitativeData(quantitativeData) {
   species = [];
   deaths = 0;
@@ -145,6 +184,7 @@ function getQuantitativeData(quantitativeData) {
   return [species, deaths, cases, reducedIsWild];
 }
 
+// making request to get a list of qualified events
 async function makeRequest() {
   for (let i = 0; i < 5; i++) {
     var data = JSON.stringify({
@@ -240,6 +280,7 @@ async function makeRequest() {
   }
 }
 
+// read through the event entries and generate csv
 function readCSV() {
   fs.readFile("data.csv", "utf8", (err, data) => {
     if (err) throw err;
@@ -248,10 +289,10 @@ function readCSV() {
       .split("\n")
       .map((row) => row.split(","));
     // const headers = rows.shift();
-    for(let i = 0; i < rows.length; i++) {
+    for (let i = 0; i < rows.length; i++) {
       row = rows[i];
       const eventId = row[0];
-      console.log(eventId)
+      console.log(eventId);
       getData(eventId);
     }
   });
@@ -261,4 +302,6 @@ function readCSV() {
 // makeRequest();
 
 // Reads the CSV
-readCSV();
+// readCSV();
+
+getDeath(113869);
