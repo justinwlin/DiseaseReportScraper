@@ -69,7 +69,6 @@ async function getData(eventNumber) {
   try {
     const response = await axios(config);
     report = response.data;
-    console.log(JSON.stringify(response.data));
     // event specific data
     country = report.event.country.name;
     const event_obj_arr = getQuantitativeData(
@@ -175,7 +174,7 @@ async function getOutbreakData(eventData, eventNumber, outbreak) {
     const data_arr = await getSpeciesData(eventNumber, id);
     const wild_data = data_arr[0];
     const domestic_data = data_arr[1];
-    // console.log("wild data: ", wild_data);
+
     // if wild species is not empty, create an object
     if (wild_data.species.length > 0) {
       const wild_obj = {
@@ -187,10 +186,8 @@ async function getOutbreakData(eventData, eventNumber, outbreak) {
       };
 
       // write to csv
-      // console.log(wild_obj);
       await appendToCSV(OUTPUT_PATH, wild_obj);
     }
-    // console.log("domestic data: ", domestic_data);
     if (domestic_data.species.length > 0) {
       const domestic_obj = {
         ...eventData,
@@ -201,7 +198,6 @@ async function getOutbreakData(eventData, eventNumber, outbreak) {
       };
 
       // write to csv
-      console.log(domestic_obj);
       await appendToCSV(OUTPUT_PATH, domestic_obj);
     }
   } catch (err) {
@@ -340,7 +336,8 @@ async function readCSV() {
       const row = rows[i];
       const eventId = row[0];
       console.log(eventId);
-      await getData(eventId);
+      getData(eventId);
+      // await getData(eventId);
     }
   } catch (err) {
     console.error("Error reading CSV file:", err);
