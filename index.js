@@ -4,21 +4,41 @@ const path = require("path");
 
 const OUTPUT_PATH = `./data/data.csv`;
 
+const dataArray = [];
+
 function appendToCSV(filePath, data) {
   const directory = path.dirname(filePath);
-  const csvRow = Object.values(data).join(",");
-  const csvData = `${csvRow}\n`;
 
   fs.mkdirSync(directory, { recursive: true });
 
   if (!fs.existsSync(filePath)) {
-    // file does not exist, so append headers along with data
-    const csvHeaders = Object.keys(data).join(",");
-    const csvHeaderRow = `${csvHeaders}\n${csvData}`;
+    // If file does not exist, append headers
+
+    let csvHeaders, csvHeaderRow;
+    if (Array.isArray(data)) {
+      // Data is an array, so use headers from the first object
+      csvHeaders = Object.keys(data[0]).join(",");
+    } else {
+      // Data is an object, so use headers from it
+      csvHeaders = Object.keys(data).join(",");
+    }
+
+    csvHeaderRow = `${csvHeaders}\n`;
 
     fs.writeFileSync(filePath, csvHeaderRow);
+  }
+
+  if (Array.isArray(data)) {
+    // If data is an array, append each object as a row
+    data.forEach((obj) => {
+      const csvRow = Object.values(obj).join(",");
+      const csvData = `${csvRow}\n`;
+      fs.appendFileSync(filePath, csvData);
+    });
   } else {
-    // file exists, so only append data
+    // If data is an object, append it as a single row
+    const csvRow = Object.values(data).join(",");
+    const csvData = `${csvRow}\n`;
     fs.appendFileSync(filePath, csvData);
   }
 
@@ -175,7 +195,6 @@ async function getOutbreakData(eventData, eventNumber, outbreak) {
     const wild_data = data_arr[0];
     const domestic_data = data_arr[1];
 
-    // if wild species is not empty, create an object
     if (wild_data.species.length > 0) {
       const wild_obj = {
         ...eventData,
@@ -185,8 +204,7 @@ async function getOutbreakData(eventData, eventNumber, outbreak) {
         outbreak_id: id,
       };
 
-      // write to csv
-      await appendToCSV(OUTPUT_PATH, wild_obj);
+      addToDataArrayIfNotDuplicate(wild_obj);
     }
     if (domestic_data.species.length > 0) {
       const domestic_obj = {
@@ -197,12 +215,28 @@ async function getOutbreakData(eventData, eventNumber, outbreak) {
         outbreak_id: id,
       };
 
-      // write to csv
-      await appendToCSV(OUTPUT_PATH, domestic_obj);
+      addToDataArrayIfNotDuplicate(domestic_obj);
     }
   } catch (err) {
-    // console.log(err);
+    console.log(err);
     console.log("in get outbreak data, error caught");
+  }
+
+  // Helper function to check for duplicates
+  function addToDataArrayIfNotDuplicate(obj) {
+    const duplicate = dataArray.some(
+      (data) => JSON.stringify(data) === JSON.stringify(obj)
+    );
+    if (!duplicate) {
+      dataArray.push(obj);
+      console.log("New data added to array", dataArray.length);
+
+      if (dataArray.length % 10 === 0) {
+        // write to CSV and clear the array
+        appendToCSV(OUTPUT_PATH, dataArray);
+        dataArray.length = 0;
+      }
+    }
   }
 }
 
@@ -332,12 +366,21 @@ async function readCSV() {
       .trim()
       .split("\n")
       .map((row) => row.split(","));
-    for (let i = 0; i < rows.length; i++) {
+    for (let i = 26; i < rows.length; i++) {
       const row = rows[i];
       const eventId = row[0];
       console.log(eventId);
       // getData(eventId);
       await getData(eventId);
+    }
+    if (dataArray.length > 0) {
+      const csvRows = dataArray.map((data) => Object.values(data).join(","));
+      const csvData = `${Object.keys(dataArray[0]).join(",")}\n${csvRows.join(
+        "\n"
+      )}\n`;
+
+      fs.writeFileSync(OUTPUT_PATH, csvData, { flag: "a" });
+      console.log(`Successfully appended to CSV file at ${OUTPUT_PATH}`);
     }
   } catch (err) {
     console.error("Error reading CSV file:", err);
