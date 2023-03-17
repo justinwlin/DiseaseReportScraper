@@ -2,7 +2,8 @@ const fs = require("fs");
 var axios = require("axios");
 const path = require("path");
 
-// write data out to csv files. takes in a json object
+const OUTPUT_PATH = `./data/data.csv`;
+
 function appendToCSV(filePath, data) {
   const directory = path.dirname(filePath);
   const csvRow = Object.values(data).join(",");
@@ -24,10 +25,7 @@ function appendToCSV(filePath, data) {
   console.log(`Successfully appended to CSV file at ${filePath}`);
 }
 
-// get data from a single event
 function getData(eventNumber) {
-  const eventSpecificPath = `./data/${eventNumber}-event-specific.csv`;
-  const outbreakSpecificPath = `./data/${eventNumber}-outbreak-specific.csv`;
   var config = {
     method: "get",
     maxBodyLength: Infinity,
@@ -71,120 +69,170 @@ function getData(eventNumber) {
   axios(config)
     .then(function (response) {
       report = response.data;
-      // outbreak specific data
-      getOutbreakData(outbreakSpecificPath, report.outbreaks);
 
-      console.log("====================================");
       // event specific data
       country = report.event.country.name;
-      console.log("Country: ", country);
-      [species, deaths, cases, isWild] = getQuantitativeData(
+      const event_obj_arr = getQuantitativeData(
+        country,
         report.quantitativeData.totals
       );
 
-      // complie the event specific data into an object
-      const event_specific_data = {
-        country,
-        species,
-        deaths,
-        cases,
-        isWild,
-      };
-      // write
-      // appendToCSV(eventSpecificPath, event_specific_data);
+      // loop through the event_obj_arr
+      for (let i = 0; i < event_obj_arr.length; i++) {
+        // extract curr event obj
+        const event_specific_data = event_obj_arr[i];
+        // outbreak specific data
+        for (let i = 0; i < report.outbreaks.length; i++) {
+          getOutbreakData(
+            event_specific_data,
+            eventNumber,
+            report.outbreaks[i]
+          );
+        }
+      }
     })
     .catch(function (error) {
-      console.log(error);
+      // console.log(error);
+      console.log("in get data, error caught");
     });
 }
 
-// getting data for indiidual outbreaks
-function getOutbreakData(path, outbreaks) {
-  for (let i = 0; i < 2; i++) {
-    // for (let i = 0; i < outbreaks.length; i++) {
-    curr = outbreaks[i];
-    id = curr.id;
-    location = curr.location;
-    location = location.replace(/,/g, "");
-    longitude = curr.longitude;
-    latitude = curr.latitude;
-    start = new Date(curr.startDate).toLocaleDateString("en-US");
-    end = new Date(curr.endDate).toLocaleDateString("en-US");
-    epiUnit = curr.epiUnitType;
-    // make another request to get the death and cases using the id
-    // var config = {
-    //   method: "get",
-    //   url: `https://wahis.woah.org/api/v1/pi/review/event/4898/outbreak/${id}}/all-information?language=en`,
-    //   headers: {},
-    // };
-
-    // axios(config)
-    //   .then(function (response) {
-    //     console.log(JSON.stringify(response.data));
-    //   })
-    //   .catch(function (error) {
-    //     console.log(error);
-    //   });
-
-    // convert the fields into an object
-    const data = {
-      location,
-      longitude,
-      latitude,
-      start,
-      end,
-      epiUnit,
+function getSpeciesData(eventNumber, outbreakNumber) {
+  return new Promise((resolve, reject) => {
+    var config = {
+      method: "get",
+      url: `https://wahis.woah.org/api/v1/pi/review/event/${eventNumber}/outbreak/${outbreakNumber}/all-information?language=en`,
+      headers: {},
     };
-    // writing to csv
-    // appendToCSV(path, data);
-  }
+
+    axios(config)
+      .then(function (response) {
+        species = response.data.speciesQuantities;
+        wild_species = [];
+        domestic_species = [];
+        wild_death = 0;
+        domestic_death = 0;
+        wild_cases = 0;
+        domestic_cases = 0;
+        // for each object in species, get the species name
+        for (let i = 0; i < species.length; i++) {
+          curr = species[i].totalQuantities;
+          isWild = curr.isWild;
+          curr_name = curr.speciesName;
+          curr_death = curr.deaths;
+          curr_cases = curr.cases;
+          if (isWild) {
+            wild_species.push(curr_name);
+            wild_death += curr_death;
+            wild_cases += curr_cases;
+          } else {
+            domestic_species.push(curr_name);
+            domestic_death += curr_death;
+            domestic_cases += curr_cases;
+          }
+        }
+        // create an object with wild data
+        const wild_data = {
+          species: wild_species.join(";"),
+          death: wild_death,
+          cases: wild_cases,
+          "animale type": "wild",
+        };
+        // create an object with domestic data
+        const domestic_data = {
+          species: domestic_species.join(";"),
+          death: domestic_death,
+          cases: domestic_cases,
+          "animale type": "domestic",
+        };
+        resolve([wild_data, domestic_data]);
+      })
+      .catch(function (error) {
+        // console.log(error.data);
+        console.log("in get species data, error caught");
+      });
+  });
 }
 
-// get deaths and case data from an individual outbreak
-function getDeath(id) {
-  var config = {
-    method: "get",
-    url: `https://wahis.woah.org/api/v1/pi/review/event/4898/outbreak/${id}}/all-information?language=en`,
-    headers: {},
+function getOutbreakData(eventData, eventNumber, outbreak) {
+  location = outbreak.location;
+  // remove the commas in the location name
+  location = location.replace(/,/g, "");
+  longitude = outbreak.longitude;
+  latitude = outbreak.latitude;
+  start = new Date(outbreak.startDate).toLocaleDateString("en-US");
+  end = new Date(outbreak.endDate).toLocaleDateString("en-US");
+  epiUnit = outbreak.epiUnitType;
+  // convert the fields into an object
+  const data = {
+    location,
+    longitude,
+    latitude,
+    start,
+    end,
+    epiUnit,
   };
 
-  axios(config)
-    .then(function (response) {
-      console.log(JSON.stringify(response.data));
+  id = outbreak.id;
+  getSpeciesData(eventNumber, id)
+    .then((data_arr) => {
+      wild_data = data_arr[0];
+      domestic_data = data_arr[1];
+      // console.log("wild data: ", wild_data);
+      // if wild species is not empty, create an object
+      if (wild_data.species.length > 0) {
+        wild_obj = {
+          ...eventData,
+          ...data,
+          ...wild_data,
+          event_id: eventNumber,
+          outbreak_id: id,
+        };
+
+        // write to csv
+        appendToCSV(OUTPUT_PATH, wild_obj);
+      }
+      // console.log("domestic data: ", domestic_data);
+      if (domestic_data.species.length > 0) {
+        domestic_obj = {
+          ...eventData,
+          ...data,
+          ...domestic_data,
+          event_id: eventNumber,
+          outbreak_id: id,
+        };
+
+        // write to csv
+        appendToCSV(OUTPUT_PATH, domestic_obj);
+      }
     })
-    .catch(function (error) {
-      console.log(error);
+    .catch((err) => {
+      // console.log(err);
+      console.log("in get outbreak data, error caught");
     });
 }
 
-// might need to remove as we are now getting
-// death cases and potentially animal type
-// from individual outbreaks
-function getQuantitativeData(quantitativeData) {
-  species = [];
-  deaths = 0;
-  cases = 0;
-  const isWildValues = quantitativeData.map((item) => {
-    return item.isWild ? "wild" : "domestic";
-  });
-  const reducedIsWild =
-    isWildValues.includes("wild") && isWildValues.includes("domestic")
-      ? "both"
-      : isWildValues[0];
+function getQuantitativeData(country, quantitativeData) {
+  // const isWildValues = quantitativeData.map((item) => {
+  //   return item.isWild ? "wild" : "domestic";
+  // });
+  total = [];
 
   for (let i = 0; i < quantitativeData.length; i++) {
+    curr_obj = {};
     curr = quantitativeData[i];
-    species.push(curr.speciesName);
-    deaths += curr.deaths;
-    cases += curr.cases;
+    curr_obj.country = country;
+    // curr_obj.speciesName = curr.speciesName;
+    // curr_obj.deaths = curr.deaths;
+    // curr_obj.cases = curr.cases;
+    // curr_obj.isWild = isWildValues[i];
+    // push the curr_obj object to the total array
+    total.push(curr_obj);
   }
-  // Join species
-  species = species.join("; ");
-  // return back to the parent function to write to the event specific csv
-  return [species, deaths, cases, reducedIsWild];
+
+  return total;
 }
 
-// making request to get a list of qualified events
 async function makeRequest() {
   for (let i = 0; i < 5; i++) {
     var data = JSON.stringify({
@@ -275,12 +323,12 @@ async function makeRequest() {
         });
       })
       .catch(function (error) {
-        console.log(error);
+        // console.log(error);
+        console.log("in make request, error caught");
       });
   }
 }
 
-// read through the event entries and generate csv
 function readCSV() {
   fs.readFile("data.csv", "utf8", (err, data) => {
     if (err) throw err;
@@ -304,4 +352,7 @@ function readCSV() {
 // Reads the CSV
 // readCSV();
 
-getDeath(113869);
+// running single test case
+getData(4895);
+
+// getSpeciesData(4895, 113772);
