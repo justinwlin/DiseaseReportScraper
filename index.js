@@ -336,8 +336,8 @@ async function readCSV() {
       const row = rows[i];
       const eventId = row[0];
       console.log(eventId);
-      getData(eventId);
-      // await getData(eventId);
+      // getData(eventId);
+      await getData(eventId);
     }
   } catch (err) {
     console.error("Error reading CSV file:", err);
