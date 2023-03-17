@@ -5,6 +5,7 @@ const path = require("path");
 const OUTPUT_PATH = `./data/data.csv`;
 
 const dataArray = [];
+const WRITE_TO_CSV_EVERY_N_EVENTS = 50;
 
 function appendToCSV(filePath, data) {
   const directory = path.dirname(filePath);
@@ -231,7 +232,7 @@ async function getOutbreakData(eventData, eventNumber, outbreak) {
       dataArray.push(obj);
       console.log("New data added to array", dataArray.length);
 
-      if (dataArray.length % 10 === 0) {
+      if (dataArray.length % WRITE_TO_CSV_EVERY_N_EVENTS === 0) {
         // write to CSV and clear the array
         appendToCSV(OUTPUT_PATH, dataArray);
         dataArray.length = 0;
