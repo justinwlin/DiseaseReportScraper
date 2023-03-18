@@ -2,51 +2,42 @@ const fs = require("fs");
 var axios = require("axios");
 const path = require("path");
 
-const OUTPUT_PATH = `./data/data.csv`;
+const eventSpecificPath = `./data/events.csv`;
+const outbreakSpecificPath = `./data/outbreaks.csv`;
 
-const dataArray = [];
-const WRITE_TO_CSV_EVERY_N_EVENTS = 50;
+function removeCommasFromStrings(obj) {
+  for (const key in obj) {
+    if (typeof obj[key] === "string") {
+      obj[key] = obj[key].replace(/,/g, "").replace(/\n|\r/g, "");
+    }
+  }
+  return obj;
+}
 
-function appendToCSV(filePath, data) {
-  const directory = path.dirname(filePath);
+function appendToCSV(csvPath, data, isOutbreak) {
+  const directory = path.dirname(csvPath);
+  const csvRow = Object.values(data).join(",");
+  const csvData = `${csvRow}\n`;
 
   fs.mkdirSync(directory, { recursive: true });
 
-  if (!fs.existsSync(filePath)) {
-    // If file does not exist, append headers
+  if (!fs.existsSync(csvPath)) {
+    // file does not exist, so append headers along with data
+    const csvHeaders = Object.keys(data).join(",");
+    const csvHeaderRow = `${csvHeaders}\n${csvData}`;
 
-    let csvHeaders, csvHeaderRow;
-    if (Array.isArray(data)) {
-      // Data is an array, so use headers from the first object
-      csvHeaders = Object.keys(data[0]).join(",");
-    } else {
-      // Data is an object, so use headers from it
-      csvHeaders = Object.keys(data).join(",");
-    }
-
-    csvHeaderRow = `${csvHeaders}\n`;
-
-    fs.writeFileSync(filePath, csvHeaderRow);
-  }
-
-  if (Array.isArray(data)) {
-    // If data is an array, append each object as a row
-    data.forEach((obj) => {
-      const csvRow = Object.values(obj).join(",");
-      const csvData = `${csvRow}\n`;
-      fs.appendFileSync(filePath, csvData);
-    });
+    fs.writeFileSync(csvPath, csvHeaderRow);
   } else {
-    // If data is an object, append it as a single row
-    const csvRow = Object.values(data).join(",");
-    const csvData = `${csvRow}\n`;
-    fs.appendFileSync(filePath, csvData);
+    // file exists, so only append data
+    fs.appendFileSync(csvPath, csvData);
   }
 
-  console.log(`Successfully appended to CSV file at ${filePath}`);
+  console.log(`Successfully appended to CSV file at ${csvPath}`);
 }
 
-async function getData(eventNumber) {
+function getData(eventNumber) {
+  // const eventSpecificPath = `./data/${eventNumber}-event-specific.csv`;
+  // const outbreakSpecificPath = `./data/${eventNumber}-outbreak-specific.csv`;
   var config = {
     method: "get",
     maxBodyLength: Infinity,
@@ -87,176 +78,102 @@ async function getData(eventNumber) {
     },
   };
 
-  try {
-    const response = await axios(config);
-    report = response.data;
-    // event specific data
-    country = report.event.country.name;
-    const event_obj_arr = getQuantitativeData(
-      country,
-      report.quantitativeData.totals
-    );
+  axios(config)
+    .then(function (response) {
+      report = response.data;
 
-    // loop through the event_obj_arr
-    for (let i = 0; i < event_obj_arr.length; i++) {
-      // extract curr event obj
-      const event_specific_data = event_obj_arr[i];
       // outbreak specific data
-      for (let i = 0; i < report.outbreaks.length; i++) {
-        await getOutbreakData(
-          event_specific_data,
-          eventNumber,
-          report.outbreaks[i]
-        );
+      getOutbreakData(outbreakSpecificPath, report.outbreaks, eventNumber);
+
+      console.log("====================================");
+      // event specific data
+      country = report.event.country.name;
+
+      const [wildData, domesticData] = getQuantitativeData(
+        report.quantitativeData.totals
+      );
+
+      // Inside getData function
+      if (wildData) {
+        const cleanedWildData = removeCommasFromStrings({
+          ...wildData,
+          country,
+          eventID: eventNumber,
+        });
+
+        appendToCSV(eventSpecificPath, cleanedWildData, false);
       }
-    }
-  } catch (error) {
-    console.log("in get data, error caught");
+
+      if (domesticData) {
+        const cleanedDomesticData = removeCommasFromStrings({
+          ...domesticData,
+          country,
+          eventID: eventNumber,
+        });
+        appendToCSV(eventSpecificPath, cleanedDomesticData, false);
+      }
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+}
+
+function getOutbreakData(path, outbreaks, eventNumber) {
+  for (let i = 0; i < outbreaks.length; i++) {
+    curr = outbreaks[i];
+    location = curr.location.replace(/,/g, "");
+    longitude = curr.longitude;
+    latitude = curr.latitude;
+    start = new Date(curr.startDate).toLocaleDateString("en-US");
+    end = new Date(curr.endDate).toLocaleDateString("en-US");
+    epiUnit = curr.epiUnitType;
+
+    // Inside getOutbreakData function
+    const data = {
+      ...curr,
+      location,
+      longitude,
+      latitude,
+      start,
+      end,
+      epiUnit,
+      eventID: eventNumber, // Add the event ID here
+    };
+    const cleanedData = removeCommasFromStrings(data);
+    appendToCSV(outbreakSpecificPath, cleanedData, true);
   }
 }
 
-async function getSpeciesData(eventNumber, outbreakNumber) {
-  try {
-    var config = {
-      method: "get",
-      url: `https://wahis.woah.org/api/v1/pi/review/event/${eventNumber}/outbreak/${outbreakNumber}/all-information?language=en`,
-      headers: {},
-    };
-
-    const response = await axios(config);
-
-    species = response.data.speciesQuantities;
-    wild_species = [];
-    domestic_species = [];
-    wild_death = 0;
-    domestic_death = 0;
-    wild_cases = 0;
-    domestic_cases = 0;
-
-    for (let i = 0; i < species.length; i++) {
-      curr = species[i].totalQuantities;
-      isWild = curr.isWild;
-      curr_name = curr.speciesName;
-      curr_death = curr.deaths;
-      curr_cases = curr.cases;
-
-      if (isWild) {
-        wild_species.push(curr_name);
-        wild_death += curr_death;
-        wild_cases += curr_cases;
-      } else {
-        domestic_species.push(curr_name);
-        domestic_death += curr_death;
-        domestic_cases += curr_cases;
-      }
-    }
-
-    const wild_data = {
-      species: wild_species.join(";"),
-      death: wild_death,
-      cases: wild_cases,
-      "animale type": "wild",
-    };
-
-    const domestic_data = {
-      species: domestic_species.join(";"),
-      death: domestic_death,
-      cases: domestic_cases,
-      "animale type": "domestic",
-    };
-
-    return [wild_data, domestic_data];
-  } catch (error) {
-    console.log("in get species data, error caught");
-  }
-}
-
-async function getOutbreakData(eventData, eventNumber, outbreak) {
-  let location = outbreak.location;
-  // remove the commas in the location name
-  location = location.replace(/,/g, "");
-  const longitude = outbreak.longitude;
-  const latitude = outbreak.latitude;
-  const start = new Date(outbreak.startDate).toLocaleDateString("en-US");
-  const end = new Date(outbreak.endDate).toLocaleDateString("en-US");
-  const epiUnit = outbreak.epiUnitType;
-  // convert the fields into an object
-  const data = {
-    location,
-    longitude,
-    latitude,
-    start,
-    end,
-    epiUnit,
-  };
-
-  const id = outbreak.id;
-  try {
-    const data_arr = await getSpeciesData(eventNumber, id);
-    const wild_data = data_arr[0];
-    const domestic_data = data_arr[1];
-
-    if (wild_data.species.length > 0) {
-      const wild_obj = {
-        ...eventData,
-        ...data,
-        ...wild_data,
-        event_id: eventNumber,
-        outbreak_id: id,
-      };
-
-      addToDataArrayIfNotDuplicate(wild_obj);
-    }
-    if (domestic_data.species.length > 0) {
-      const domestic_obj = {
-        ...eventData,
-        ...data,
-        ...domestic_data,
-        event_id: eventNumber,
-        outbreak_id: id,
-      };
-
-      addToDataArrayIfNotDuplicate(domestic_obj);
-    }
-  } catch (err) {
-    console.log(err);
-    console.log("in get outbreak data, error caught");
-  }
-
-  // Helper function to check for duplicates
-  function addToDataArrayIfNotDuplicate(obj) {
-    const duplicate = dataArray.some(
-      (data) => JSON.stringify(data) === JSON.stringify(obj)
-    );
-    if (!duplicate) {
-      dataArray.push(obj);
-      console.log("New data added to array", dataArray.length);
-
-      if (dataArray.length % WRITE_TO_CSV_EVERY_N_EVENTS === 0) {
-        // write to CSV and clear the array
-        appendToCSV(OUTPUT_PATH, dataArray);
-        dataArray.length = 0;
-      }
-    }
-  }
-}
-
-function getQuantitativeData(country, quantitativeData) {
-  const total = [];
+function getQuantitativeData(quantitativeData) {
+  let wildData = { isWild: "wild" };
+  let domesticData = { isWild: "domestic" };
 
   for (let i = 0; i < quantitativeData.length; i++) {
-    const curr_obj = {};
-    const curr = quantitativeData[i];
-    curr_obj.country = country;
-    total.push(curr_obj);
+    curr = quantitativeData[i];
+    const dataObj = {
+      ...curr,
+      species: curr.speciesName,
+      deaths: curr.deaths,
+      cases: curr.cases,
+      // Add any other required parameters here
+    };
+
+    if (curr.isWild) {
+      wildData = { ...dataObj, ...wildData };
+    } else {
+      domesticData = { ...dataObj, ...domesticData };
+    }
   }
 
-  return total;
+  return [
+    wildData.species ? wildData : null,
+    domesticData.species ? domesticData : null,
+  ];
 }
 
 async function makeRequest() {
   for (let i = 0; i < 5; i++) {
-    const data = JSON.stringify({
+    var data = JSON.stringify({
       eventIds: [],
       reportIds: [],
       countries: [],
@@ -280,6 +197,7 @@ async function makeRequest() {
     });
 
     console.log("On loop...", i);
+
     var config = {
       method: "post",
       maxBodyLength: Infinity,
@@ -321,71 +239,48 @@ async function makeRequest() {
       },
       data: data,
     };
-    try {
-      const response = await axios.post(
-        "https://wahis.woah.org/api/v1/pi/event/filtered-list?language=en",
-        {
-          data: data,
-        },
-        {
-          ...config,
-          headers: {
-            "Content-Type": "application/json",
-          },
-          maxBodyLength: Infinity,
-        }
-      );
-      const responseData = response.data;
-      const listOfEvents = responseData.list;
-      console.log(listOfEvents);
-      listOfEvents.map((obj) => {
-        const reportId = obj.reportId;
-        const eventId = obj.eventId;
-        const subType = obj.subType;
-        console.log("eventId", eventId);
-        // Write to a CSV file
-        fs.appendFile(
-          "data.csv",
-          `${eventId}, ${reportId}, ${subType} \n`,
-          (err) => {
-            if (err) throw err;
-            console.log("Data added to CSV file successfully!");
-          }
-        );
+    await axios(config)
+      .then(function (response) {
+        responseData = response.data;
+        listOfEvents = responseData.list;
+        console.log(listOfEvents);
+        listOfEvents.map((obj) => {
+          reportId = obj.reportId;
+          eventId = obj.eventId;
+          subType = obj.subType;
+          console.log("eventId", eventId);
+          // Write to a CSV file
+          fs.appendFile(
+            "data.csv",
+            `${eventId}, ${reportId}, ${subType} \n`,
+            (err) => {
+              if (err) throw err;
+              console.log("Data added to CSV file successfully!");
+            }
+          );
+        });
+      })
+      .catch(function (error) {
+        console.log(error);
       });
-    } catch (error) {
-      console.log("in make request, error caught");
-      console.log(error);
-    }
   }
 }
 
-async function readCSV() {
-  try {
-    const data = await fs.promises.readFile("eventids.csv", "utf8");
+function readCSV() {
+  fs.readFile("data.csv", "utf8", (err, data) => {
+    if (err) throw err;
     const rows = data
       .trim()
       .split("\n")
       .map((row) => row.split(","));
-    for (let i = 26; i < rows.length; i++) {
-      const row = rows[i];
+    // const headers = rows.shift();
+    for (let i = 0; i < rows.length; i++) {
+      row = rows[i];
       const eventId = row[0];
       console.log(eventId);
-      // getData(eventId);
-      await getData(eventId);
+      getData(eventId);
     }
-    if (dataArray.length > 0) {
-      const csvRows = dataArray.map((data) => Object.values(data).join(","));
-      const csvData = `${Object.keys(dataArray[0]).join(",")}\n${csvRows.join(
-        "\n"
-      )}\n`;
-
-      fs.writeFileSync(OUTPUT_PATH, csvData, { flag: "a" });
-      console.log(`Successfully appended to CSV file at ${OUTPUT_PATH}`);
-    }
-  } catch (err) {
-    console.error("Error reading CSV file:", err);
-  }
+  });
 }
 
 // Generates the CSV
@@ -393,8 +288,3 @@ async function readCSV() {
 
 // Reads the CSV
 readCSV();
-// getData(4733);
-// running single test case
-// getData(4512);
-
-// getSpeciesData(4895, 113772);
