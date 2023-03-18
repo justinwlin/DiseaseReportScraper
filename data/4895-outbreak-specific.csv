@@ -1,6 +1,0 @@
-id,oieReference,nationalReference,adminDivision,location,epiUnitType,clusterCount,startDate,endDate,createdByReportId,lastUpdateReportId,longitude,latitude,description,speciesNumber,start,end,epiUnit
-113772,ob_113772,,Plaza de la Revolución,Jardín zoológico de La Habana,Zoo,1,2023-02-04T00:00:00.000+00:00,,159207,159380,-82.3972,23.1108,El jardín zoológico se compone de tres zonas: área del lago área de clínica y área de aviarios. Solo el área del lago se ha visto afectada. 
-Se ha realizado sacrificio sanitario de la población restante del área del lago y se sometió a un proceso de desinfección.
-Se establece monitoreo en las áreas no afectadas y se extreman las medidas de bioseguridad.
-La población susceptible restante no se encuentra en el área del lago.
-,8,2/3/2023,12/31/1969,Zoo

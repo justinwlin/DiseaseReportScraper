@@ -2,39 +2,42 @@ const fs = require("fs");
 var axios = require("axios");
 const path = require("path");
 
+const eventSpecificPath = `./data/events.csv`;
+const outbreakSpecificPath = `./data/outbreaks.csv`;
+
 function removeCommasFromStrings(obj) {
   for (const key in obj) {
     if (typeof obj[key] === "string") {
-      obj[key] = obj[key].replace(/,/g, "");
+      obj[key] = obj[key].replace(/,/g, "").replace(/\n|\r/g, "");
     }
   }
   return obj;
 }
 
-function appendToCSV(filePath, data) {
-  const directory = path.dirname(filePath);
+function appendToCSV(csvPath, data, isOutbreak) {
+  const directory = path.dirname(csvPath);
   const csvRow = Object.values(data).join(",");
   const csvData = `${csvRow}\n`;
 
   fs.mkdirSync(directory, { recursive: true });
 
-  if (!fs.existsSync(filePath)) {
+  if (!fs.existsSync(csvPath)) {
     // file does not exist, so append headers along with data
     const csvHeaders = Object.keys(data).join(",");
     const csvHeaderRow = `${csvHeaders}\n${csvData}`;
 
-    fs.writeFileSync(filePath, csvHeaderRow);
+    fs.writeFileSync(csvPath, csvHeaderRow);
   } else {
     // file exists, so only append data
-    fs.appendFileSync(filePath, csvData);
+    fs.appendFileSync(csvPath, csvData);
   }
 
-  console.log(`Successfully appended to CSV file at ${filePath}`);
+  console.log(`Successfully appended to CSV file at ${csvPath}`);
 }
 
 function getData(eventNumber) {
-  const eventSpecificPath = `./data/${eventNumber}-event-specific.csv`;
-  const outbreakSpecificPath = `./data/${eventNumber}-outbreak-specific.csv`;
+  // const eventSpecificPath = `./data/${eventNumber}-event-specific.csv`;
+  // const outbreakSpecificPath = `./data/${eventNumber}-outbreak-specific.csv`;
   var config = {
     method: "get",
     maxBodyLength: Infinity,
@@ -80,7 +83,7 @@ function getData(eventNumber) {
       report = response.data;
 
       // outbreak specific data
-      getOutbreakData(outbreakSpecificPath, report.outbreaks);
+      getOutbreakData(outbreakSpecificPath, report.outbreaks, eventNumber);
 
       console.log("====================================");
       // event specific data
@@ -98,7 +101,7 @@ function getData(eventNumber) {
           eventID: eventNumber,
         });
 
-        appendToCSV(eventSpecificPath, cleanedWildData);
+        appendToCSV(eventSpecificPath, cleanedWildData, false);
       }
 
       if (domesticData) {
@@ -107,7 +110,7 @@ function getData(eventNumber) {
           country,
           eventID: eventNumber,
         });
-        appendToCSV(eventSpecificPath, cleanedDomesticData);
+        appendToCSV(eventSpecificPath, cleanedDomesticData, false);
       }
     })
     .catch(function (error) {
@@ -115,7 +118,7 @@ function getData(eventNumber) {
     });
 }
 
-function getOutbreakData(path, outbreaks) {
+function getOutbreakData(path, outbreaks, eventNumber) {
   for (let i = 0; i < outbreaks.length; i++) {
     curr = outbreaks[i];
     location = curr.location.replace(/,/g, "");
@@ -137,7 +140,7 @@ function getOutbreakData(path, outbreaks) {
       eventID: eventNumber, // Add the event ID here
     };
     const cleanedData = removeCommasFromStrings(data);
-    appendToCSV(path, cleanedData);
+    appendToCSV(outbreakSpecificPath, cleanedData, true);
   }
 }
 
@@ -156,7 +159,7 @@ function getQuantitativeData(quantitativeData) {
     };
 
     if (curr.isWild) {
-      wildData = { ...dataOb, ...wildData };
+      wildData = { ...dataObj, ...wildData };
     } else {
       domesticData = { ...dataObj, ...domesticData };
     }
@@ -271,7 +274,7 @@ function readCSV() {
       .split("\n")
       .map((row) => row.split(","));
     // const headers = rows.shift();
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < rows.length; i++) {
       row = rows[i];
       const eventId = row[0];
       console.log(eventId);
