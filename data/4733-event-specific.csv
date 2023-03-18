@@ -1,0 +1,3 @@
+isWild,speciesId,speciesName,susceptible,cases,deaths,killed,slaughtered,vaccinated,species,country
+true,4854,Little Grebe,,1,1,0,0,0,Little Grebe,Switzerland
+false,704,Birds,100,25,1,59,0,0,Birds,Switzerland
