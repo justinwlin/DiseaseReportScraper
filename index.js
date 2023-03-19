@@ -14,7 +14,7 @@ function removeCommasFromStrings(obj) {
   return obj;
 }
 
-function appendToCSV(csvPath, data, isOutbreak) {
+function appendToCSV(csvPath, data) {
   const directory = path.dirname(csvPath);
   const csvRow = Object.values(data).join(",");
   const csvData = `${csvRow}\n`;
@@ -32,7 +32,7 @@ function appendToCSV(csvPath, data, isOutbreak) {
     fs.appendFileSync(csvPath, csvData);
   }
 
-  console.log(`Successfully appended to CSV file at ${csvPath}`);
+  // console.log(`Successfully appended to CSV file at ${csvPath}`);
 }
 
 function getData(eventNumber) {
@@ -88,59 +88,130 @@ function getData(eventNumber) {
       console.log("====================================");
       // event specific data
       country = report.event.country.name;
+      startDate = report.event.startedOn;
+      endDate = report.event.endedOn;
 
-      const [wildData, domesticData] = getQuantitativeData(
-        report.quantitativeData.totals
-      );
-
-      // Inside getData function
-      if (wildData) {
-        const cleanedWildData = removeCommasFromStrings({
-          ...wildData,
-          country,
-          eventID: eventNumber,
-        });
-
-        appendToCSV(eventSpecificPath, cleanedWildData, false);
-      }
-
-      if (domesticData) {
-        const cleanedDomesticData = removeCommasFromStrings({
-          ...domesticData,
-          country,
-          eventID: eventNumber,
-        });
-        appendToCSV(eventSpecificPath, cleanedDomesticData, false);
-      }
+      const cleanedDomesticData = removeCommasFromStrings({
+        country,
+        eventID: eventNumber,
+        startDate,
+        endDate,
+      });
+      appendToCSV(eventSpecificPath, cleanedDomesticData);
     })
     .catch(function (error) {
       console.log(error);
     });
 }
 
-function getOutbreakData(path, outbreaks, eventNumber) {
+async function getOutbreakData(path, outbreaks, eventNumber) {
   for (let i = 0; i < outbreaks.length; i++) {
-    curr = outbreaks[i];
-    location = curr.location.replace(/,/g, "");
-    longitude = curr.longitude;
-    latitude = curr.latitude;
-    start = new Date(curr.startDate).toLocaleDateString("en-US");
-    end = new Date(curr.endDate).toLocaleDateString("en-US");
-    epiUnit = curr.epiUnitType;
+    const curr = outbreaks[i];
+    const outbreakId = curr.id;
+    const [wild, domestic] = await getSpeciesData(eventNumber, outbreakId);
+    const location = curr.location.replace(/,/g, "");
+    const longitude = curr.longitude;
+    const latitude = curr.latitude;
+    const start = new Date(curr.startDate).toLocaleDateString("en-US");
+    const end = new Date(curr.endDate).toLocaleDateString("en-US");
+    const epiUnit = curr.epiUnitType;
 
-    // Inside getOutbreakData function
-    const data = {
-      ...curr,
-      location,
-      longitude,
-      latitude,
-      start,
-      end,
-      epiUnit,
-      eventID: eventNumber, // Add the event ID here
+    // create row for wild data if species name is not empty
+    if (wild.species.trim() !== "") {
+      const wildData = {
+        location,
+        longitude,
+        latitude,
+        start,
+        end,
+        epiUnit,
+        eventID: eventNumber,
+        "animal type": "wild",
+        ...wild,
+      };
+      const cleanedWildData = removeCommasFromStrings(wildData);
+      console.log("Cleaned wild data: ", cleanedWildData);
+      appendToCSV(path, cleanedWildData, true);
+    }
+
+    // create row for domestic data if species name is not empty
+    if (domestic.species.trim() !== "") {
+      const domesticData = {
+        location,
+        longitude,
+        latitude,
+        start,
+        end,
+        epiUnit,
+        eventID: eventNumber,
+        "animal type": "domestic",
+        ...domestic,
+      };
+      const cleanedDomesticData = removeCommasFromStrings(domesticData);
+      console.log("Cleaned domestic data: ", cleanedDomesticData);
+      appendToCSV(path, cleanedDomesticData, true);
+    }
+  }
+}
+
+async function getSpeciesData(eventNumber, outbreakNumber) {
+  try {
+    const config = {
+      method: "get",
+      url: `https://wahis.woah.org/api/v1/pi/review/event/${eventNumber}/outbreak/${outbreakNumber}/all-information?language=en`,
+      headers: {},
     };
-    const cleanedData = removeCommasFromStrings(data);
-    appendToCSV(outbreakSpecificPath, cleanedData, true);
+
+    const response = await axios(config);
+    const species = response.data.speciesQuantities;
+    let wild_species = [];
+    let domestic_species = [];
+    let wild_death = 0;
+    let domestic_death = 0;
+    let wild_cases = 0;
+    let domestic_cases = 0;
+
+    // for each object in species, get the species name
+    for (let i = 0; i < species.length; i++) {
+      const curr = species[i].totalQuantities;
+      const isWild = curr.isWild;
+      const curr_name = curr.speciesName;
+      const curr_death = curr.deaths;
+      const curr_cases = curr.cases;
+
+      if (isWild) {
+        wild_species.push(curr_name);
+        wild_death += curr_death;
+        wild_cases += curr_cases;
+      } else {
+        domestic_species.push(curr_name);
+        domestic_death += curr_death;
+        domestic_cases += curr_cases;
+      }
+    }
+
+    // create an object with wild data
+    const wild_data = {
+      outbreakNumber: outbreakNumber,
+      species: wild_species.join(";"),
+      death: wild_death,
+      cases: wild_cases,
+      "animal type": "wild",
+    };
+
+    // create an object with domestic data
+    const domestic_data = {
+      outbreakNumber: outbreakNumber,
+      species: domestic_species.join(";"),
+      death: domestic_death,
+      cases: domestic_cases,
+      "animal type": "domestic",
+    };
+
+    return [wild_data, domestic_data];
+  } catch (error) {
+    console.log("in get species data, error caught");
+    throw error;
   }
 }
 
@@ -157,6 +228,8 @@ function getQuantitativeData(quantitativeData) {
       cases: curr.cases,
       // Add any other required parameters here
     };
+
+    console.log("Curr data: ", curr);
 
     if (curr.isWild) {
       wildData = { ...dataObj, ...wildData };
@@ -255,7 +328,7 @@ async function makeRequest() {
             `${eventId}, ${reportId}, ${subType} \n`,
             (err) => {
               if (err) throw err;
-              console.log("Data added to CSV file successfully!");
+              // console.log("Data added to CSV file successfully!");
             }
           );
         });
