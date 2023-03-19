@@ -35,7 +35,7 @@ function appendToCSV(csvPath, data) {
   // console.log(`Successfully appended to CSV file at ${csvPath}`);
 }
 
-function getData(eventNumber) {
+async function getData(eventNumber) {
   // const eventSpecificPath = `./data/${eventNumber}-event-specific.csv`;
   // const outbreakSpecificPath = `./data/${eventNumber}-outbreak-specific.csv`;
   var config = {
@@ -78,7 +78,7 @@ function getData(eventNumber) {
     },
   };
 
-  axios(config)
+  return await axios(config)
     .then(function (response) {
       report = response.data;
 
@@ -339,19 +339,19 @@ async function makeRequest() {
   }
 }
 
-function readCSV() {
-  fs.readFile("data.csv", "utf8", (err, data) => {
+async function readCSV() {
+  fs.readFile("data.csv", "utf8", async (err, data) => {
     if (err) throw err;
     const rows = data
       .trim()
       .split("\n")
       .map((row) => row.split(","));
     // const headers = rows.shift();
-    for (let i = 0; i < rows.length; i++) {
+    for (let i = 0; i < 2; i++) {
       row = rows[i];
       const eventId = row[0];
       console.log(eventId);
-      getData(eventId);
+      await getData(eventId);
     }
   });
 }
