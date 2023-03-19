@@ -1,4 +1,4 @@
-id,oieReference,nationalReference,adminDivision,location,epiUnitType,clusterCount,startDate,endDate,createdByReportId,lastUpdateReportId,longitude,latitude,description,speciesNumber,start,end,epiUnit,eventID
+outbreakId,oieReference,nationalReference,adminDivision,location,epiUnitType,clusterCount,startDate,endDate,createdByReportId,lastUpdateReportId,longitude,latitude,description,speciesNumber,start,end,epiUnit,eventID
 113578,ob_113578,,Hajdúböszörmény,Hajdúböszörmény,Farm,1,2023-02-05T00:00:00.000+00:00,2023-02-10T00:00:00.000+00:00,159195,159308,21.55878,47.62286,,1,2/4/2023,2/9/2023,Farm,4784
 111409,ob_111409,,Püspökladány,Nádudvar,Farm,1,2022-12-31T00:00:00.000+00:00,2023-01-06T00:00:00.000+00:00,158569,158698,21.156837,47.448133,,1,12/30/2022,1/5/2023,Farm,4784
 111408,ob_111408,,Hajdúszoboszló,Hajdúszoboszló,Farm,1,2022-12-25T00:00:00.000+00:00,2022-12-28T00:00:00.000+00:00,158569,158698,21.170037,47.485876,,1,12/24/2022,12/27/2022,Farm,4784
