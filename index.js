@@ -33,9 +33,7 @@ function appendToCSV(csvPath, data, isOutbreak) {
   }
 }
 
-function getData(eventNumber) {
-  // const eventSpecificPath = `./data/${eventNumber}-event-specific.csv`;
-  // const outbreakSpecificPath = `./data/${eventNumber}-outbreak-specific.csv`;
+async function getData(eventNumber) {
   var config = {
     method: "get",
     maxBodyLength: Infinity,
@@ -76,39 +74,92 @@ function getData(eventNumber) {
     },
   };
 
-  axios(config)
+  return await axios(config)
     .then(function (response) {
       report = response.data;
 
+      // outbreak specific data
+      getOutbreakData(outbreakSpecificPath, report.outbreaks, eventNumber);
+
       // event specific data
       country = report.event.country.name;
-      const event_obj_arr = getQuantitativeData(
-        country,
-        report.quantitativeData.totals
-      );
+      startDate = report.event.startedOn;
+      endDate = report.event.endedOn;
 
-      // loop through the event_obj_arr
-      for (let i = 0; i < event_obj_arr.length; i++) {
-        // extract curr event obj
-        const event_specific_data = event_obj_arr[i];
-        // outbreak specific data
-        for (let i = 0; i < report.outbreaks.length; i++) {
-          getOutbreakData(
-            event_specific_data,
-            eventNumber,
-            report.outbreaks[i]
-          );
-        }
-      }
+      const cleanedDomesticData = removeCommasFromStrings({
+        country,
+        eventID: eventNumber,
+        startDate,
+        endDate,
+      });
+      appendToCSV(eventSpecificPath, cleanedDomesticData);
     })
     .catch(function (error) {
-      // console.log(error);
-      console.log("in get data, error caught");
+      console.log(error);
     });
 }
 
-function getSpeciesData(eventNumber, outbreakNumber) {
-  return new Promise((resolve, reject) => {
+async function getOutbreakData(path, outbreaks, eventNumber) {
+  for (let i = 0; i < outbreaks.length; i++) {
+    const curr = outbreaks[i];
+    const outbreakId = curr.id;
+    try {
+      const [wild, domestic] = await getSpeciesData(eventNumber, outbreakId);
+
+      const location = curr.location.replace(/,/g, "");
+      const longitude = curr.longitude;
+      const latitude = curr.latitude;
+      const start = new Date(curr.startDate).toLocaleDateString("en-US");
+      const end = new Date(curr.endDate).toLocaleDateString("en-US");
+      const epiUnit = curr.epiUnitType;
+
+      // create row for wild data if species name is not empty
+      if (wild.species.trim() !== "") {
+        const wildData = {
+          location,
+          longitude,
+          latitude,
+          start,
+          end,
+          epiUnit,
+          eventID: eventNumber,
+          "animal type": "wild",
+          ...wild,
+        };
+        const cleanedWildData = removeCommasFromStrings(wildData);
+        appendToCSV(path, cleanedWildData, true);
+      }
+
+      // create row for domestic data if species name is not empty
+      if (domestic.species.trim() !== "") {
+        const domesticData = {
+          location,
+          longitude,
+          latitude,
+          start,
+          end,
+          epiUnit,
+          eventID: eventNumber,
+          "animal type": "domestic",
+          ...domestic,
+        };
+        const cleanedDomesticData = removeCommasFromStrings(domesticData);
+        appendToCSV(path, cleanedDomesticData, true);
+      }
+    } catch (error) {
+      console.log(error);
+      console.log(
+        "Outbreak ID erroring out is: ",
+        outbreakId,
+        " for event: ",
+        eventNumber
+      );
+    }
+  }
+}
+
+async function getSpeciesData(eventNumber, outbreakNumber) {
+  try {
     var config = {
       method: "get",
       url: `https://wahis.woah.org/api/v1/pi/review/event/${eventNumber}/outbreak/${outbreakNumber}/all-information?language=en`,
@@ -198,33 +249,6 @@ function getSpeciesData(eventNumber, outbreakNumber) {
     // throw error;
   }
 }
-
-// function getQuantitativeData(quantitativeData) {
-//   let wildData = { isWild: "wild" };
-//   let domesticData = { isWild: "domestic" };
-
-//   for (let i = 0; i < quantitativeData.length; i++) {
-//     curr = quantitativeData[i];
-//     const dataObj = {
-//       ...curr,
-//       species: curr.speciesName,
-//       deaths: curr.deaths,
-//       cases: curr.cases,
-//       // Add any other required parameters here
-//     };
-
-//     if (curr.isWild) {
-//       wildData = { ...dataObj, ...wildData };
-//     } else {
-//       domesticData = { ...dataObj, ...domesticData };
-//     }
-//   }
-
-//   return [
-//     wildData.species ? wildData : null,
-//     domesticData.species ? domesticData : null,
-//   ];
-// }
 
 async function makeRequest() {
   for (let i = 0; i < 5; i++) {
@@ -321,8 +345,8 @@ async function makeRequest() {
   }
 }
 
-async function readCSV() {
-  fs.readFile("H5N8_event_IDs.csv", "utf8", async (err, data) => {
+async function readCSV(file) {
+  fs.readFile(file, "utf8", async (err, data) => {
     // fs.readFile("data.csv", "utf8", async (err, data) => {
     if (err) throw err;
     const rows = data
@@ -433,6 +457,9 @@ async function makeRequestH5N8() {
   }
 }
 
+const H5N1_FILE = "data.csv";
+const H5N8_FILE = "H5N8_event_IDs.csv";
+
 // Generates the CSV for H5N1
 // makeRequest();
 
@@ -440,6 +467,6 @@ async function makeRequestH5N8() {
 // makeRequestH5N8();
 
 // Reads the CSV
-readCSV();
+readCSV(H5N8_FILE);
 
 // getData(4116);
