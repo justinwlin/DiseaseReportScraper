@@ -53,7 +53,7 @@ HPAI_H5N1_2021_W_071,18.5,-33.8,11/20/2022,2/19/2023,Other,3733,wild,110173,Jack
 El Modesto,-77.39661,1.34038,2/14/2023,12/31/1969,Backyard,4668,domestic,115377,Birds,0,5,5,5,0,Nariño
 Puerto Vacamonte,-79.6689,8.8617,1/3/2023,2/1/2023,Other,4789,wild,111892,Wildlife (species unspecified),0,1,0,1,0,Panamá Oeste
 Kreuzlingen,9.194,47.648,3/3/2023,12/31/1969,Body of water,4733,wild,115955,Black-headed Gull,3,3,0,0,0,Thurgau
-HPAI_H5N1_2021_W_042,18.5,-34,10/10/2021,1/8/2022,Other,3733,wild,92314,White-breasted cormorant,0,1,0,1,0,Western Cape
+HPAI_H5N1_2021_W_042,18.5,-34.0,10/10/2021,1/8/2022,Other,3733,wild,92314,White-breasted cormorant,0,1,0,1,0,Western Cape
 El Platanal,-80.471964,9.11398,2/2/2023,12/31/1969,Other,4789,wild,113946,Brown Pelican,0,1,0,1,0,Colón
 Traspatio A S,-75.7422,8.9624,11/10/2022,2/22/2023,Backyard,4668,domestic,109778,Birds,25,27,30,5,0,Córdoba
 Lac Léman,6.692,46.499,3/4/2023,12/31/1969,Body of water,4733,wild,115956,Black-headed Gull,1,1,0,0,0,Vaud
@@ -66,10 +66,10 @@ Zürich,8.55,47.353,3/2/2023,12/31/1969,Body of water,4733,wild,115953,Mute Swan
 Traspatio N,-75.89163,9.29538,11/24/2022,2/22/2023,Backyard,4668,domestic,110578,Birds,0,8,8,8,0,Córdoba
 Golfo de Panamá área marítima.,-79.29362,8.72162,12/13/2022,1/12/2023,Body of water,4789,wild,110787,Brown Pelican,1,1,0,0,0,Panamanian Exclusive Economic Zone
 HPAI_H5_GAU_2021_043,19.9,-33.2,5/31/2021,2/9/2023,Farm,3649,domestic,87904,Birds,158,158,2082,0,0,Western Cape
-HPAI_H5N1_2021_W_065,28.8,-27,3/14/2022,12/30/2022,Other,3733,wild,103394,Wildlife (species unspecified),0,1,0,0,0,Mpumalanga
+HPAI_H5N1_2021_W_065,28.8,-27.0,3/14/2022,12/30/2022,Other,3733,wild,103394,Wildlife (species unspecified),0,1,0,0,0,Mpumalanga
 Traspatio A P,-75.7747,8.9833,11/25/2022,2/22/2023,Backyard,4668,domestic,110573,Birds,36,40,61,25,0,Córdoba
 Lac Léman,6.8517,46.456,3/2/2023,12/31/1969,Body of water,4733,wild,115952,Black-headed Gull,1,1,0,0,0,Vaud
-HPAI_H5N1_2021_W_073,17.9,-33,10/18/2022,1/17/2023,Other,3733,wild,110175,Cape gannet,0,4,0,0,0,Western Cape
+HPAI_H5N1_2021_W_073,17.9,-33.0,10/18/2022,1/17/2023,Other,3733,wild,110175,Cape gannet,0,4,0,0,0,Western Cape
 HPAI_H5_GAU_2021_090,22.3,-33.7,7/21/2022,1/9/2023,Farm,3649,domestic,106775,Birds,0,3,573,0,0,Western Cape
 Csengele,19.8481,46.5393,11/26/2022,12/1/2022,Farm,4706,domestic,109885,Birds,0,0,6400,6400,0,Csongrád-Csanád
 Traspatio J H,-75.78221,8.97201,11/25/2022,2/22/2023,Backyard,4668,domestic,110571,Birds,10,14,30,20,0,Córdoba
@@ -80,14 +80,14 @@ Wörth am Rhein,8.3,49.06,3/1/2023,3/9/2023,Not applicable,4129,wild,115788,Lari
 Csengele,19.8176,46.5435,11/26/2022,12/1/2022,Farm,4706,domestic,109884,Birds,0,0,5432,5432,0,Csongrád-Csanád
 Baldeggersee,8.275,47.185,3/2/2023,12/31/1969,Body of water,4733,wild,115950,Black-headed Gull,3,3,0,0,0,Lucerne
 Traspatio D L,-75.7432,8.9622,11/22/2022,2/22/2023,Backyard,4668,domestic,109776,Birds,32,32,35,3,0,Córdoba
-HPAI_H5N1_2021_W_070,18.7,-34,7/27/2022,11/11/2022,Other,3733,wild,106225,Jackass Penguin;Common Tern,1,2,0,1,0,Western Cape
+HPAI_H5N1_2021_W_070,18.7,-34.0,7/27/2022,11/11/2022,Other,3733,wild,106225,Jackass Penguin;Common Tern,1,2,0,1,0,Western Cape
 Mainz,8.25,50.01,2/27/2023,12/31/1969,Not applicable,4129,wild,115787,Laridae (unidentified),1,1,0,0,0,Rheinland-Pfalz
 Forráskút,19.888786,46.35904,11/25/2022,11/29/2022,Farm,4706,domestic,109882,Birds,45,45,8260,8215,0,Csongrád-Csanád
 La Familia,-75.887126,9.304113,11/13/2022,2/22/2023,Backyard,4668,domestic,109448,Birds,6,6,37,31,0,Córdoba
 Kocabas,29.3012,37.8151,2/22/2023,12/31/1969,Farm,4878,domestic,114584,Birds,2000,30781,1390000,1388000,0,Denizli
 HPAI_H5_GAU_2021_092,28.6,-26.3,10/2/2022,12/28/2022,Farm,3649,domestic,107705,Birds,155,236,236,81,0,Gauteng
 HPAI_H5N1_2021_W_069,18.6,-33.8,6/13/2022,9/11/2022,Other,3733,wild,105051,Common Tern,0,1,0,1,0,Western Cape
-Mainz,8.27,50,2/21/2023,12/31/1969,Not applicable,4129,wild,115280,Laridae (unidentified),5,5,0,0,0,Rheinland-Pfalz
+Mainz,8.27,50.0,2/21/2023,12/31/1969,Not applicable,4129,wild,115280,Laridae (unidentified),5,5,0,0,0,Rheinland-Pfalz
 Szentes,20.294252,46.66445,11/8/2022,11/11/2022,Farm,4706,domestic,108864,Birds,89,89,9705,9616,0,Csongrád-Csanád
 Békéscsaba,21.069071,46.68616,3/5/2023,3/6/2023,Farm,4750,domestic,115572,Birds,111,111,300,189,0,Békés
 Asagihilal,29.9822,37.9066,1/30/2023,12/31/1969,Farm,4878,domestic,113361,Birds,97000,97000,2968005,2871005,0,Afyon
@@ -99,7 +99,7 @@ Lac Léman,6.642,46.504,3/1/2023,12/31/1969,Body of water,4733,wild,115949,Black
 Wolfstein,7.62,49.57,2/16/2023,12/31/1969,Backyard,4129,domestic,114540,Birds,7,12,12,5,0,Rheinland-Pfalz
 Újkígyós,21.028554,46.595656,3/5/2023,3/6/2023,Farm,4750,domestic,115571,Birds,109,109,270,161,0,Békés
 La Caimanera,-75.7406,9.0279,11/9/2022,2/22/2023,Backyard,4668,domestic,109782,Birds,50,61,61,11,0,Córdoba
-HPAI_H5_GAU_2021_088,30,-27.7,8/2/2022,11/15/2022,Farm,3649,domestic,106516,Birds,60,60,100,0,0,KwaZulu-Natal
+HPAI_H5_GAU_2021_088,30.0,-27.7,8/2/2022,11/15/2022,Farm,3649,domestic,106516,Birds,60,60,100,0,0,KwaZulu-Natal
 Szentes,20.325001,46.64707,11/2/2022,11/7/2022,Farm,4706,domestic,108651,Birds,1193,1193,8349,7156,0,Csongrád-Csanád
 Ermatingen,9.085,47.674,3/1/2023,12/31/1969,Other,4733,wild,115948,Black-headed Gull,1,1,0,0,0,Thurgau
 HPAI_H5N1_2021_W_063,19.1,-34.3,3/12/2022,6/13/2022,Other,3733,wild,99993,Common Tern,1,1,0,0,0,Western Cape
@@ -116,7 +116,7 @@ HPAI_H5_GAU_2021_095,24.5,-29.4,11/14/2022,12/31/1969,Farm,3649,domestic,109434,
 Wörth am Rhein,8.26,49.04,12/5/2022,12/31/1969,Backyard,4129,domestic,114538,Birds,0,13,97,97,0,Rheinland-Pfalz
 Nádudvar,21.156837,47.448133,12/30/2022,1/5/2023,Farm,4784,domestic,111409,Birds,1309,1309,10180,8871,0,Hajdú-Bihar
 Traspatio N G,-75.82981,9.0386,12/2/2022,2/22/2023,Backyard,4668,domestic,110576,Birds,1,1,6,5,0,Córdoba
-HPAI_H5_GAU_2021_094,31,-29.1,11/10/2022,12/31/1969,Farm,3649,domestic,109433,Birds,100,100,0,0,0,KwaZulu-Natal
+HPAI_H5_GAU_2021_094,31.0,-29.1,11/10/2022,12/31/1969,Farm,3649,domestic,109433,Birds,100,100,0,0,0,KwaZulu-Natal
 Hajdúszoboszló,21.170037,47.485876,12/24/2022,12/27/2022,Farm,4784,domestic,111408,Birds,20,20,5100,5080,0,Hajdú-Bihar
 HPAI_H5N1_2021_W_056,18.3,-32.6,12/16/2021,3/16/2022,Other,3733,wild,95399,Common Tern,0,1,0,1,0,Western Cape
 Tótkomlós,20.778503,46.437833,11/26/2022,11/29/2022,Farm,4750,domestic,109541,Birds,183,183,3080,2897,0,Békés
@@ -128,19 +128,19 @@ Csengele,19.9003,46.555,12/1/2022,12/5/2022,Farm,4706,domestic,110080,Birds,68,6
 Nádudvar,21.203237,47.47152,12/17/2022,12/22/2022,Farm,4784,domestic,110643,Birds,2175,2175,25812,23637,0,Hajdú-Bihar
 Traspatio G 12,-76.10431,9.20243,12/3/2022,2/22/2023,Backyard,4668,domestic,110575,Birds,3,3,21,18,0,Córdoba
 Limbach,7.79,50.7,12/5/2022,12/31/1969,Backyard,4129,domestic,114536,Birds,0,9,31,0,0,Rheinland-Pfalz
-HPAI_H5_GAU_2021_087,28,-26.6,4/18/2022,11/6/2022,Farm,3649,domestic,102777,Birds,42,42,157,0,0,Gauteng
+HPAI_H5_GAU_2021_087,28.0,-26.6,4/18/2022,11/6/2022,Farm,3649,domestic,102777,Birds,42,42,157,0,0,Gauteng
 Kräiligen,7.535,47.152,3/1/2023,12/31/1969,Other,4733,wild,115945,Black-headed Gull,0,1,0,1,0,Bern
 Csengele,19.8872,46.516,11/29/2022,12/1/2022,Farm,4706,domestic,110079,Birds,0,0,2000,2000,0,Csongrád-Csanád
 Traspatio V M,-75.7742,8.92001,12/2/2022,2/22/2023,Backyard,4668,domestic,110572,Birds,6,18,59,53,0,Córdoba
 HPAI_H5N1_2021_W_052,18.357,-33.5791,11/11/2021,2/9/2022,Other,3733,wild,93817,Great-winged petrel,0,1,0,1,0,Western Cape
 Marzhausen ,7.75,50.68,11/2/2022,12/15/2022,Backyard,4129,domestic,114535,Birds,1,2,19,18,0,Rheinland-Pfalz
-HPAI_H5_GAU_2021_055,21.6,-34,7/13/2021,10/3/2022,Farm,3649,domestic,91105,Birds,0,38,1438,0,0,Western Cape
+HPAI_H5_GAU_2021_055,21.6,-34.0,7/13/2021,10/3/2022,Farm,3649,domestic,91105,Birds,0,38,1438,0,0,Western Cape
 Karlsfeld,11.46,48.22,3/12/2023,3/12/2023,Not applicable,4026,wild,115725,Laridae (unidentified),1,1,0,0,0,Bayern
 Thalwil,8.569,47.296,2/28/2023,12/31/1969,Body of water,4733,wild,115467,Black-headed Gull,2,2,0,0,0,Zürich
 Wissen,7.78,50.75,10/31/2022,12/15/2022,Backyard,4129,domestic,114534,Birds,18,34,36,18,0,Rheinland-Pfalz
 Traspatio A G,-75.74728,8.94096,11/29/2022,2/22/2023,Backyard,4668,domestic,110569,Birds,20,25,200,180,0,Córdoba
-HPAI_H5N1_2021_W_047,17.9,-33,11/15/2021,6/18/2022,Other,3733,wild,92807,Cape cormorant;Common Tern,1500,1559,0,11,0,Western Cape
-HPAI_H5_GAU_2021_038,21.5,-34,6/13/2021,10/3/2022,Farm,3649,domestic,87573,Birds,0,16,784,0,0,Western Cape
+HPAI_H5N1_2021_W_047,17.9,-33.0,11/15/2021,6/18/2022,Other,3733,wild,92807,Cape cormorant;Common Tern,1500,1559,0,11,0,Western Cape
+HPAI_H5_GAU_2021_038,21.5,-34.0,6/13/2021,10/3/2022,Farm,3649,domestic,87573,Birds,0,16,784,0,0,Western Cape
 Csengele,19.835872,46.53438,11/29/2022,12/1/2022,Farm,4706,domestic,110078,Birds,5,5,5980,5975,0,Csongrád-Csanád
 Eching,12.01,48.49,2/28/2023,3/12/2023,Not applicable,4026,wild,115723,Cygnus (unidentified),1,1,0,0,0,Bayern
 Oberrieden,8.584,47.274,2/28/2023,12/31/1969,Body of water,4733,wild,115465,Black-headed Gull,1,1,0,0,0,Zürich
@@ -157,7 +157,7 @@ Kunčina,16.6383339,49.79255,3/2/2023,12/31/1969,Backyard,4836,domestic,115261,B
 Horgen,8.607,47.259,2/28/2023,12/31/1969,Body of water,4733,wild,115462,Black-headed Gull,4,4,0,0,0,Zürich
 HPAI_H5_GAU_2021_086,28.2,-26.3,3/14/2022,5/26/2022,Farm,3649,domestic,99987,Birds,96,96,216,0,0,Gauteng
 Traspatio I A,-75.7399,8.9557,11/28/2022,2/22/2023,Backyard,4668,domestic,109783,Birds,35,35,39,4,0,Córdoba
-HPAI_H5N1_2021_W_045,18,-32.8,9/15/2021,5/31/2022,Other,3733,wild,92620,Kelp Gull;Cape cormorant;Northern giant petrel ;Swift tern,206,235,0,30,0,Western Cape
+HPAI_H5N1_2021_W_045,18.0,-32.8,9/15/2021,5/31/2022,Other,3733,wild,92620,Kelp Gull;Cape cormorant;Northern giant petrel ;Swift tern,206,235,0,30,0,Western Cape
 Lány,13.95872,50.12788,1/24/2023,12/31/1969,Farm,4763,domestic,113725,Birds,103,103,10111,10008,0,Středočeský
 Krušovice,13.75708,50.17444,2/27/2023,12/31/1969,Backyard,4836,domestic,115260,Birds,8,8,72,64,0,Středočeský
 Teublitz,12.08,49.22,2/21/2023,3/1/2023,Not applicable,4026,wild,115275,Anatidae (unidentified),1,1,0,0,0,Bayern
@@ -165,7 +165,7 @@ Traspatio S 1,-75.93485,9.31407,11/14/2022,2/22/2023,Backyard,4668,domestic,1097
 Seck,8.031478,50.587882,11/17/2021,12/31/2021,Not applicable,4129,wild,95005,Ardeidae (unidentified),4,4,0,0,0,Rheinland-Pfalz
 Dietikon,8.419,47.401,2/28/2023,12/31/1969,Other,4733,wild,115460,Mute Swan,1,1,0,0,0,Zürich
 HPAI_H5_GAU_2021_089,30.5,-29.7,9/8/2022,12/31/1969,Farm,3649,domestic,106774,Birds,500,500,10000,7000,0,KwaZulu-Natal
-HPAI_H5N1_2021_W_043,18.3178,-32,10/6/2021,4/15/2022,Other,3733,wild,92316,Cape cormorant;Hartlaub's gull;Cape gannet,31,116,0,85,0,Western Cape
+HPAI_H5N1_2021_W_043,18.3178,-32.0,10/6/2021,4/15/2022,Other,3733,wild,92316,Cape cormorant;Hartlaub's gull;Cape gannet,31,116,0,85,0,Western Cape
 Nouzov,15.24601,50.2696,1/15/2023,12/31/1969,Farm,4763,domestic,113107,Birds,0,0,1885,1885,0,Středočeský
 Ács,17.98432,47.738884,3/3/2023,12/31/1969,Other,4834,domestic,115256,Birds,0,0,266,0,0,Komárom-Esztergom
 Herschbach,7.726,50.56377,11/17/2021,12/31/2021,Not applicable,4129,wild,95004,Ardeidae (unidentified),1,1,0,0,0,Rheinland-Pfalz
@@ -202,23 +202,23 @@ Rottenburg a.d. Laaber,12.01,48.72,2/19/2023,12/31/1969,Backyard,4026,domestic,1
 Traspatio Angel de la Rosa,-75.69858,8.9448,12/7/2022,2/22/2023,Backyard,4668,domestic,112663,Birds,20,20,30,10,0,Córdoba
 Frahelž,14.73399,49.11103,11/30/2022,12/31/1969,Farm,4763,domestic,109762,Birds,1235,1235,17797,16562,0,Jihočeský
 HPAI_H5N1_2021_W_036,18.4,-34.1,9/12/2021,6/20/2022,Not applicable,3733,wild,91117,Cape cormorant;Common Tern,1,2,0,1,0,Western Cape
-HPAI_H5_GAU_2021_080,28.3,-26,1/23/2022,7/12/2022,Farm,3649,domestic,96315,Birds,4345,4345,138000,133655,0,Gauteng
+HPAI_H5_GAU_2021_080,28.3,-26.0,1/23/2022,7/12/2022,Farm,3649,domestic,96315,Birds,4345,4345,138000,133655,0,Gauteng
 Omitama-City3,140.3526,36.2392,2/28/2023,2/28/2023,Not applicable,4634,wild,115829,Whooper Swan,1,1,0,0,0,Ibaraki
 Kunčice pod Ondřejníkem,18.25094,49.56018,12/22/2022,12/31/1969,Backyard,4836,domestic,113921,Birds,8,8,10,2,0,Moravskoslezský
 Littau,8.289,47.056,2/28/2023,12/31/1969,Other,4733,wild,115443,Black-headed Gull,1,1,0,0,0,Lucerne
 Stahlhofen am Wiesensee,7.9995,50.5865,11/8/2021,12/31/2021,Not applicable,4129,wild,95000,Ardeidae (unidentified);Anatidae (unidentified),3,3,0,0,0,Rheinland-Pfalz
 Krailling,11.42,48.1,2/13/2023,12/31/1969,Not applicable,4026,wild,114819,Anatidae (unidentified),1,1,0,0,0,Bayern
 Traspatio Leonar,-75.82724,9.04095,12/8/2022,2/27/2023,Backyard,4668,domestic,112665,Birds,5,46,77,72,0,Córdoba
-HPAI_H5_GAU_2021_065,28,-25.9,10/23/2021,7/10/2022,Farm,3649,domestic,92303,Birds,481,481,76212,75731,0,Gauteng
-HPAI_H5N1_2021_W_027,18.5,-34,6/30/2021,9/29/2021,Other,3733,wild,87723,Great White Pelican,1,1,0,0,0,Western Cape
+HPAI_H5_GAU_2021_065,28.0,-25.9,10/23/2021,7/10/2022,Farm,3649,domestic,92303,Birds,481,481,76212,75731,0,Gauteng
+HPAI_H5N1_2021_W_027,18.5,-34.0,6/30/2021,9/29/2021,Other,3733,wild,87723,Great White Pelican,1,1,0,0,0,Western Cape
 Naka-City2,140.4868,36.4574,2/26/2023,2/26/2023,Not applicable,4634,wild,115827,Whooper Swan,1,1,0,0,0,Ibaraki
 Rovečné,16.3634278,49.5736044,12/14/2022,12/31/1969,Backyard,4836,domestic,113922,Birds,15,15,22,7,0,Kraj Vysočina
 Hemishofen,8.818,47.685,2/26/2023,12/31/1969,Other,4733,wild,115442,Black-headed Gull,0,1,0,1,0,Schaffhausen
 Dreifelden,7.815946,50.599781,11/8/2021,12/31/2021,Not applicable,4129,wild,94999,Anatidae (unidentified),1,1,0,0,0,Rheinland-Pfalz
 Gauting,11.39,48.08,2/13/2023,12/31/1969,Not applicable,4026,wild,114818,Anatidae (unidentified),1,1,0,0,0,Bayern
 Los 4 Hermanos,-74.60512,8.454,12/7/2022,2/6/2023,Backyard,4668,domestic,110577,Birds,39,39,46,7,0,Sucre
-HPAI_H5_GAU_2021_063,21.4,-34,7/4/2021,6/7/2022,Farm,3649,domestic,91936,Birds,3,9,1648,0,0,Western Cape
-HPAI_H5N1_2021_W_023,18.5,-34,6/27/2021,9/27/2021,Other,3733,wild,87569,Great White Pelican,0,1,0,1,0,Western Cape
+HPAI_H5_GAU_2021_063,21.4,-34.0,7/4/2021,6/7/2022,Farm,3649,domestic,91936,Birds,3,9,1648,0,0,Western Cape
+HPAI_H5N1_2021_W_023,18.5,-34.0,6/27/2021,9/27/2021,Other,3733,wild,87569,Great White Pelican,0,1,0,1,0,Western Cape
 Ponědraž,14.7034028,49.1178978,12/8/2022,12/31/1969,Backyard,4836,domestic,113923,Birds,4,4,68,64,0,Jihočeský
 Dreifelden,7.82054,50.5941,11/5/2021,12/31/2021,Not applicable,4129,wild,93213,Pelecanidae (unidentified),1,1,0,0,0,Rheinland-Pfalz
 Komatsu-City1,136.4457,36.4087,2/26/2023,2/26/2023,Not applicable,4634,wild,115826,Peregrin falcon,1,1,0,0,0,Ishikawa
@@ -272,7 +272,7 @@ Gadebusch,11.11,53.68,1/19/2023,1/19/2023,Not applicable,4025,wild,114527,Cygnus
 Hinterzarten,8.09,47.9,3/8/2023,12/31/1969,Backyard,4101,domestic,115717,Birds,14,14,24,10,0,Baden-Württemberg
 La Sonrisa,-74.21695,10.562725,11/1/2022,1/19/2023,Backyard,4668,domestic,109453,Birds,56,56,72,16,0,Magdalena
 Kilchberg,8.551,47.323,2/22/2023,12/31/1969,Body of water,4733,wild,115434,Black-headed Gull,2,2,0,0,0,Zürich
-HPAI_H5_GAU_2021_079,28.3,-26,1/23/2022,4/11/2022,Farm,3649,domestic,96314,Birds,1601,1601,40000,17770,0,Gauteng
+HPAI_H5_GAU_2021_079,28.3,-26.0,1/23/2022,4/11/2022,Farm,3649,domestic,96314,Birds,1601,1601,40000,17770,0,Gauteng
 Kozojedy,15.3721733,50.3170756,1/1/2023,12/31/1969,Backyard,4836,domestic,113918,Birds,17,17,27,10,0,Královéhradecký
 Lancaster County,-76.321,40.062,2/10/2023,12/31/1969,Backyard,4309,domestic,115730,Birds,0,0,1700,1700,0,Pennsylvania
 Utsunomiya-City1,139.8825,36.5552,2/16/2023,2/16/2023,Not applicable,4634,wild,115820,Northern Goshawk,1,1,0,0,0,Tochigi
@@ -329,7 +329,7 @@ Unterengstringen,8.418,47.401,2/21/2023,12/31/1969,Other,4733,wild,114788,Mute S
 Úlibice,15.43612,50.43506,1/10/2023,12/31/1969,Backyard,4836,domestic,113914,Birds,16,16,29,13,0,Královéhradecký
 Otawara-City2,140.016,36.871,2/8/2023,2/8/2023,Not applicable,4634,wild,115677,Whooper Swan,1,1,0,0,0,Tochigi
 Neumünster,9.99,54.07,2/28/2023,3/5/2023,Not applicable,4012,wild,115182,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
-Freiburg im Breisgau,7.8,48,2/24/2023,3/7/2023,Not applicable,4101,wild,115711,Laridae (unidentified),1,1,0,0,0,Baden-Württemberg
+Freiburg im Breisgau,7.8,48.0,2/24/2023,3/7/2023,Not applicable,4101,wild,115711,Laridae (unidentified),1,1,0,0,0,Baden-Württemberg
 Patzig,13.39,54.46,11/30/2022,1/15/2023,Backyard,4025,domestic,111724,Birds,3,3,52,19,0,Mecklenburg-Vorpommern
 HPAI_H5N1_2021_W_004,18.5,-33.9,5/19/2021,8/17/2021,Other,3733,wild,86410,Hartlaub's gull,1,1,0,0,0,Western Cape
 Casa Habitación,-77.27843,8.512637,10/26/2022,1/17/2023,Backyard,4668,domestic,108554,Birds,2,2,14,12,0,Chocó
@@ -352,17 +352,17 @@ Myštice,13.9814736,49.4748283,1/3/2023,12/31/1969,Backyard,4836,domestic,113916
 Landschlacht,9.248,47.63,2/20/2023,12/31/1969,Body of water,4733,wild,114786,Black-headed Gull,2,2,0,0,0,Thurgau
 Sankt Margarethen,9.25,53.89,2/20/2023,2/23/2023,Not applicable,4012,wild,115180,Accipitridae (unidentified),1,1,0,0,0,Schleswig-Holstein
 Tome-City1,141.1877,38.6919,2/6/2023,2/6/2023,Not applicable,4634,wild,115675,Greater White-fronted Goose,1,1,0,0,0,Miyagi
-Karlsruhe,8.31,49,2/28/2023,12/31/1969,Not applicable,4101,wild,115709,Accipitridae (unidentified),0,1,0,1,0,Baden-Württemberg
+Karlsruhe,8.31,49.0,2/28/2023,12/31/1969,Not applicable,4101,wild,115709,Accipitridae (unidentified),0,1,0,1,0,Baden-Württemberg
 Beauharnois-Salaberry Regional County Municipality (QC-IP31),-73.87,45.26,2/8/2023,12/31/1969,Farm,4294,domestic,113878,Birds,5,5,2525,2520,0,Québec
 Veelböken,11.15,53.75,11/29/2022,2/9/2023,Backyard,4025,domestic,111720,Birds,5,5,88,83,0,Mecklenburg-Vorpommern
-HPAI_H5N1_2021_W_003,18.4,-34,5/18/2021,10/5/2022,Zoo,3733,wild,86497,Black-headed Heron;Blue-and-yellow Macaw;Secretary bird;Barn Owl (Common Barn-Owl);Wild turkey;Spotted eagle-owl,10,10,0,0,0,Western Cape
-HPAI_H5N1_2021_W_003,18.4,-34,5/18/2021,10/5/2022,Zoo,3733,domestic,86497,Birds,1,1,0,0,0,Western Cape
+HPAI_H5N1_2021_W_003,18.4,-34.0,5/18/2021,10/5/2022,Zoo,3733,wild,86497,Black-headed Heron;Blue-and-yellow Macaw;Secretary bird;Barn Owl (Common Barn-Owl);Wild turkey;Spotted eagle-owl,10,10,0,0,0,Western Cape
+HPAI_H5N1_2021_W_003,18.4,-34.0,5/18/2021,10/5/2022,Zoo,3733,domestic,86497,Birds,1,1,0,0,0,Western Cape
 Predio Los Dos Hermanos,-77.33544,8.542485,10/4/2022,1/17/2023,Farm,4668,wild,108011,Blue winged teal,0,0,2,2,0,Chocó
 Predio Los Dos Hermanos,-77.33544,8.542485,10/4/2022,1/17/2023,Farm,4668,domestic,108011,Birds,6,20,57,51,0,Chocó
 München,11.55,48.09,1/19/2023,2/14/2023,Not applicable,4026,wild,114792,Cygnus (unidentified);Anatidae (unidentified),7,12,0,5,0,Bayern
 Bucks County,-75.046,40.162,3/1/2023,12/31/1969,Backyard,4309,domestic,115380,Birds,0,0,1708,1708,0,Pennsylvania
 rybníky Písky,15.51782,50.16097,2/6/2023,12/31/1969,Forest,4836,wild,113731,Mute Swan,2,2,0,0,0,Královéhradecký
-HPAI_H5_GAU_2021_060,21.5,-34,7/14/2021,11/9/2021,Farm,3649,domestic,91342,Birds,0,1,757,0,0,Western Cape
+HPAI_H5_GAU_2021_060,21.5,-34.0,7/14/2021,11/9/2021,Farm,3649,domestic,91342,Birds,0,1,757,0,0,Western Cape
 Luzern,8.314,47.047,2/20/2023,12/31/1969,Other,4733,wild,114785,Black-headed Gull,0,1,0,1,0,Lucerne
 Omitama-City1,140.3526,36.2392,2/5/2023,2/5/2023,Not applicable,4634,wild,115674,Whooper Swan,1,1,0,0,0,Ibaraki
 Schwentinental,10.23,54.29,2/9/2023,2/23/2023,Not applicable,4012,wild,115179,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
@@ -389,11 +389,11 @@ Zug,8.512,47.164,2/17/2023,12/31/1969,Body of water,4733,wild,114783,Black-heade
 Weakley County,-88.706,36.286,12/14/2022,12/31/1969,Backyard,4309,domestic,110846,Birds,0,0,28766,28766,0,Tennessee
 HPAI_H5_GAU_2021_061,32.1,-28.4,10/3/2021,1/30/2022,Farm,3649,domestic,91934,Birds,100,300,650,250,0,KwaZulu-Natal
 Fertőd,16.94223,47.69035,2/26/2023,2/27/2023,Forest,4070,wild,115160,Mute Swan,1,1,0,0,0,Győr-Moson-Sopron
-Karlsruhe,8.41,49,2/22/2023,12/31/1969,Not applicable,4101,wild,115215,Accipitridae (unidentified),1,1,0,0,0,Baden-Württemberg
+Karlsruhe,8.41,49.0,2/22/2023,12/31/1969,Not applicable,4101,wild,115215,Accipitridae (unidentified),1,1,0,0,0,Baden-Württemberg
 Kobe-City1,135.1957,34.6895,2/1/2023,2/1/2023,Not applicable,4634,wild,115672,Large-billed Crow,1,1,0,0,0,Hyōgo
 Lütjensee,10.374,53.655,2/19/2023,2/26/2023,Not applicable,4012,wild,115177,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
 Neuburg a.d. Donau,11.138084,48.73536,12/28/2021,5/22/2022,Not applicable,4026,wild,95013,Anatidae (unidentified),1,1,0,0,0,Bayern
-HPAI_H5N1_2021_W_066,28,-26.5,5/22/2022,7/10/2022,Farm,3733,domestic,103826,Birds,20,20,20,0,0,Gauteng
+HPAI_H5N1_2021_W_066,28.0,-26.5,5/22/2022,7/10/2022,Farm,3733,domestic,103826,Birds,20,20,20,0,0,Gauteng
 Zurow,11.63,53.84,11/28/2022,2/9/2023,Backyard,4025,domestic,111715,Birds,1,3,338,325,0,Mecklenburg-Vorpommern
 Parcela Franklyn,-77.3341,8.543815,10/21/2022,1/17/2023,Farm,4668,domestic,108315,Birds,18,18,88,70,0,Chocó
 Municipality of Lambton Shores (ON-IP41),-81.8,43.06,12/11/2022,2/5/2023,Farm,4294,domestic,110581,Birds,319,319,27641,27322,0,Ontario
@@ -439,7 +439,7 @@ Seefeld,8.541,47.366,2/13/2023,12/31/1969,Body of water,4733,wild,114371,Black-h
 Penelles,0.969229724,41.719599,2/16/2023,12/31/1969,Other,4928,wild,115561,White Stork;Greylag Goose,2,4,0,0,0,Cataluña
 Otsu-City1,135.8547,35.0183,1/22/2023,1/22/2023,Not applicable,4634,wild,115668,Carrion Crow,1,1,0,0,0,Shiga
 City of Delta (BC-IP91),-123.18,49.09,12/13/2022,2/21/2023,Backyard,4294,domestic,111472,Birds,45,45,45,0,0,British Columbia
-HPAI_H5_GAU_2021_070,28,-26.6,10/25/2021,3/3/2022,Farm,3649,domestic,92608,Birds,3700,3700,4500,834,0,Gauteng
+HPAI_H5_GAU_2021_070,28.0,-26.6,10/25/2021,3/3/2022,Farm,3649,domestic,92608,Birds,3700,3700,4500,834,0,Gauteng
 Miami-Dade County,-80.197,25.788,2/22/2023,12/31/1969,Other,4309,domestic,114831,Birds,0,0,505,505,0,Florida
 Heidelberg,8.66,49.41,2/28/2023,12/31/1969,Not applicable,4101,wild,115210,Laridae (unidentified),1,1,0,0,0,Baden-Württemberg
 Weichering,11.3384,48.6889,1/18/2022,5/22/2022,Not applicable,4026,wild,96705,Anatidae (unidentified),1,1,0,0,0,Bayern
@@ -471,7 +471,7 @@ Lancaster County,-76.307,40.041,1/26/2023,12/31/1969,Farm,4309,domestic,113478,B
 Sarród,16.8888,47.6839,2/19/2023,2/20/2023,Forest,4070,wild,114851,Mute Swan,3,3,0,0,0,Győr-Moson-Sopron
 HPAI_H5N1_2021_W_059,28.4,-26.3,1/9/2022,3/3/2022,Other,3733,domestic,96318,Birds,50,50,90,0,0,Gauteng
 Lüssow,12.16,53.83,11/25/2022,2/1/2023,Backyard,4025,domestic,111694,Birds,15,15,45,30,0,Mecklenburg-Vorpommern
-Le Haut-Saint-Laurent Regional County Municipality (QC-IP30),-74,45.09,2/5/2023,12/31/1969,Farm,4294,domestic,113877,Birds,16,16,12000,11984,0,Québec
+Le Haut-Saint-Laurent Regional County Municipality (QC-IP30),-74.0,45.09,2/5/2023,12/31/1969,Farm,4294,domestic,113877,Birds,16,16,12000,11984,0,Québec
 Wollishofen,8.536,47.338,2/12/2023,12/31/1969,Other,4733,wild,114169,Eurasian buzzard (common buzzard),0,1,0,1,0,Zürich
 Getxo,-3.012,43.344,2/4/2023,12/31/1969,Other,4928,wild,115155,Black-headed Gull,1,1,0,0,0,País Vasco
 Toyama-City2,137.2136,36.6958,1/22/2023,1/22/2023,Not applicable,4634,wild,115665,Peregrin falcon,1,1,0,0,0,Toyama
@@ -506,7 +506,7 @@ Duderstadt,10.31,51.55,2/12/2023,2/12/2023,Backyard,4023,domestic,115164,Birds,6
 Nordermeldorf,9.01,54.1,1/12/2023,1/24/2023,Not applicable,4012,wild,115168,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
 HPAI_H5_GAU_2021_042,30.5,-29.7,7/18/2021,11/24/2021,Farm,3649,domestic,87903,Birds,200,200,59257,59257,0,KwaZulu-Natal
 Iffezheim,8.11,48.83,2/15/2023,12/31/1969,Not applicable,4101,wild,115204,Laridae (unidentified),1,1,0,0,0,Baden-Württemberg
-Waldsassen,12.29,50,1/1/2023,2/5/2023,Backyard,4026,domestic,112862,Birds,32,32,144,112,0,Bayern
+Waldsassen,12.29,50.0,1/1/2023,2/5/2023,Backyard,4026,domestic,112862,Birds,32,32,144,112,0,Bayern
 Ward County,-101.297,48.282,11/4/2022,3/8/2023,Backyard,4309,domestic,108848,Birds,10,0,22,12,0,North Dakota
 Fertőd,16.9459,47.6909,2/12/2023,2/13/2023,Forest,4070,wild,114267,Mute Swan,4,4,0,0,0,Győr-Moson-Sopron
 Rambin,13.234,54.346,11/28/2022,2/9/2023,Backyard,4025,domestic,111689,Birds,2,2,61,48,0,Mecklenburg-Vorpommern
@@ -518,7 +518,7 @@ Torb Sdarch village,105.407199,11.362982,2/23/2023,12/31/1969,Not applicable,494
 Beauharnois-Salaberry Regional County Municipality (QC-IP29),-74.05,45.18,2/5/2023,12/31/1969,Farm,4294,domestic,113876,Birds,10,10,7012,7002,0,Québec
 Rosengarten,9.9,53.43,1/30/2023,12/31/1969,Backyard,4023,domestic,115163,Birds,2,2,55,53,0,Niedersachsen
 Negenharrie,10.07,54.14,1/15/2023,2/23/2023,Backyard,4012,domestic,113785,Birds,26,26,80,54,0,Schleswig-Holstein
-Freiburg im Breisgau,7.8,48,2/18/2023,2/26/2023,Not applicable,4101,wild,115203,Anatidae (unidentified),1,1,0,0,0,Baden-Württemberg
+Freiburg im Breisgau,7.8,48.0,2/18/2023,2/26/2023,Not applicable,4101,wild,115203,Anatidae (unidentified),1,1,0,0,0,Baden-Württemberg
 Klingenberg a. Main,9.17,49.78,1/22/2023,1/22/2023,Not applicable,4026,wild,112869,Accipitridae (unidentified),1,1,0,0,0,Bayern
 HPAI_H5_GAU_2021_031,25.4,-33.9,6/13/2021,12/20/2021,Backyard,3649,domestic,87044,Birds,30,30,32,0,0,Eastern Cape
 Tápióság,19.6353,47.40131,2/16/2023,2/17/2023,Forest,4070,wild,114269,Eurasian Collared-Dove,1,1,0,0,0,Pest
@@ -538,7 +538,7 @@ Fertőd,16.9476,47.691,1/18/2023,1/19/2023,Forest,4070,wild,113910,Mute Swan,3,3
 Klütz,11.12,53.95,11/25/2022,2/9/2023,Backyard,4025,domestic,111686,Birds,3,4,161,108,0,Mecklenburg-Vorpommern
 Lancaster County,-76.3694,40.0542,2/19/2023,12/31/1969,Backyard,4309,domestic,115375,Birds,0,0,6000,0,0,Pennsylvania
 Seefeld,8.542,47.368,2/12/2023,12/31/1969,Body of water,4733,wild,114163,Black-headed Gull,2,2,0,0,0,Zürich
-HPAI_H5N1_2021_W_011,23.2,-34,6/2/2021,1/11/2022,Other,3733,wild,86621,Black Swan,6,6,55,0,0,Western Cape
+HPAI_H5N1_2021_W_011,23.2,-34.0,6/2/2021,1/11/2022,Other,3733,wild,86621,Black Swan,6,6,55,0,0,Western Cape
 Orio,-2.1246,43.2744,1/8/2023,12/31/1969,Other,4928,wild,114713,Black-headed Gull,3,3,0,0,0,País Vasco
 Herzberg am Harz,10.31,51.64,1/29/2023,2/12/2023,Not applicable,4023,wild,115161,Cygnus (unidentified);Anatidae (unidentified),1,2,0,1,0,Niedersachsen
 Shimotsuke-City1,139.8519,36.3953,1/17/2023,1/17/2023,Not applicable,4634,wild,115660,Eastern Buzzard,1,1,0,0,0,Tochigi
@@ -572,7 +572,7 @@ Morioka-City1,141.1545,39.702,1/16/2023,1/16/2023,Not applicable,4634,wild,11565
 Elmenhorst,10.28,53.76,1/29/2023,2/6/2023,Not applicable,4012,wild,113790,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
 Laupheim,9.87,48.24,2/14/2023,2/19/2023,Not applicable,4101,wild,115199,Accipitridae (unidentified),1,1,0,0,0,Baden-Württemberg
 Karlsfeld,11.46,48.22,12/30/2022,1/4/2023,Not applicable,4026,wild,112866,Anatidae (unidentified),0,1,0,1,0,Bayern
-HPAI_H5_GAU_2021_050,27.9,-26,8/15/2021,9/29/2021,Farm,3649,domestic,89142,Birds,50,50,600,0,0,Gauteng
+HPAI_H5_GAU_2021_050,27.9,-26.0,8/15/2021,9/29/2021,Farm,3649,domestic,89142,Birds,50,50,600,0,0,Gauteng
 Újkígyós,21.041973,46.56789,1/15/2023,1/16/2023,Forest,4070,wild,112393,Mallard,1,1,0,0,0,Békés
 Rural Municipality of Laird No. 404 (SK-IP17),-106.84,52.63,9/16/2022,1/8/2023,Farm,4294,domestic,107051,Birds,68,68,50400,50332,0,Saskatchewan
 Krems-Land,15.747302,48.40189,3/11/2023,3/14/2023,Not applicable,4710,wild,115898,Mute Swan,1,1,0,0,0,Niederösterreich
@@ -586,7 +586,7 @@ Dagebüll,8.69,54.73,1/11/2023,1/24/2023,Not applicable,4012,wild,113789,Laridae
 Shirahama-Town1,135.3479,33.6782,11/12/2022,11/14/2022,Zoo,4634,wild,115657,Great White Pelican,0,2,5,5,0,Wakayama
 Lincoln County,-100.751,41.134,2/23/2023,12/31/1969,Not applicable,4451,wild,115595,Striped Skunk,1,1,0,0,0,Nebraska
 Burglengenfeld,12.04,49.2,12/28/2022,1/3/2023,Not applicable,4026,wild,112865,Cygnus (unidentified),1,1,0,0,0,Bayern
-HPAI_H5_GAU_2021_067,19,-33.7,10/16/2021,12/23/2021,Farm,3649,domestic,92309,Birds,200,300,353482,160000,0,Western Cape
+HPAI_H5_GAU_2021_067,19.0,-33.7,10/16/2021,12/23/2021,Farm,3649,domestic,92309,Birds,200,300,353482,160000,0,Western Cape
 Győrtelek,22.44036,47.93568,1/1/2023,1/4/2023,Forest,4070,wild,111740,Mute Swan,2,2,0,0,0,Szabolcs-Szatmár-Bereg
 Wien,16.46575,48.1746,3/8/2023,3/12/2023,Not applicable,4710,wild,115893,Falconidae (unidentified),1,1,0,0,0,Wien
 Le Haut-Saint-Laurent Regional County Municipality (QC-IP24),-74.07,45.13,1/27/2023,12/31/1969,Farm,4294,domestic,113480,Birds,300,300,12141,11841,0,Québec
@@ -601,7 +601,7 @@ Weilbach,9.176,49.673,11/9/2022,1/12/2023,Backyard,4026,domestic,110778,Birds,4,
 Marugame-City1,133.7985,34.29,11/6/2022,11/6/2022,Other,4634,wild,115656,Mute Swan,1,1,0,0,0,Kagawa
 Itzehoe,9.48,53.93,1/19/2023,1/24/2023,Not applicable,4012,wild,113788,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
 Gescher,7.01,51.96,3/9/2023,3/12/2023,Not applicable,4128,wild,115738,Anatidae (unidentified),2,2,0,0,0,Nordrhein-Westfalen
-HPAI_H5_GAU_2021_030,18.7,-34,6/1/2021,1/19/2022,Backyard,3649,domestic,86806,Birds,2,2,17,0,0,Western Cape
+HPAI_H5_GAU_2021_030,18.7,-34.0,6/1/2021,1/19/2022,Backyard,3649,domestic,86806,Birds,2,2,17,0,0,Western Cape
 Sárospatak,21.57724,48.319003,1/1/2023,1/2/2023,Forest,4070,wild,111433,Mute Swan,2,2,0,0,0,Borsod-Abaúj-Zemplén
 Villach-Land,13.872991,46.570331,3/2/2023,3/14/2023,Not applicable,4710,wild,115887,Eurasian Sparrowhawk,1,1,0,0,0,Kärnten
 Dargun,12.79,53.86,12/6/2022,12/31/1969,Backyard,4025,domestic,111753,Birds,0,2,156,21,0,Mecklenburg-Vorpommern
@@ -617,7 +617,7 @@ Coesfeld,7.08,51.91,3/6/2023,3/9/2023,Not applicable,4128,wild,115737,Anatidae (
 Schalkham,12.469,48.465,11/9/2022,12/11/2022,Zoo,4026,domestic,110776,Birds,4,4,107,103,0,Bayern
 Kollmar,9.449,53.737,1/15/2023,1/24/2023,Not applicable,4012,wild,113787,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
 Nyíregyháza,21.71473,47.97445,12/11/2022,12/12/2022,Forest,4070,wild,110695,Rook,1,1,0,0,0,Szabolcs-Szatmár-Bereg
-HPAI_H5_GAU_2021_036,18.5,-34,6/20/2021,1/17/2022,Farm,3649,domestic,87571,Birds,80,80,89,0,0,Western Cape
+HPAI_H5_GAU_2021_036,18.5,-34.0,6/20/2021,1/17/2022,Farm,3649,domestic,87571,Birds,80,80,89,0,0,Western Cape
 Salzburg-Umgebung,13.208764,47.943278,3/6/2023,3/13/2023,Not applicable,4710,wild,115886,Black-headed Gull,1,1,0,0,0,Salzburg
 Hagenow,11.2,53.42,12/3/2022,12/31/1969,Backyard,4025,domestic,111751,Birds,2,3,54,52,0,Mecklenburg-Vorpommern
 Fraser Valley,-122.1305,49.105,10/11/2022,12/31/1969,Farm,4294,domestic,109542,Birds,58451,58451,3425665,3367214,0,British Columbia
@@ -635,8 +635,8 @@ Siófok,18.045248,46.899108,5/29/2022,5/30/2022,Forest,4070,wild,103973,Eurasian
 Salzburg-Umgebung,13.070565,47.942139,3/6/2023,3/13/2023,Not applicable,4710,wild,115884,Black-headed Gull,2,2,0,0,0,Salzburg
 HPAI_H5_GAU_2021_066,31.4,-28.8,10/1/2021,1/13/2022,Farm,3649,domestic,92306,Birds,272,310,664,392,0,KwaZulu-Natal
 Brunow,11.8,53.26,12/1/2022,12/31/1969,Backyard,4025,domestic,111749,Birds,1,2,40,39,0,Mecklenburg-Vorpommern
-HPAI_H5N1_2021_W_035,27.8,-26,8/15/2021,2/10/2022,Other,3733,wild,89151,Hadada Ibis,1,1,0,0,0,Gauteng
-Bösel,7.99,53,1/11/2023,1/18/2023,Not applicable,4023,wild,115146,Anatidae (unidentified),0,3,0,3,0,Niedersachsen
+HPAI_H5N1_2021_W_035,27.8,-26.0,8/15/2021,2/10/2022,Other,3733,wild,89151,Hadada Ibis,1,1,0,0,0,Gauteng
+Bösel,7.99,53.0,1/11/2023,1/18/2023,Not applicable,4023,wild,115146,Anatidae (unidentified),0,3,0,3,0,Niedersachsen
 Izumi-City68,130.3532,32.0906,1/8/2023,1/8/2023,Not applicable,4634,wild,115248,Hooded crane,5,5,0,0,0,Kagoshima
 Mountain View County (AB-IP60),-113.81,51.68,11/15/2022,11/27/2022,Backyard,4294,domestic,109459,Birds,156,156,162,6,0,Alberta
 Basel-Stadt,7.584,47.563,2/5/2023,12/31/1969,Other,4733,wild,114156,Black-headed Gull,1,1,0,0,0,Basel-Stadt
@@ -705,7 +705,7 @@ Tulln,16.340328,48.300111,2/26/2023,3/12/2023,Not applicable,4710,wild,115833,Gr
 Yamagata-City2,140.3395,38.2552,1/12/2023,1/12/2023,Not applicable,4634,wild,115244,Large-billed Crow,2,2,0,0,0,Yamagata
 HPAI_H5N1_2021_W_030,28.3,-25.6,5/16/2021,2/10/2022,Other,3733,wild,89146,Egyptian Goose,0,3,0,0,0,Gauteng
 Ebensfeld,10.955,50.064,3/23/2022,4/28/2022,Not applicable,4026,wild,100660,Ciconiidae (unidentified),1,1,0,0,0,Bayern
-Bützow,12,53.84,11/29/2022,12/31/1969,Backyard,4025,domestic,111722,Birds,3,3,92,89,0,Mecklenburg-Vorpommern
+Bützow,12.0,53.84,11/29/2022,12/31/1969,Backyard,4025,domestic,111722,Birds,3,3,92,89,0,Mecklenburg-Vorpommern
 Dég,18.491045,46.865448,2/14/2022,2/15/2022,Forest,4070,wild,97950,White-tailed Eagle,1,1,0,0,0,Fejér
 Rural Municipality of Hoodoo No. 401 (SK-IP27),-105.72,52.49,10/17/2022,12/19/2022,Farm,4294,domestic,108172,Birds,3400,3400,17500,14100,0,Saskatchewan
 Merrimack County,-71.54,43.214,9/17/2022,2/28/2023,Backyard,4309,domestic,107085,Birds,235,0,245,10,0,New Hampshire
@@ -753,7 +753,7 @@ Wittendörp,11.15,53.5,11/28/2022,12/31/1969,Backyard,4025,domestic,111718,Birds
 Moosburg a.d. Isar,11.956,48.474,3/30/2022,5/26/2022,Not applicable,4026,wild,101604,Cygnus (unidentified),1,1,0,0,0,Bayern
 Gelsenkirchen,7.06,51.56,2/16/2023,12/31/1969,Not applicable,4128,wild,115034,Anatidae (unidentified),4,4,0,0,0,Nordrhein-Westfalen
 Wien,16.462995,48.173888,2/27/2023,3/2/2023,Not applicable,4710,wild,115129,Black-headed Gull,1,1,0,0,0,Wien
-HPAI_H5N1_2021_W_025,28,-26,6/28/2021,8/3/2021,Zoo,3733,wild,87720,Pink-backed Pelican;Brown Pelican,2,2,0,0,0,Gauteng
+HPAI_H5N1_2021_W_025,28.0,-26.0,6/28/2021,8/3/2021,Zoo,3733,wild,87720,Pink-backed Pelican;Brown Pelican,2,2,0,0,0,Gauteng
 Władysławowo					,18.3989,54.79591,2/22/2023,3/2/2023,Not applicable,4063,wild,115095,Mallard,1,1,0,0,0,Pomorskie
 Eddelak,9.13,53.94,11/14/2022,11/23/2022,Not applicable,4012,wild,113752,Accipitridae (unidentified),1,1,0,0,0,Schleswig-Holstein
 Nyergesújfalu,18.559258,47.762109,1/30/2022,1/31/2022,Forest,4070,wild,96469,Greater White-fronted Goose,1,1,0,0,0,Komárom-Esztergom
@@ -793,7 +793,7 @@ Tata,18.33,47.640833,1/30/2022,1/31/2022,Forest,4070,wild,96467,Caspian Gull,1,1
 Weakley County,-88.727,36.285,12/23/2022,12/31/1969,Farm,4309,domestic,111391,Birds,0,0,18980,18980,0,Tennessee
 City of Summerland (BC-IP95),-119.7,49.6,12/16/2022,12/31/1969,Backyard,4294,domestic,111473,Birds,30,30,112,82,0,British Columbia
 HPAI_H5_GAU_2021_049,30.5,-29.7,8/8/2021,10/14/2021,Farm,3649,domestic,88767,Birds,21,21,4500,4729,0,KwaZulu-Natal
-Freiburg im Breisgau,7.8,48,2/1/2023,12/31/1969,Not applicable,4101,wild,114049,Cygnus (unidentified),1,1,0,0,0,Baden-Württemberg
+Freiburg im Breisgau,7.8,48.0,2/1/2023,12/31/1969,Not applicable,4101,wild,114049,Cygnus (unidentified),1,1,0,0,0,Baden-Württemberg
 Basel-Stadt,7.5768,47.5464,1/15/2023,12/31/1969,Zoo,4733,wild,112712,Grey Heron,1,1,0,0,0,Basel-Stadt
 Boulder County,-105.278,40.019,1/24/2023,12/31/1969,Not applicable,4451,wild,113939,Puma,1,1,0,0,0,Colorado
 Wittmund,7.777,53.53,9/20/2022,10/23/2022,Backyard,4023,domestic,107232,Birds,10,16,44,34,0,Niedersachsen
@@ -902,7 +902,7 @@ Leonberg,9.01,48.79,1/18/2023,2/5/2023,Not applicable,4101,wild,114043,Anatidae 
 Landskrona,12.929831,55.835557,1/22/2023,1/22/2023,Other,4833,wild,115116,Eurasian buzzard (common buzzard),1,1,0,0,0,Landskrona
 Madison County,-111.774,43.823,9/19/2022,12/31/1969,Not applicable,4451,wild,113754,Red Fox,0,1,0,1,0,Idaho
 Peißenberg,11.055493,47.7837,12/20/2021,1/25/2022,Not applicable,4026,wild,95011,Laridae (unidentified),1,1,0,0,0,Bayern
-Tulln,16,48.32,2/14/2023,2/16/2023,Not applicable,4710,wild,114331,Mute Swan,1,1,0,0,0,Niederösterreich
+Tulln,16.0,48.32,2/14/2023,2/16/2023,Not applicable,4710,wild,114331,Mute Swan,1,1,0,0,0,Niederösterreich
 Demmin,13.02,53.91,11/27/2022,12/31/1969,Backyard,4025,domestic,111703,Birds,4,4,10,6,0,Mecklenburg-Vorpommern
 Anderson County,-95.249,38.288,12/13/2022,12/31/1969,Other,4309,domestic,111944,Birds,0,0,8936,8936,0,Kansas
 Watlington King’s Lynn and West Norfolk,0.42,52.69,10/8/2022,2/2/2023,Farm,4644,domestic,107664,Birds,1109,1747,33295,32186,0,England
@@ -983,7 +983,7 @@ Cerknica,14.3624,45.7677,2/20/2023,2/22/2023,Body of water,4825,wild,114583,Mute
 Reußenköge,8.814,54.6,9/28/2022,11/9/2022,Not applicable,4012,wild,109352,Anatidae (unidentified);Laridae (unidentified),3,3,0,0,0,Schleswig-Holstein
 Hemmoor,9.15,53.7,12/5/2022,12/8/2022,Not applicable,4023,wild,111871,Cygnus (unidentified),1,1,0,0,0,Niedersachsen
 Bergheim,6.68,50.93,1/16/2023,2/27/2023,Zoo,4128,domestic,112662,Birds,11,11,36,25,0,Nordrhein-Westfalen
-HPAI_H5_GAU_2021_020,29.9,-28,5/22/2021,10/11/2021,Farm,3649,domestic,86110,Birds,3760,3760,180000,112557,0,KwaZulu-Natal
+HPAI_H5_GAU_2021_020,29.9,-28.0,5/22/2021,10/11/2021,Farm,3649,domestic,86110,Birds,3760,3760,180000,112557,0,KwaZulu-Natal
 Lancaster,-76.329,40.043,2/16/2023,12/31/1969,Backyard,4309,domestic,114826,Birds,0,0,2002,2002,0,Pennsylvania
 Barnes Greater London,-0.23,51.47,10/10/2022,2/28/2023,Other,4643,wild,107793,Grey Heron;Mute Swan;Black-headed Gull;Canada Goose,17,17,0,0,0,England
 Madison County,-97.455,41.844,1/9/2023,12/31/1969,Backyard,4451,domestic,112347,Cats,0,2,0,2,0,Nebraska
@@ -995,7 +995,7 @@ Eggenstein-Leopoldshafen,8.382,49.078,4/25/2022,4/27/2022,Not applicable,4101,wi
 Pszczonów,19.9661855,51.9615394,2/25/2023,12/31/1969,Backyard,4793,domestic,115073,Birds,21,27,27,6,0,Łódzkie
 Cumnock East Ayrshire ,-4.43,55.44,11/1/2022,12/20/2022,Farm,4644,domestic,108808,Birds,1547,4642,31140,29593,0,Scotland
 Furth im Wald,12.85,49.29,10/19/2021,10/24/2021,Forest,4026,wild,91956,Anatidae (unidentified),0,1,0,1,0,Bayern
-Wittendörp,11,53.5,11/26/2022,12/31/1969,Backyard,4025,domestic,111697,Birds,2,2,99,97,0,Mecklenburg-Vorpommern
+Wittendörp,11.0,53.5,11/26/2022,12/31/1969,Backyard,4025,domestic,111697,Birds,2,2,99,97,0,Mecklenburg-Vorpommern
 Rural Municipality of Fertile Belt No. 183  (SK-IP30),-102.29,50.66,10/21/2022,11/3/2022,Backyard,4294,domestic,108411,Birds,48,48,64,16,0,Saskatchewan
 Takamatsu-City1,134.0464,34.3428,12/2/2022,12/2/2022,Not applicable,4634,wild,113437,Mute Swan,1,1,0,0,0,Kagawa
 Cerknica,14.3623,45.768,2/19/2023,2/22/2023,Body of water,4825,wild,114582,Mute Swan,2,2,0,0,0,Notranjsko-kraška
@@ -1039,7 +1039,7 @@ Lendava,16.4381,46.5317,2/15/2023,2/20/2023,Body of water,4825,wild,114580,Mute 
 Krummhörn,7.09,53.5,11/15/2022,12/6/2022,Not applicable,4023,wild,111868,Accipitridae (unidentified),1,1,0,0,0,Niedersachsen
 Großhansdorf,10.271,53.65,7/21/2022,7/26/2022,Not applicable,4012,wild,105429,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
 Stanghow North Yorkshire,-0.96,54.51,11/9/2022,2/27/2023,Other,4643,wild,109063,Canada Goose;Eurasian buzzard (common buzzard);Greylag Goose;Mute Swan,8,8,0,0,0,England
-Lemgo,8.95,52,12/4/2022,1/6/2023,Backyard,4128,domestic,112658,Birds,1,1,9,8,0,Nordrhein-Westfalen
+Lemgo,8.95,52.0,12/4/2022,1/6/2023,Backyard,4128,domestic,112658,Birds,1,1,9,8,0,Nordrhein-Westfalen
 Romanów,18.369,51.627,12/18/2022,1/19/2023,Farm,4793,domestic,110828,Birds,292,6714,6714,6422,0,Łódzkie
 Orleans County,-78.193,43.249,3/29/2022,9/6/2022,Backyard,4309,domestic,101569,Birds,29,0,31,2,0,New York
 HPAI_H5_GAU_2021_052,18.8,-33.9,8/8/2021,10/3/2021,Farm,3649,domestic,89144,Birds,104,109,6500,3896,0,Western Cape
@@ -1071,8 +1071,8 @@ Kungsbacka,12.096811,57.361206,1/9/2023,1/9/2023,Other,4833,wild,113758,Barnacle
 Debrecen,21.6847,47.4527,11/28/2021,11/29/2021,Forest,4070,wild,94096,Mute Swan,1,1,0,0,0,Hajdú-Bihar
 Westhausen,10.21,48.888,3/18/2022,4/14/2022,Not applicable,4101,wild,100275,Anatidae (unidentified),1,1,0,0,0,Baden-Württemberg
 Rural Municipality of Lumsden No. 189 (SK-IP23),-104.82,50.7,10/4/2022,11/25/2022,Farm,4294,domestic,107554,Birds,354,354,47373,47019,0,Saskatchewan
-Demmin,13,53.93,11/26/2022,12/31/1969,Backyard,4025,domestic,111665,Birds,5,5,11,6,0,Mecklenburg-Vorpommern
-Audlem East Cheshire ,-2.39,53,10/11/2022,1/19/2023,Farm,4644,domestic,107997,Birds,1600,2560,90000,88400,0,England
+Demmin,13.0,53.93,11/26/2022,12/31/1969,Backyard,4025,domestic,111665,Birds,5,5,11,6,0,Mecklenburg-Vorpommern
+Audlem East Cheshire ,-2.39,53.0,10/11/2022,1/19/2023,Farm,4644,domestic,107997,Birds,1600,2560,90000,88400,0,England
 Stutsman County,-98.754,46.893,4/4/2022,9/8/2022,Backyard,4309,domestic,101600,Birds,0,0,38,38,0,North Dakota
 Raheen,-8.58134,52.6767,2/9/2023,12/31/1969,Other,4735,wild,114369,Black-headed Gull,0,1,0,0,0,Limerick
 Iwata-City1,137.8515,34.7179,12/25/2022,12/25/2022,Not applicable,4634,wild,113456,Mallard,1,1,0,0,0,Shizuoka
@@ -1085,7 +1085,7 @@ Verona,10.973655,45.431668,2/21/2023,12/31/1969,Natural park,4640,wild,115785,Bl
 Linz,14.26,48.31,2/5/2023,2/8/2023,Not applicable,4710,wild,114031,Chaffinch,1,1,0,0,0,Oberösterreich
 CODLEA,25.45778,45.735558,2/1/2023,2/2/2023,Natural park,4730,wild,113440,Mallard,1,1,0,0,0,Brașov
 Kaniwola,23.002,51.364,12/14/2022,1/25/2023,Farm,4793,domestic,110825,Birds,20722,39644,39644,18922,0,Lubelskie
-HPAI_H5_GAU_2021_027,22.3,-34,6/4/2021,9/6/2021,Farm,3649,domestic,86622,Birds,149,149,181704,177597,0,Western Cape
+HPAI_H5_GAU_2021_027,22.3,-34.0,6/4/2021,9/6/2021,Farm,3649,domestic,86622,Birds,149,149,181704,177597,0,Western Cape
 Playa Penco,-72.9974,-36.7368,2/25/2023,12/31/1969,Other,4775,wild,115655,Kelp Gull,1,1,0,0,0,Bío-Bío
 Teton County,-112.182,47.811,10/28/2022,12/31/1969,Not applicable,4451,wild,110100,Brown bear (Grizzly Bear),1,1,0,0,0,Montana
 Rainau,10.161,48.906,3/15/2022,3/27/2022,Not applicable,4101,wild,100273,Anatidae (unidentified),1,1,0,0,0,Baden-Württemberg
@@ -1156,7 +1156,7 @@ Humedal Boca Itata,-72.8261,-36.3193,1/25/2023,12/31/1969,Other,4775,domestic,11
 Great Bernera Uig Isle of Lewis,-6.84,58.23,10/7/2022,11/11/2022,Farm,4644,domestic,107669,Birds,280,345,359,79,0,Scotland
 Opole,17.887454,50.71209,1/18/2023,1/19/2023,Not applicable,4063,wild,112688,Mute Swan,1,1,0,0,0,Opolskie
 Curry County,-124.42,42.417,12/18/2022,12/31/1969,Not applicable,4451,wild,111889,Racoon (Northern raccoon),0,1,0,1,0,Oregon
-HPAI_H5_GAU_2021_003,27,-26.8,4/18/2021,8/15/2021,Farm,3649,domestic,84553,Birds,13117,13117,64578,25435,0,North West
+HPAI_H5_GAU_2021_003,27.0,-26.8,4/18/2021,8/15/2021,Farm,3649,domestic,84553,Birds,13117,13117,64578,25435,0,North West
 Westhausen,10.268,48.914,3/7/2022,3/16/2022,Not applicable,4101,wild,100260,Anatidae (unidentified),1,1,0,0,0,Baden-Württemberg
 Neukalen,12.791,53.826,11/24/2022,12/31/1969,Backyard,4025,domestic,111651,Birds,6,6,49,43,0,Mecklenburg-Vorpommern
 Okayama-City1,133.9197,34.6553,12/16/2022,12/16/2022,Not applicable,4634,wild,113452,Large-billed Crow,1,1,0,0,0,Okayama
@@ -1201,7 +1201,7 @@ Rhönblick,10.23,50.56,1/23/2023,12/31/1969,Backyard,4381,domestic,115038,Birds,
 Playa de Mejillones,-70.4515,-23.0986,12/5/2022,12/31/1969,Other,4775,wild,110554,Peregrin falcon;Black-crowned Night-Heron;Turkey Vulture;Peruvian Booby;Band-tailed Gull;Peruvian pelican;Rock shag,9,10,0,1,0,Antofagasta
 Cromer North Norfolk ,1.29,52.9,1/8/2023,12/31/1969,Farm,4644,domestic,112496,Birds,502,534,14094,13592,0,England
 Island County,-122.686,48.217,12/6/2022,12/31/1969,Not applicable,4451,wild,111890,Racoon (Northern raccoon),1,1,0,0,0,Washington
-HPAI_H5_GAU_2021_012,18.4,-33,5/10/2021,8/12/2021,Farm,3649,domestic,85937,Birds,21388,21388,240000,218612,0,Western Cape
+HPAI_H5_GAU_2021_012,18.4,-33.0,5/10/2021,8/12/2021,Farm,3649,domestic,85937,Birds,21388,21388,240000,218612,0,Western Cape
 Grądy					,19.87341,53.35186,1/10/2023,1/19/2023,Not applicable,4063,wild,112685,Mute Swan,1,1,0,0,0,Warmińsko-Mazurskie
 Emden,7.271,53.337,10/27/2022,11/3/2022,Not applicable,4023,wild,108901,Anatidae (unidentified),7,7,0,0,0,Niedersachsen
 Christleton Cheshire,-2.83,53.18,12/6/2022,2/22/2023,Other,4643,wild,110392,Pink-footed Goose;Mute Swan,3,3,0,0,0,England
@@ -1271,7 +1271,7 @@ Kamp-Lintfort,6.54,51.49,10/5/2022,10/17/2022,Not applicable,4128,wild,111976,An
 Bissendorf,8.286,52.275,10/16/2022,10/19/2022,Not applicable,4023,wild,108016,Anatidae (unidentified),1,1,0,0,0,Niedersachsen
 Kritzmow,12.047,54.05,10/24/2022,10/27/2022,Not applicable,4025,wild,108893,Anatidae (unidentified),1,1,0,0,0,Mecklenburg-Vorpommern
 Sankt Margarethen,9.253,53.895,9/15/2022,9/18/2022,Not applicable,4012,wild,106984,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
-HPAI_H5_GAU_2021_014,28,-26.6,5/12/2021,7/29/2021,Farm,3649,domestic,85939,Birds,53,53,94,0,0,Gauteng
+HPAI_H5_GAU_2021_014,28.0,-26.6,5/12/2021,7/29/2021,Farm,3649,domestic,85939,Birds,53,53,94,0,0,Gauteng
 FALTICENI,26.3175,47.4675,1/2/2023,1/3/2023,Natural park,4730,wild,111481,Mallard;Whooper Swan,16,16,0,0,0,Suceava
 Vöcklabruck,13.607,47.952,1/26/2023,1/31/2023,Not applicable,4710,wild,113236,Mute Swan,1,1,0,0,0,Oberösterreich
 Desenzano Del Garda,10.577934,45.460397,2/17/2023,3/10/2023,Natural park,4640,wild,115124,Black-headed Gull,1,1,0,0,0,Lombardia
@@ -1330,7 +1330,7 @@ Havelberg,12.078,52.825,1/3/2022,2/20/2022,Not applicable,4131,wild,95353,Anatid
 Playa Pullay,-72.7781,-36.0304,2/14/2023,12/31/1969,Other,4775,wild,115050,Peruvian pelican,1,1,0,0,0,Ñuble
 Ryugasaki-City1,140.1822,35.9115,12/7/2022,12/7/2022,Not applicable,4634,wild,113444,Mute Swan,1,1,0,0,0,Ibaraki
 Diss South Norfolk ,1.08,52.43,12/26/2022,12/31/1969,Farm,4644,domestic,111673,Birds,1997,2945,76480,74483,0,England
-Apolda,11.52,51,12/1/2022,12/31/1969,Backyard,4381,domestic,112641,Birds,8,8,21,13,0,Thüringen
+Apolda,11.52,51.0,12/1/2022,12/31/1969,Backyard,4381,domestic,112641,Birds,8,8,21,13,0,Thüringen
 Xanten,6.438,51.681,3/28/2022,5/18/2022,Not applicable,4128,wild,101609,Accipitridae (unidentified),2,2,0,0,0,Nordrhein-Westfalen
 Budanilkantha-4 Kathmandu,85.348371,27.7630622,2/10/2023,12/31/1969,Farm,4884,domestic,115757,Birds,10,10,342,332,0,Bagmati Pradesh
 Borkum,6.668,53.595,9/27/2022,9/27/2022,Not applicable,4023,wild,107233,Anatidae (unidentified),1,1,0,0,0,Niedersachsen
@@ -1366,7 +1366,7 @@ Gooding County,-114.7129,42.9419,9/11/2022,2/22/2023,Other,4309,domestic,107081,
 Jefferson County,-111.913,43.67,11/4/2022,12/31/1969,Other,4451,wild,109183,Striped Skunk,2,3,0,1,0,Idaho
 BATCA DOAMNEI,26.3266,46.9323,11/22/2022,11/27/2022,Natural park,4730,wild,109809,Mute Swan,1,1,0,0,0,Neamț
 Wangels,10.709,54.287,2/19/2023,12/31/1969,Farm,4530,domestic,114315,Birds,345,365,16100,15755,0,Schleswig-Holstein
-HPAI_H5_GAU_2021_016,18.6,-33,5/5/2021,7/23/2021,Farm,3649,domestic,86105,Birds,7022,7022,20951,13929,0,Western Cape
+HPAI_H5_GAU_2021_016,18.6,-33.0,5/5/2021,7/23/2021,Farm,3649,domestic,86105,Birds,7022,7022,20951,13929,0,Western Cape
 Sirmione,10.621152,45.457513,2/17/2023,3/10/2023,Natural park,4640,wild,114678,Black-headed Gull,1,1,0,0,0,Lombardia
 Sindelfingen,9.003,48.711,3/20/2022,3/20/2022,Not applicable,4101,wild,100267,Anatidae (unidentified),1,1,0,0,0,Baden-Württemberg
 Staffanstorp,13.238057,55.622312,1/8/2023,1/8/2023,Other,4833,wild,112399,Barnacle Goose,1,1,0,0,0,Staffanstorp
@@ -1409,7 +1409,7 @@ Nysa,17.37988293,50.48559618,12/28/2022,1/2/2023,Not applicable,4063,wild,112676
 Husby,9.59,54.75,10/15/2022,11/20/2022,Slaughterhouse,4530,domestic,108550,Birds,0,0,8767,8767,0,Schleswig-Holstein
 BATCA DOAMNEI,26.3302,46.9379,11/17/2022,11/21/2022,Natural park,4730,wild,109220,Mute Swan,5,5,0,0,0,Neamț
 Lehigh County,-75.483,40.627,11/4/2022,2/20/2023,Farm,4309,domestic,108734,Birds,0,0,7500,7500,0,Pennsylvania
-HPAI_H5_GAU_2021_010,28.7,-27,5/9/2021,6/27/2021,Farm,3649,domestic,85556,Birds,40000,40000,240000,200000,0,Free State
+HPAI_H5_GAU_2021_010,28.7,-27.0,5/9/2021,6/27/2021,Farm,3649,domestic,85556,Birds,40000,40000,240000,200000,0,Free State
 Skurup,13.5555,55.3849,1/1/2023,1/1/2023,Other,4833,wild,112155,Greylag Goose,1,1,0,0,0,Skurup
 Böblingen,9.013,48.681,3/16/2022,3/16/2022,Not applicable,4101,wild,100264,Anatidae (unidentified),2,2,0,0,0,Baden-Württemberg
 Playa Loberia,-72.8051,-36.1314,2/8/2023,12/31/1969,Other,4775,wild,115045,Peruvian pelican,1,3,0,2,0,Ñuble
@@ -1548,7 +1548,7 @@ Isahaya-City1,130.053,32.8436,11/24/2022,11/24/2022,Not applicable,4634,wild,113
 Hinte,7.193,53.415,6/21/2022,7/17/2022,Not applicable,4023,wild,105187,Sulidae (unidentified),1,1,0,0,0,Niedersachsen
 Playa Los Molles,-71.5083,-32.2358,1/23/2023,12/31/1969,Other,4775,wild,113342,Peruvian pelican;Turkey Vulture,3,3,0,0,0,Valparaíso
 Brunsbüttel,9.129,53.9,7/20/2022,7/25/2022,Not applicable,4012,wild,105436,Threskiornithidae (unidentified),1,1,0,0,0,Schleswig-Holstein
-Böblingen,9,48.682,3/3/2022,3/3/2022,Not applicable,4101,wild,100252,Anatidae (unidentified),1,1,0,0,0,Baden-Württemberg
+Böblingen,9.0,48.682,3/3/2022,3/3/2022,Not applicable,4101,wild,100252,Anatidae (unidentified),1,1,0,0,0,Baden-Württemberg
 March Fenland,0.1,52.56,10/28/2022,2/25/2023,Backyard,4643,domestic,108575,Birds,14,15,36,22,0,England
 Hamburg,10.13,53.55,12/18/2022,1/29/2023,Not applicable,4127,wild,111886,Ardeidae (unidentified);Anatidae (unidentified);Cygnus (unidentified);Laridae (unidentified),11,12,0,1,0,Hamburg
 Jemeppe sur Sambre,4.672492,50.460445,2/23/2023,2/23/2023,Other,4073,wild,115636,Peregrin falcon,1,1,0,0,0,Wallonie
@@ -1650,7 +1650,7 @@ Gukeng Township,120.55792,23.665893,2/3/2023,12/31/1969,Farm,4753,domestic,11484
 Dixon County,-96.705,42.558,11/23/2022,1/25/2023,Farm,4309,domestic,109466,Birds,101054,0,1700000,1598946,0,Nebraska
 Portage County,-81.22,41.157,9/27/2022,3/5/2023,Backyard,4247,domestic,107399,Birds,15,0,46,31,0,Ohio
 izumi-City24,130.3532,32.0906,11/19/2022,11/19/2022,Not applicable,4634,wild,109574,Hooded crane,47,47,0,0,0,Kagoshima
-Wangerland,8,53.69,7/6/2022,7/17/2022,Not applicable,4023,wild,105181,Laridae (unidentified),1,1,0,0,0,Niedersachsen
+Wangerland,8.0,53.69,7/6/2022,7/17/2022,Not applicable,4023,wild,105181,Laridae (unidentified),1,1,0,0,0,Niedersachsen
 Bow of Fife Fife  ,-3.09,56.3,2/15/2023,2/15/2023,Other,4643,wild,114590,Pink-footed Goose,1,1,0,0,0,Scotland
 Rheine,7.46,52.24,2/17/2022,2/20/2022,Not applicable,4128,wild,98173,Anatidae (unidentified),1,1,0,0,0,Nordrhein-Westfalen
 Neuruppin,12.82,52.92,1/22/2023,1/24/2023,Not applicable,4126,wild,114053,Cygnus (unidentified),1,1,0,0,0,Brandenburg
@@ -1786,7 +1786,7 @@ Izumi-City18,130.3532,32.0906,11/15/2022,11/15/2022,Not applicable,4634,wild,109
 Vöhl,8.891,51.171,2/7/2022,2/27/2022,Not applicable,4256,wild,97911,Anatidae (unidentified),1,1,0,0,0,Hessen
 Cumberland County,-70.276,43.645,7/8/2022,12/31/1969,Not applicable,4451,wild,105639,Harbor Seal,1,1,0,0,0,Maine
 Jemiołowo					,20.293103,53.571206,3/28/2022,4/6/2022,Not applicable,4063,wild,101443,Mute Swan,1,1,0,0,0,Warmińsko-Mazurskie
-Garrel,8,52.95,12/20/2022,1/22/2023,Farm,4541,domestic,111465,Birds,12,12,22006,21994,0,Niedersachsen
+Garrel,8.0,52.95,12/20/2022,1/22/2023,Farm,4541,domestic,111465,Birds,12,12,22006,21994,0,Niedersachsen
 Neunkirchen,7.18,49.35,2/13/2023,12/31/1969,Not applicable,4215,wild,114542,Accipitridae (unidentified),1,1,0,0,0,Saarland
 Jiali District,120.19519,23.20087,1/6/2023,12/31/1969,Farm,4753,domestic,114150,Birds,20950,20950,40615,19665,0,Tainan
 Playa Blanca,-70.9417,-27.3381,12/27/2022,12/31/1969,Other,4775,wild,113325,Peruvian pelican;Grey Gull,3,3,0,0,0,Atacama
@@ -1795,7 +1795,7 @@ Wesel,6.56765,51.63,2/7/2022,2/10/2022,Not applicable,4128,wild,97545,Anatidae (
 Wervik,3.051083,50.834918,1/23/2023,1/25/2023,Farm,4621,domestic,112848,Birds,257,257,97225,96968,0,Vlaanderen
 Friedrichskoog,8.685,54.055,6/17/2022,6/30/2022,Not applicable,4012,wild,104767,Sulidae (unidentified);Laridae (unidentified);Anatidae (unidentified),7,7,0,0,0,Schleswig-Holstein
 Hamburg,9.776,53.539,3/21/2022,4/18/2022,Not applicable,4127,wild,100504,Accipitridae (unidentified),0,1,0,1,0,Hamburg
-Karlsruhe,8.37,49,1/23/2022,1/27/2022,Not applicable,4101,wild,96264,Accipitridae (unidentified),0,1,0,1,0,Baden-Württemberg
+Karlsruhe,8.37,49.0,1/23/2022,1/27/2022,Not applicable,4101,wild,96264,Accipitridae (unidentified),0,1,0,1,0,Baden-Württemberg
 Fremont County,-108.724,42.831,10/7/2022,2/8/2023,Backyard,4247,domestic,108614,Birds,28,0,28,0,0,Wyoming
 Atherton Greater Manchester ,-2.49,53.52,2/6/2023,2/6/2023,Other,4643,wild,114223,Peregrin falcon,1,1,0,0,0,England
 Koserow,13.999,54.05,2/24/2022,3/3/2022,Not applicable,4025,wild,101316,Anatidae (unidentified),1,1,0,0,0,Mecklenburg-Vorpommern
@@ -1811,7 +1811,7 @@ Studzionka					,18.831017,49.970247,2/16/2022,2/22/2022,Not applicable,4063,wild
 City of Ottawa (ON-IP37),-75.92,45.36,10/3/2022,11/4/2022,Backyard,4294,domestic,108408,Birds,15,15,87,72,0,Ontario
 Izumi-City17,130.3532,32.0906,11/14/2022,11/14/2022,Not applicable,4634,wild,109567,Hooded crane,35,35,0,0,0,Kagoshima
 Südbrookmerland,7.297,53.428,5/30/2022,6/3/2022,Not applicable,4023,wild,104408,Anatidae (unidentified);Laridae (unidentified),2,2,0,0,0,Niedersachsen
-Garrel,8,52.95,12/18/2022,1/22/2023,Farm,4541,domestic,111464,Birds,30,30,8099,8069,0,Niedersachsen
+Garrel,8.0,52.95,12/18/2022,1/22/2023,Farm,4541,domestic,111464,Birds,30,30,8099,8069,0,Niedersachsen
 Überherrn,6.71,49.24,2/7/2023,12/31/1969,Not applicable,4215,wild,114541,Laridae (unidentified),1,1,0,0,0,Saarland
 Rees,6.35,51.77,2/3/2022,2/9/2022,Not applicable,4128,wild,97546,Accipitridae (unidentified),1,1,0,0,0,Nordrhein-Westfalen
 Taixi Township,120.20704,23.69453,1/2/2023,12/31/1969,Farm,4753,domestic,114103,Birds,0,3,6480,6480,0,Chinese Taipei
@@ -2189,7 +2189,7 @@ Przechlewo,17.31,53.78,1/4/2022,1/11/2022,Not applicable,4063,wild,95391,Mute Sw
 Kirkham Fylde,-2.9,53.82,11/1/2022,12/31/1969,Farm,4644,domestic,108807,Birds,10,20,120,110,0,England
 Friedrichskoog,8.881,54.001,4/10/2022,5/1/2022,Not applicable,4012,wild,102754,Charadriidae (unidentified),1,1,0,0,0,Schleswig-Holstein
 Newfoundland and Labrador - wildbirds,-52.7,47.585,5/10/2022,8/25/2022,Not applicable,4191,wild,104285,Northern Gannet;Herring Gull;Razorbill;Common Tern;Laridae (unidentified);Black-legged Kittiwake;Atlantic Puffin;Great Shearwater;Iceland Gull;Common Eider;Common Murre,62,63,0,0,0,Newfoundland and Labrador
-Garrel,8.05,53,9/8/2022,10/11/2022,Farm,4541,domestic,106634,Birds,36,6296,31064,31028,0,Niedersachsen
+Garrel,8.05,53.0,9/8/2022,10/11/2022,Farm,4541,domestic,106634,Birds,36,6296,31064,31028,0,Niedersachsen
 Merced County,-120.484,37.306,1/23/2023,12/31/1969,Farm,4309,domestic,113618,Birds,0,0,29050,29050,0,California
 Sarstedt,9.837,52.225,4/8/2022,4/13/2022,Not applicable,4023,wild,102336,Anatidae (unidentified),2,2,0,0,0,Niedersachsen
 Samahil,-89.895798,20.904982,1/9/2023,12/31/1969,Farm,4762,domestic,114378,Birds,0,10,36032,36032,0,Yucatán
@@ -2223,7 +2223,7 @@ Golzow,14.488,52.5806,1/5/2022,1/6/2022,Not applicable,4126,wild,95792,Anatidae 
 Altamira,-98.0436,22.4863,12/5/2022,12/31/1969,Farm,4762,domestic,111991,Birds,0,20,20,20,0,Tamaulipas
 Chippewa County,-84.383,46.47,5/30/2022,12/31/1969,Not applicable,4451,wild,104528,Red Fox,0,1,0,1,0,Michigan
 Erlin township ,120.398473,23.920723,12/15/2022,12/31/1969,Farm,4753,domestic,111322,Birds,2850,2850,10625,7775,0,Chinese Taipei
-Hamburg,10,53.54,12/27/2021,1/23/2022,Not applicable,4127,wild,94994,Anatidae (unidentified),2,2,0,0,0,Hamburg
+Hamburg,10.0,53.54,12/27/2021,1/23/2022,Not applicable,4127,wild,94994,Anatidae (unidentified),2,2,0,0,0,Hamburg
 Lübtheen,11.123867,53.299492,1/2/2022,1/5/2022,Not applicable,4025,wild,95187,Anatidae (unidentified),1,1,0,0,0,Mecklenburg-Vorpommern
 Bando-City1,139.8887,36.0483,2/8/2023,12/31/1969,Farm,4689,domestic,114100,Birds,9,13,1150400,1150391,0,Ibaraki
  Villeneuve-sur-Yonne (89464) ,3.294906,48.082316,2/28/2023,12/31/1969,Other,4075,wild,115584,Black-headed Gull,3,3,0,0,0,Bourgogne-Franche-Comté
@@ -2245,7 +2245,7 @@ Curesnita village,28.1802,48.2288,1/18/2023,2/19/2023,Backyard,4851,domestic,112
 Zhutang Township,120.37261,23.84828,12/15/2022,12/31/1969,Farm,4753,domestic,111290,Birds,3734,3734,8705,4971,0,Chinese Taipei
 Kreien,12.0456,53.4048,1/2/2022,1/5/2022,Not applicable,4025,wild,95183,Accipitridae (unidentified),1,1,0,0,0,Mecklenburg-Vorpommern
 Uman,-89.834398,20.85278,1/1/2023,12/31/1969,Backyard,4762,domestic,111999,Birds,26,31,47,21,0,Yucatán
-Hamburg,10,53.55,12/22/2021,1/26/2022,Not applicable,4127,wild,94993,Anatidae (unidentified);Laridae (unidentified),3,3,0,0,0,Hamburg
+Hamburg,10.0,53.55,12/22/2021,1/26/2022,Not applicable,4127,wild,94993,Anatidae (unidentified);Laridae (unidentified),3,3,0,0,0,Hamburg
 Iron County,-88.318,46.108,6/19/2022,12/31/1969,Not applicable,4451,wild,104527,Racoon (Northern raccoon),0,1,0,1,0,Michigan
 Gmünd,15.08,48.79,1/12/2023,1/16/2023,Not applicable,4710,wild,112523,Mallard,1,1,0,0,0,Niederösterreich
 Łódź,19.523996,51.72448,1/6/2022,1/10/2022,Not applicable,4063,wild,95319,Mute Swan,1,1,0,0,0,Łódzkie
@@ -2362,7 +2362,7 @@ Hamburg,9.8498,53.576,12/13/2021,1/7/2022,Not applicable,4127,wild,94967,Anatida
 Kingsbury County,-97.551,44.3832,9/18/2022,2/22/2023,Backyard,4247,domestic,107079,Birds,0,0,253,253,0,South Dakota
 Barth,12.727221,54.361992,12/21/2021,12/21/2021,Not applicable,4025,wild,95065,Anatidae (unidentified),0,1,0,1,0,Mecklenburg-Vorpommern
 Włocławek,19.148134,52.652781,1/1/2022,1/4/2022,Not applicable,4063,wild,95315,Mew Gull,1,1,0,0,0,Kujawsko-Pomorskie
-North Thoresby East Lindsey,0,53.48,10/30/2022,12/31/1969,Farm,4644,domestic,108573,Birds,160,1296,12760,12600,0,England
+North Thoresby East Lindsey,0.0,53.48,10/30/2022,12/31/1969,Farm,4644,domestic,108573,Birds,160,1296,12760,12600,0,England
 Attleborough Breckland,0.95,52.47,9/23/2022,11/6/2022,Farm,4056,domestic,107237,Birds,51,81,61444,61393,0,England
 Rodenäs,8.656,54.903,4/10/2022,4/19/2022,Not applicable,4012,wild,102354,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
 Lovendegem,3.618366,51.103184,2/5/2023,2/5/2023,Other,4073,wild,114207,Black-headed Gull,1,1,0,0,0,Vlaanderen
@@ -2390,7 +2390,7 @@ Langley Township (BC-IP26),-122.53,49.07,10/8/2022,11/9/2022,Backyard,4191,dome
 Hamburg,9.88,53.545,12/13/2021,1/7/2022,Not applicable,4127,wild,94966,Anatidae (unidentified),0,1,0,1,0,Hamburg
 Galmsbüll,8.703,54.766,4/10/2022,4/19/2022,Not applicable,4012,wild,102353,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
 Eixen,12.727275,54.170398,12/21/2021,12/21/2021,Not applicable,4025,wild,95064,Anatidae (unidentified),1,1,0,0,0,Mecklenburg-Vorpommern
-Somersham Huntingdonshire,0,52.39,10/27/2022,12/31/1969,Farm,4644,domestic,108572,Birds,16,18,45599,45583,0,England
+Somersham Huntingdonshire,0.0,52.39,10/27/2022,12/31/1969,Farm,4644,domestic,108572,Birds,16,18,45599,45583,0,England
 Poulton-le-Fylde Wyre,-2.91,53.87,9/20/2022,10/29/2022,Farm,4056,domestic,107236,Birds,350,616,2325,1975,0,England
 Todd County,-94.868,45.979,11/19/2022,1/26/2023,Farm,4309,domestic,109457,Birds,0,0,44500,44500,0,Minnesota
  Saint-Priest (69290) ,4.9303169,45.716702,3/2/2023,12/31/1969,Other,4075,wild,115568,Black-headed Gull,1,1,0,0,0,Auvergne-Rhône-Alpes
@@ -2514,7 +2514,7 @@ Rural Municipality of Hazel Dell No. 335 (SK-IP25),-103.08,52.06,10/7/2022,10/2
 Strathcona County (AB-IP35),-113.25,53.64,9/1/2022,9/19/2022,Farm,4294,domestic,106625,Birds,90,90,55280,55190,0,Alberta
 Caleta Duao,-72.167,-34.8851,1/22/2023,12/31/1969,Other,4775,wild,113340,Peruvian pelican,0,1,0,1,0,Maule
 Gänserndorf,16.72422,48.47178,1/1/2023,1/8/2023,Not applicable,4710,wild,112141,Great Egret,1,1,0,0,0,Niederösterreich
-Hamburg,10,53.57,12/6/2021,1/13/2022,Not applicable,4127,wild,94961,Anatidae (unidentified),0,1,0,1,0,Hamburg
+Hamburg,10.0,53.57,12/6/2021,1/13/2022,Not applicable,4127,wild,94961,Anatidae (unidentified),0,1,0,1,0,Hamburg
 Reußenköge,8.814,54.6,3/30/2022,5/4/2022,Not applicable,4012,wild,101505,Anatidae (unidentified),0,1,0,0,0,Schleswig-Holstein
 Greifswald,13.413363,54.079826,11/21/2021,11/29/2021,Not applicable,4025,wild,95059,Corvidae (unidentified),1,1,0,0,0,Mecklenburg-Vorpommern
 Much Hoole South Ribble ,-2.78,53.7,10/24/2022,12/31/1969,Farm,4644,domestic,108556,Birds,1015,2258,12000,10985,0,England
@@ -2593,7 +2593,7 @@ Melk,15.3055,48.2283,12/31/2022,1/3/2023,Not applicable,4710,wild,111485,Mute Sw
 Township of Grimsby (ON-IP30),-79.53,43.17,9/19/2022,12/31/1969,Backyard,4191,wild,107273,Cooper's Hawk;Great Horned owl;Turkey Vulture;Red-tailed Hawk;American Kestrel;Bald Eagle;Harris's hawk,0,0,29,0,0,Ontario
 Township of Grimsby (ON-IP30),-79.53,43.17,9/19/2022,12/31/1969,Backyard,4191,domestic,107273,Birds,13,20,91,78,0,Ontario
 Cloppenburg,8.008,52.84,3/21/2022,3/24/2022,Not applicable,4023,wild,101299,Anatidae (unidentified),1,1,0,0,0,Niedersachsen
-Hamburg,10,53.671,12/20/2021,1/17/2022,Not applicable,4127,wild,94992,Anatidae (unidentified);Laridae (unidentified),2,2,0,0,0,Hamburg
+Hamburg,10.0,53.671,12/20/2021,1/17/2022,Not applicable,4127,wild,94992,Anatidae (unidentified);Laridae (unidentified),2,2,0,0,0,Hamburg
 Berlin,13.44,52.46,3/10/2022,3/16/2022,Not applicable,4279,wild,100914,Accipitridae (unidentified),0,1,0,1,0,Berlin
 Kościelec,18.570679,52.17798,11/7/2021,11/8/2021,Not applicable,4063,wild,92417,Mute Swan,3,3,0,0,0,Wielkopolskie
 Moody County,-96.587,44.058,12/9/2022,1/26/2023,Farm,4309,domestic,110584,Birds,0,0,1332077,1332077,0,South Dakota
@@ -2696,7 +2696,7 @@ Georgsmarienhütte,8.04,52.206,3/1/2022,3/13/2022,Not applicable,4023,wild,10129
 Quillacollo,-66.28944,-17.38103,1/25/2023,12/31/1969,Farm,4870,domestic,113806,Birds,19800,31500,31500,11700,0,Cochabamba
 San Miguel el Alto,-102.536213,20.992271,11/27/2022,12/31/1969,Farm,4762,domestic,109825,Birds,25440,397492,397492,372052,0,Jalisco
 Dereham Breckland ,0.91,52.6,10/19/2022,12/31/1969,Farm,4644,domestic,108257,Birds,21,21,15023,15002,0,England
-Tain Highland,-4,57.72,1/13/2023,12/31/1969,Backyard,4643,domestic,113003,Birds,14,16,68,54,0,Scotland
+Tain Highland,-4.0,57.72,1/13/2023,12/31/1969,Backyard,4643,domestic,113003,Birds,14,16,68,54,0,Scotland
 Legnago,11.296403,45.192486,2/15/2023,12/31/1969,Natural park,4640,wild,114695,Black-headed Gull,1,1,0,0,0,Veneto
 Puerto Guacolda I y II,-71.2528,-28.4684,12/27/2022,12/31/1969,Other,4775,wild,113323,Peruvian pelican,4,6,0,2,0,Atacama
 Hyuga-City1,131.6243,32.4224,12/19/2022,1/12/2023,Farm,4689,domestic,110885,Birds,43,43,147700,147657,0,Miyazaki
@@ -3100,7 +3100,7 @@ Wewelsfleth,9.358,53.85,3/1/2022,3/6/2022,Not applicable,4012,wild,101483,Anatid
 Holtland,7.57718,53.2741,2/21/2022,2/21/2022,Not applicable,4023,wild,97976,Anatidae (unidentified),1,1,0,0,0,Niedersachsen
 Gorliz,-2.943701,43.414829,9/23/2022,10/24/2022,Other,4231,wild,108179,Northern Gannet,1,1,0,0,0,País Vasco
  Saint-Leu-d'Esserent (60584) ,2.410171,49.209264,2/13/2023,12/31/1969,Other,4075,wild,115511,Black-headed Gull,2,2,0,0,0,Hauts-de-France
-Foothills County (AB-IP27),-114,50.73,4/27/2022,5/24/2022,Backyard,4191,domestic,103203,Birds,49,49,49,0,0,Alberta
+Foothills County (AB-IP27),-114.0,50.73,4/27/2022,5/24/2022,Backyard,4191,domestic,103203,Birds,49,49,49,0,0,Alberta
  Fustérouau (32135) ,0.006091,43.675551,1/4/2023,2/27/2023,Farm,4116,domestic,111979,Birds,0,0,9000,9000,0,Occitanie
 Ludlow Ludlow,-2.62,52.34,5/31/2022,7/11/2022,Farm,4056,domestic,104008,Birds,539,2463,8425,7886,0,England
 Takeo-City1,130.0215,33.1948,12/4/2022,12/28/2022,Farm,4689,domestic,110482,Birds,300,300,28100,27800,0,Saga
@@ -3196,7 +3196,7 @@ Drage,10.32497,53.423938,2/9/2022,2/14/2022,Not applicable,4023,wild,97972,Anati
 Mutriku,-2.3814,43.31017,10/18/2022,11/2/2022,Other,4231,wild,108175,Northern Gannet,0,1,0,1,0,País Vasco
 San Giacomo Delle Segnate,11.029455,44.97225,2/15/2023,12/31/1969,Natural park,4640,wild,114239,Black-headed Gull,1,1,0,0,0,Lombardia
 Tönning,8.938,54.31,2/24/2022,3/7/2022,Not applicable,4012,wild,101479,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
-Stranraer,-5,54.9,11/15/2021,12/21/2021,Other,4030,wild,93274,Greylag Goose;Eurasian buzzard (common buzzard),3,3,0,0,0,Scotland
+Stranraer,-5.0,54.9,11/15/2021,12/21/2021,Other,4030,wild,93274,Greylag Goose;Eurasian buzzard (common buzzard),3,3,0,0,0,Scotland
 Aignan (32001),0.07185,43.67976,12/26/2022,2/27/2023,Farm,4116,domestic,111083,Birds,30,6000,6000,5970,0,Occitanie
  Torcy (71540) ,4.43843524,46.779773,2/19/2023,12/31/1969,Other,4075,wild,115509,Black-headed Gull,11,11,0,0,0,Bourgogne-Franche-Comté
 Regional Municipality of York (ON-IP26),-79.25,44.3,5/12/2022,7/11/2022,Farm,4294,domestic,103497,Birds,524,524,4377,3853,0,Ontario
@@ -3212,7 +3212,7 @@ Vadshuse,12.2339,56.0661,11/22/2022,11/22/2022,Not applicable,4028,wild,110783,M
 Lapeer County,-83.331,43.04,4/21/2022,12/31/1969,Other,4451,wild,103114,Red Fox,1,1,0,0,0,Michigan
 Tedburn St Mary Teignbridge,-3.61,50.73,4/10/2022,6/8/2022,Farm,4056,domestic,101937,Birds,6,12,182,176,0,England
 Northampton County,-75.248,40.6911,8/5/2022,1/8/2023,Backyard,4309,domestic,105953,Birds,0,0,88,88,0,Pennsylvania
-Regional District of Peace River (BC-IP13),-120.5,56,5/3/2022,6/19/2022,Backyard,4191,domestic,103862,Birds,3,3,16,13,0,British Columbia
+Regional District of Peace River (BC-IP13),-120.5,56.0,5/3/2022,6/19/2022,Backyard,4191,domestic,103862,Birds,3,3,16,13,0,British Columbia
 Talahari,78.0762,19.3315,1/14/2021,2/7/2023,Backyard,3496,domestic,90080,Birds,9,9,182,173,0,Maharashtra
 Vadsø kommune,29.75098,70.06652,6/14/2022,12/31/1969,Other,4266,wild,105751,Northern Gannet,0,1,0,0,0,Troms Og Finnmark
 Bollingstedt,9.4286,54.5921,2/16/2022,3/7/2022,Not applicable,4012,wild,101478,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
@@ -3402,7 +3402,7 @@ Gredstedbro,8.6611,55.3972,11/10/2022,11/11/2022,Not applicable,4028,wild,109404
 Pastrengo,10.813859,45.496856,1/30/2023,12/31/1969,Natural park,4640,wild,114000,Black-headed Gull,1,1,0,0,0,Veneto
 Nordsjøen,4.87793,58.49082,6/9/2022,12/31/1969,Body of water,4266,wild,104211,Northern Gannet,3,3,0,0,0,Norwegian Exclusive Economic Zone
 Puerto Cortés,-87.927695,15.829029,12/26/2022,12/31/1969,Other,4824,wild,112698,Brown Pelican,75,127,0,52,0,Cortés
-Sleaford North Kesteven,-0.51,53,10/9/2022,12/31/1969,Farm,4644,domestic,107668,Birds,596,2463,41908,41312,0,England
+Sleaford North Kesteven,-0.51,53.0,10/9/2022,12/31/1969,Farm,4644,domestic,107668,Birds,596,2463,41908,41312,0,England
 Coluga,-5.285930229,43.467749394,9/17/2022,10/27/2022,Other,4231,wild,107684,Northern Gannet,0,2,0,2,0,Principado de Asturias
 Wesenberg,12.96,53.27,1/14/2023,12/31/1969,Farm,4840,domestic,112482,Birds,155,155,7915,7760,0,Mecklenburg-Vorpommern
 Okeechobee County,-80.83,27.244,10/13/2022,2/15/2023,Backyard,4247,domestic,108167,Birds,0,0,2,2,0,Florida
@@ -3493,7 +3493,7 @@ Ballinderry Co. Londonderry ,-6.55,54.66,12/16/2021,1/21/2022,Farm,4056,domestic
 Dresden,13.805,51.056,3/2/2022,3/15/2022,Not applicable,4130,wild,100496,Anatidae (unidentified),1,1,0,0,0,Sachsen
 Tamnag,124.87677,6.586977,6/30/2022,7/24/2022,Farm,4376,domestic,105513,Birds,0,5,405,405,0,Sultan Kudarat
 Great Sankey Cheshire,-2.61,53.39,12/31/2022,12/31/2022,Other,4643,wild,112107,Mute Swan,1,1,0,0,0,England
-Prairie Mountain Health Authority ,-100,49.88,4/7/2022,4/9/2022,Not applicable,4191,wild,101659,Bald Eagle;Snow Goose,5,6,0,1,0,Manitoba
+Prairie Mountain Health Authority ,-100.0,49.88,4/7/2022,4/9/2022,Not applicable,4191,wild,101659,Bald Eagle;Snow Goose,5,6,0,1,0,Manitoba
 Verona,10.94092,45.482563,1/23/2023,12/31/1969,Natural park,4640,wild,113991,Black-headed Gull,1,1,0,0,0,Veneto
 Shinodi Survey No. 203 Sangammer,74.374,19.327,1/22/2021,2/7/2023,Backyard,3496,domestic,90105,Birds,10,10,2711,2701,0,Maharashtra
 Fuglebjerg,11.6213,55.3273,10/26/2022,10/26/2022,Not applicable,4028,wild,109388,Common pheasant,3,3,0,0,0,Veterinary Inspection Unit East
@@ -4342,7 +4342,7 @@ Remerschen,6.36248,49.49811,12/13/2021,3/14/2022,Other,4119,wild,94977,Great Cor
 Webster County,-92.9209,37.3366,11/19/2022,12/31/1969,Backyard,4309,domestic,109458,Birds,2525,0,9147,6622,0,Missouri
 Meurcé (72194),0.205041,48.248304,12/14/2022,1/18/2023,Farm,4116,domestic,110653,Birds,50,2500,2500,2450,0,Pays de la Loire
 Norfolk,1.05,52.72,12/9/2022,12/8/2022,Other,4643,wild,110752,Mute Swan,1,1,0,0,0,England
-The Rural Municipality of Golden West No. 95 (SK-IP10),-102.98,50,5/4/2022,5/30/2022,Backyard,4294,domestic,103184,Birds,267,267,311,44,0,Saskatchewan
+The Rural Municipality of Golden West No. 95 (SK-IP10),-102.98,50.0,5/4/2022,5/30/2022,Backyard,4294,domestic,103184,Birds,267,267,311,44,0,Saskatchewan
 Wellingborough,-0.68,52.29,11/19/2021,12/1/2021,Other,4030,wild,93285,Cygnus (unidentified);Mute Swan,6,6,0,0,0,England
 Schoorl,4.6961,52.7,11/29/2022,12/31/1969,Other,4051,wild,110859,Greylag Goose,1,1,0,0,0,Noord-Holland
 Pärnu,24.56022,58.362453,11/24/2021,12/1/2021,Not applicable,3756,wild,93532,Herring Gull,1,1,0,0,0,Pärnu
@@ -4622,7 +4622,7 @@ Hagen im Bremischen,8.718,53.306,12/19/2021,12/29/2021,Not applicable,4023,wild,
 Tiel,5.43425,51.88307,10/5/2022,12/31/1969,Other,4051,domestic,107712,Birds,10,10,111,101,0,Gelderland
 Matsalu,23.705404,58.723031,5/17/2021,5/19/2021,Not applicable,3756,wild,86521,White-tailed Eagle,2,2,0,0,0,Lääne
 Hornafjörður,-15.13794,64.281511,4/13/2022,4/13/2022,Other,4443,wild,102748,Pink-footed Goose,1,1,0,0,0,Austurland
-Cumbernauld,-4,55.93,2/23/2022,3/25/2022,Other,4030,wild,98332,Black-headed Gull;Cygnus (unidentified),2,2,0,0,0,Scotland
+Cumbernauld,-4.0,55.93,2/23/2022,3/25/2022,Other,4030,wild,98332,Black-headed Gull;Cygnus (unidentified),2,2,0,0,0,Scotland
 Walla Walla County,-118.299,46.072,8/9/2022,1/22/2023,Backyard,4247,domestic,106134,Birds,0,0,2,2,0,Washington
 Høgsbro,8.704511,55.252709,4/9/2022,4/9/2022,Not applicable,4028,wild,104086,Barnacle Goose,1,1,0,0,0,Syddanmark
 Rural Municipality of Kingsley No. 124 (SK-IP7),-102.62,50.17,4/23/2022,5/14/2022,Backyard,4294,domestic,102587,Birds,33,33,92,59,0,Saskatchewan
@@ -5329,7 +5329,7 @@ Salvador,-7.859,38.01429,8/28/2022,8/29/2022,Other,4583,wild,106448,Mallard,1,1,
 Sorrento,14.35489,40.628756,2/13/2022,4/3/2022,Other,4060,wild,98015,Yellow-legged Gull,1,1,0,0,0,Campania
 San Joaquin County,-121.282,37.886,12/23/2022,12/31/1969,Backyard,4247,domestic,112069,Birds,0,0,11,0,0,California
 Pokhara Metropolitan-15 and 16,83.98719,28.19999,2/15/2022,11/1/2022,Farm,4285,domestic,98353,Birds,217,217,666,449,0,West
-Loo ,6,51.94,1/17/2023,12/31/1969,Farm,4031,domestic,112639,Birds,400,600,54840,54440,0,Gelderland
+Loo ,6.0,51.94,1/17/2023,12/31/1969,Farm,4031,domestic,112639,Birds,400,600,54840,54440,0,Gelderland
 Eldene Wiltshire,-1.74,51.54,9/29/2022,10/23/2022,Other,4643,wild,107562,Canada Goose;Mute Swan,4,4,0,0,0,England
 Kirke Værløse,12.3172,55.7842,1/25/2022,1/25/2022,Not applicable,4028,wild,97895,Greylag Goose,1,1,0,0,0,Hovedstaden
 Hậu Thành,106.0049,10.385,4/22/2022,5/22/2022,Village,4221,domestic,104067,Birds,580,2800,3300,2720,0,Tiền Giang
@@ -5479,7 +5479,7 @@ Armstedt,9.851275,53.968917,12/30/2021,12/31/1969,Not applicable,4012,wild,96824
 Zmeevka,39.225835,53.536921,6/12/2022,8/24/2022,Backyard,4484,domestic,104219,Birds,70,70,101,31,0,Ryazan'
 Asperö,11.801,57.64763,7/25/2022,7/25/2022,Other,4048,wild,105629,Canada Goose,1,1,0,0,0,Västra Götaland
 Garryvoe,-8.00366,51.8579,9/5/2022,11/17/2022,Not applicable,4524,wild,106924,Northern Gannet,1,0,0,0,0,Cork
-Newburgh,-2,57.32,2/15/2022,5/18/2022,Other,4030,wild,98241,Accipitridae (unidentified);Common Murre;Pink-footed Goose,7,7,0,0,0,Scotland
+Newburgh,-2.0,57.32,2/15/2022,5/18/2022,Other,4030,wild,98241,Accipitridae (unidentified);Common Murre;Pink-footed Goose,7,7,0,0,0,Scotland
 Almonte,-6.5736,37.1153,3/13/2022,4/26/2022,Other,4231,wild,101646,White Stork,2,2,0,0,0,Andalucía
 Cavallino-Treporti,12.548694,45.477534,11/22/2021,12/31/2021,Village,4060,wild,93357,Greylag Goose,2,2,2,0,0,Veneto
 Breda,4.785,51.559,6/27/2022,12/31/1969,Other,4051,wild,104841,White Stork,1,1,0,0,0,Noord-Brabant
@@ -5625,7 +5625,7 @@ Székkutas,20.582625,46.526166,5/28/2022,6/1/2022,Farm,4427,domestic,103742,Bird
 MENEAC,-2.448869,48.096734,8/21/2022,10/11/2022,Farm,4116,domestic,106126,Birds,200,17000,43000,42800,0,Bretagne
 Canyon County,-116.733,43.603,5/12/2022,10/21/2022,Backyard,4309,domestic,103415,Birds,0,0,27,27,0,Idaho
 Uddevalla,11.758019,58.33134,7/6/2022,7/6/2022,Other,4048,wild,105347,Canada Goose,1,1,0,0,0,Swedish Exclusive Economic Zone
-Berwick-upon-Tweed,-2,55.78,11/11/2021,6/7/2022,Other,4030,wild,92998,Greylag Goose;Atlantic Puffin,2,2,0,0,0,England
+Berwick-upon-Tweed,-2.0,55.78,11/11/2021,6/7/2022,Other,4030,wild,92998,Greylag Goose;Atlantic Puffin,2,2,0,0,0,England
 Lazise,10.713823,45.468764,11/15/2021,12/31/2021,Natural park,4060,wild,92736,Yellow-legged Gull,1,1,0,0,0,Veneto
 Blaricum,5.2959,52.2909,6/27/2022,12/31/1969,Other,4051,wild,104834,Mute Swan,1,1,0,0,0,Noord-Holland
 Dela Paz Norte,120.649708,15.080445,5/2/2022,5/22/2022,Farm,4328,domestic,104140,Birds,20,25,20,0,0,Pampanga
@@ -5678,7 +5678,7 @@ Baegam-myeon Cheoin-gu Yongin-si Gyeonggi-do Republic of Korea,127.397927,37.119
 Inch beach,-9.97,52.138501,8/23/2022,11/17/2022,Not applicable,4524,wild,106438,Northern Gannet,1,0,0,0,0,Kerry
 Décines-Charpieu (69275),4.970945,45.776456,2/6/2023,12/31/1969,Other,4075,wild,114628,Herring Gull,1,1,0,0,0,Auvergne-Rhône-Alpes
 Umatilla County,-118.784,45.674,12/14/2022,12/31/1969,Backyard,4247,domestic,110910,Birds,8,0,14,6,0,Oregon
-Horndean  Hampshire ,-1,50.91,11/21/2022,11/20/2022,Other,4643,wild,109648,Accipitridae (unidentified),1,1,0,0,0,England
+Horndean  Hampshire ,-1.0,50.91,11/21/2022,11/20/2022,Other,4643,wild,109648,Accipitridae (unidentified),1,1,0,0,0,England
 Székkutas,20.56914,46.519736,5/22/2022,5/25/2022,Farm,4427,domestic,103508,Birds,8,8,3128,3120,0,Csongrád-Csanád
 Bollingstedt,9.416785,54.590889,11/23/2021,11/30/2021,Not applicable,4012,wild,95945,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
 Karlshamn,14.856167,56.140674,6/25/2022,6/25/2022,Other,4048,wild,105073,Razorbill,0,1,0,1,0,Blekinge
@@ -5787,7 +5787,7 @@ Canyon County,-116.6937,43.6179,5/14/2022,10/22/2022,Backyard,4309,domestic,1034
 Diksmuide,2.836921985,50.9909023,10/31/2022,10/31/2022,Other,4073,wild,109093,Greylag Goose,1,1,0,0,0,Vlaanderen
  Saint-Juvat (22308) ,-2.04183895,48.37249,11/11/2022,12/18/2022,Farm,4116,domestic,108967,Birds,12,24400,24400,24388,0,Bretagne
 Pryamitsyno ,35.941675,51.65754,7/7/2022,7/31/2022,Backyard,4484,domestic,104951,Birds,1,1,177,176,0,Kursk
-Valenciennes (59606),3.502210468418888,50.345155749261544,2/6/2023,12/31/1969,Other,4075,wild,114619,Black-headed Gull,10,10,0,0,0,Hauts-de-France
+Valenciennes (59606),3.502210468418888,50.34515574926154,2/6/2023,12/31/1969,Other,4075,wild,114619,Black-headed Gull,10,10,0,0,0,Hauts-de-France
 Walditch Dorset ,-2.72,50.72,11/18/2022,11/17/2022,Other,4643,wild,109532,Eurasian buzzard (common buzzard),1,1,0,0,0,England
 San Luis Obispo County,-120.659,35.29,11/15/2022,12/31/1969,Not applicable,4247,wild,111062,Northern fulmar;Bonaparte's Gull,0,0,0,0,0,California
 Hetlingen,9.629876,53.608568,12/31/2021,1/11/2022,Not applicable,4012,wild,96808,Anatidae (unidentified),3,3,0,0,0,Schleswig-Holstein
@@ -5941,7 +5941,7 @@ Griffydam Leicestershire ,-1.38,52.76,11/17/2022,11/16/2022,Other,4643,wild,1094
 Forráskút,19.886464,46.357129,4/25/2022,4/25/2022,Farm,4427,domestic,102670,Birds,0,0,12674,12674,0,Csongrád-Csanád
 Nordermeldorf,8.938979,54.113809,1/4/2022,1/11/2022,Not applicable,4012,wild,96801,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
 Zonhoven,5.327840002,50.9828358,10/21/2022,10/21/2022,Other,4073,wild,108612,Greylag Goose,1,1,0,0,0,Vlaanderen
-Suèvres (41252),1.4843928069492323,47.66531565028146,2/6/2023,12/31/1969,Other,4075,wild,114609,Black-headed Gull,5,5,0,0,0,Centre-Val de Loire
+Suèvres (41252),1.4843928069492325,47.66531565028146,2/6/2023,12/31/1969,Other,4075,wild,114609,Black-headed Gull,5,5,0,0,0,Centre-Val de Loire
 Pocahontas County,-80.096,38.224,12/15/2022,12/31/1969,Not applicable,4247,wild,110744,Canada Goose,0,0,0,0,0,West Virginia
 Fresno County,-119.798,36.724,8/23/2022,12/31/1969,Farm,4309,domestic,106263,Birds,0,0,34835,34835,0,California
 Hvide Sande,8.1313,56.0059,1/2/2022,1/2/2022,Not applicable,4028,wild,95816,Barnacle Goose,1,1,0,0,0,Midtjylland
@@ -5983,7 +5983,7 @@ Büsum,8.880377,54.128892,1/5/2022,1/11/2022,Not applicable,4012,wild,96799,Lari
 Kruisem,3.684113642,50.90198286,10/22/2022,10/22/2022,Other,4073,wild,108609,Greylag Goose,2,2,0,0,0,Vlaanderen
 Bern,7.45,46.9335,2/20/2022,4/29/2022,Zoo,4108,wild,98058,Grey Heron;Dalmatian pelican,2,3,22,1,0,Bern
 Amble Northumberland,-1.5509,55.32,6/8/2022,6/21/2022,Other,4030,wild,104373,Charadriidae (unidentified);Northern Gannet;Arctic Tern;Sandwich Tern;Common Tern,9,9,0,0,0,England
-Brionne (27116),0.7192482905817901,49.188181556860386,2/6/2023,12/31/1969,Other,4075,wild,114606,Black-headed Gull,40,40,0,0,0,Normandie
+Brionne (27116),0.7192482905817901,49.18818155686039,2/6/2023,12/31/1969,Other,4075,wild,114606,Black-headed Gull,40,40,0,0,0,Normandie
 Crow Wing County,-94.207,46.347,5/5/2022,10/5/2022,Backyard,4309,domestic,102975,Birds,0,0,145,145,0,Minnesota
 Tótkomlós,20.7236,46.4483,4/20/2022,4/23/2022,Farm,4418,domestic,102392,Birds,3000,3000,7000,4000,0,Békés
 Kærbøl,8.7352,55.3639,1/3/2022,1/3/2022,Not applicable,4028,wild,95814,Barnacle Goose,1,1,0,0,0,Syddanmark
@@ -6026,7 +6026,7 @@ Lleida,0.606,41.618,1/29/2022,2/12/2022,Other,4231,wild,97174,White Stork,1,1,0,
 Bordány,19.971843,46.305325,4/19/2022,4/22/2022,Farm,4427,domestic,102381,Birds,0,0,11714,11714,0,Csongrád-Csanád
 Ramhusen,9.0908,53.9407,1/4/2022,1/11/2022,Not applicable,4012,wild,96797,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
 Deurne,4.462910564,51.19675315,10/19/2022,10/19/2022,Other,4073,wild,108607,Muscovy Duck,1,1,0,0,0,Vlaanderen
-Lyon (69123),4.809474758791546,45.769755536519924,2/6/2023,12/31/1969,Other,4075,wild,114604,Peregrin falcon,1,1,0,0,0,Auvergne-Rhône-Alpes
+Lyon (69123),4.809474758791546,45.76975553651992,2/6/2023,12/31/1969,Other,4075,wild,114604,Peregrin falcon,1,1,0,0,0,Auvergne-Rhône-Alpes
 Boderne,14.9087,55.023,1/1/2022,1/1/2022,Not applicable,4028,wild,95810,Canada Goose,1,1,0,0,0,Hovedstaden
 Nagykamarás,21.1389,46.47521,4/20/2022,5/2/2022,Farm,4418,domestic,102390,Birds,300,300,10000,9700,0,Békés
 Kerekegyháza,19.474058,46.918898,5/23/2022,5/25/2022,Farm,4411,domestic,103768,Birds,38,38,28539,28501,0,Bács-Kiskun
@@ -6187,7 +6187,7 @@ Inchydoney beach,-8.857753,51.597869,9/6/2022,11/17/2022,Not applicable,4524,wil
 Wanneperveen,6.10519,52.69749,5/22/2022,12/31/1969,Other,4051,wild,103601,Greylag Goose,10,10,0,0,0,Overijssel
 Gurara farms,6.6136,12.3498,2/5/2022,3/11/2022,Farm,3533,domestic,98782,Birds,500,8000,8000,7500,0,Zamfara
 Monroe County,-77.646,43.049,3/24/2022,8/31/2022,Backyard,4309,domestic,101035,Birds,135,0,400,265,0,New York
- Doville (50166) ,-1.5633964665423425,49.33309814599498,2/1/2023,12/31/1969,Other,4075,wild,114596,Peregrin falcon,1,1,0,0,0,Normandie
+ Doville (50166) ,-1.5633964665423423,49.33309814599498,2/1/2023,12/31/1969,Other,4075,wild,114596,Peregrin falcon,1,1,0,0,0,Normandie
 Kerekegyháza,19.44,46.9186,5/15/2022,5/17/2022,Farm,4411,domestic,103261,Birds,36,36,10300,10264,0,Bács-Kiskun
 Dugok-ri,126.8351,36.7557,1/29/2022,12/31/1969,Farm,4067,domestic,96546,Birds,70,70,720000,719930,0,Chungcheongnam-do
 Kiełpiny,16.0514,52.1584,4/19/2022,6/8/2022,Farm,4050,domestic,101832,Birds,307,59707,190105,189798,0,Wielkopolskie
@@ -6311,7 +6311,7 @@ Naran,-8.46175,54.840051,3/8/2022,6/13/2022,Not applicable,4049,wild,99337,Barna
 Doneyah,-13.3986,9.7043,5/9/2022,12/31/1969,Farm,4480,domestic,103809,Birds,4506,7850,7850,3344,0,Kindia
 Laug,120.775759,15.040593,5/24/2022,6/2/2022,Farm,4328,domestic,104138,Birds,97,5,7910,7813,0,Pampanga
 Leibnitz,15.561343,46.829746,1/23/2022,1/25/2022,Not applicable,4105,wild,96518,Mute Swan,1,1,0,0,0,Steiermark
-Fontenay-le-Vicomte (91244),2.3984246191260565,48.548255996556584,1/31/2023,12/31/1969,Other,4075,wild,114592,Barn Owl (Common Barn-Owl),1,1,0,0,0,Île-de-France
+Fontenay-le-Vicomte (91244),2.3984246191260565,48.54825599655658,1/31/2023,12/31/1969,Other,4075,wild,114592,Barn Owl (Common Barn-Owl),1,1,0,0,0,Île-de-France
 REGIONAL UNIT OF KASTORIA,21.255963,40.515608,4/11/2022,6/5/2022,Natural park,4165,wild,101765,Dalmatian pelican;Great White Pelican,2,2,0,0,0,Epirus and Western Macedonia
 Kiełpiny				,16.050772,52.155199,12/26/2021,2/7/2022,Farm,4050,domestic,94654,Birds,851,74213,627126,626275,0,Wielkopolskie
 Wólki					,18.901211,51.998805,3/3/2022,3/21/2022,Farm,4047,domestic,98435,Birds,12,4910,4910,4898,0,Łódzkie
@@ -6360,7 +6360,7 @@ Yangjang-ri,126.603072,34.792559,1/13/2022,12/31/1969,Farm,4067,domestic,96231,B
 Kakoulimayah,-13.3884,9.6071,4/30/2022,12/31/1969,Farm,4480,domestic,103807,Birds,14434,25098,27667,10664,0,Kindia
 Rosses point,-8.56406,54.3054,3/3/2022,6/13/2022,Not applicable,4049,wild,98725,Barnacle Goose,1,0,0,0,0,Sligo
 San Pedro,120.7189,15.010593,5/16/2022,6/5/2022,Farm,4328,domestic,104136,Birds,0,10,15,15,0,Pampanga
- Ayencourt (80049),2.5547619995874067,49.625676852223265,2/5/2023,12/31/1969,Other,4075,wild,114570,Black-headed Gull,1,1,0,0,0,Hauts-de-France
+ Ayencourt (80049),2.5547619995874067,49.62567685222327,2/5/2023,12/31/1969,Other,4075,wild,114570,Black-headed Gull,1,1,0,0,0,Hauts-de-France
 Golice Kolonia 				,22.3278,52.2879,11/15/2021,2/3/2022,Farm,4047,domestic,93364,Birds,2050,16320,16320,14270,0,Mazowieckie
 Kaczki Plastowe				,18.5755,51.9725,11/15/2021,12/11/2021,Farm,4050,domestic,92850,Birds,2050,16320,16320,14270,0,Wielkopolskie
 Kellinghusen,9.715,53.956,1/5/2022,1/9/2022,Not applicable,4012,wild,96771,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
@@ -6566,7 +6566,7 @@ Bönebüttel,10.047,54.089,1/2/2022,1/10/2022,Not applicable,4012,wild,96752,Lar
 San Miguel,120.673524,14.975121,5/1/2022,5/13/2022,Farm,4328,domestic,104126,Birds,51,5,232,181,0,Pampanga
 Tiszaalpár,20.000164,46.786957,5/20/2022,5/29/2022,Farm,4411,domestic,103513,Birds,150,150,29688,29538,0,Bács-Kiskun
 Vinkeveen,4.921931,52.213387,4/21/2022,12/31/1969,Other,4051,wild,103362,Greylag Goose,1,1,0,0,0,Utrecht
-Garrel,8.05,53,2/24/2022,3/30/2022,Farm,4071,domestic,98114,Birds,38,0,21992,21954,0,Niedersachsen
+Garrel,8.05,53.0,2/24/2022,3/30/2022,Farm,4071,domestic,98114,Birds,38,0,21992,21954,0,Niedersachsen
 Stary Karolew				,18.38191,51.779,11/11/2021,1/6/2022,Farm,4050,domestic,92845,Birds,1410,11766,11766,10356,0,Wielkopolskie
 Bjerge Sydstrand,11.1676,55.5547,11/21/2021,11/21/2021,Not applicable,4028,wild,93914,Eurasian buzzard (common buzzard),1,1,0,0,0,Sjælland
 Gawłowice				,18.54377,51.765282,11/11/2021,12/22/2021,Farm,4047,domestic,92813,Birds,100,2167,2267,2167,0,Łódzkie
@@ -6614,7 +6614,7 @@ Jackson County,-94.579,39.078,11/25/2022,12/31/1969,Backyard,4247,domestic,10992
 Kerekegyháza,19.472473,46.919342,5/15/2022,5/17/2022,Farm,4411,domestic,103262,Birds,418,418,30000,29582,0,Bács-Kiskun
 Yellow Medicine County,-95.5712,44.8069,4/8/2022,8/18/2022,Farm,4309,domestic,101565,Birds,0,0,50000,50000,0,Minnesota
 Mézeray (72195),-0.0727,47.809252,9/20/2022,11/24/2022,Farm,4116,domestic,107423,Birds,949,33212,33212,32263,0,Pays de la Loire
-Lardy (91330),2.293387327682895,48.530601509856226,2/2/2023,12/31/1969,Other,4075,wild,114559,Black-headed Gull,1,1,0,0,0,Île-de-France
+Lardy (91330),2.293387327682895,48.53060150985623,2/2/2023,12/31/1969,Other,4075,wild,114559,Black-headed Gull,1,1,0,0,0,Île-de-France
 Münnerstadt,10.315,50.259,3/4/2022,4/28/2022,Farm,4139,domestic,98817,Birds,214,227,227,13,0,Bayern
 Old Hartley,-1.47,55.07,1/16/2022,8/1/2022,Other,4030,wild,96165,Eurasian buzzard (common buzzard);Herring Gull;Common Murre;Common Tern;Northern Gannet;Common Kestrel,19,19,0,0,0,England
 Breukelen,5.00156,52.165856,4/21/2022,12/31/1969,Other,4051,wild,103360,Greylag Goose,1,1,0,0,0,Utrecht
@@ -6849,7 +6849,7 @@ Brewood Staffordshire,-2.19,52.68,11/5/2022,11/4/2022,Other,4643,wild,108907,Mut
 Broward County,-80.143,26.118,11/18/2022,12/31/1969,Backyard,4247,domestic,109606,Birds,0,0,11,11,0,Florida
 Villa Estense,11.657864,45.179023,12/17/2021,1/8/2022,Farm,4017,domestic,94524,Birds,14066,14066,14066,0,0,Veneto
 Niesgrau,9.843486,54.755135,12/29/2021,1/6/2022,Not applicable,4012,wild,96718,Anatidae (unidentified),1,1,0,0,0,Schleswig-Holstein
-Neer,6,51.25,4/10/2022,12/31/1969,Other,4051,wild,101627,Great Blue Heron,1,1,0,0,0,Limburg
+Neer,6.0,51.25,4/10/2022,12/31/1969,Other,4051,wild,101627,Great Blue Heron,1,1,0,0,0,Limburg
 Landeronde (85118),-1.565734,46.674442,12/12/2022,12/31/1969,Farm,4116,domestic,110470,Birds,5,5100,5100,5095,0,Pays de la Loire
 Bergkvara,16.080399,56.377528,12/8/2021,12/8/2021,Other,4048,wild,94226,Barnacle Goose,0,1,0,1,0,Kalmar
 Sawley Lockington Hemington,-1.29,52.87,5/26/2022,8/14/2022,Other,4030,wild,103970,Mallard;Pink-footed Goose;Canada Goose,4,4,0,0,0,England
@@ -6910,7 +6910,7 @@ Kiskunmajsa,19.643611,46.5325,5/4/2022,5/9/2022,Farm,4411,domestic,103070,Birds,
 Kurna,8.509893,12.056343,1/28/2022,2/2/2022,Farm,3533,domestic,97350,Birds,500,1980,1980,1480,0,Kano
 QIRYAT SHEMONA,35.568853,33.208958,1/26/2022,1/27/2022,Not applicable,4125,wild,98390,Hooded Crow,1,1,0,0,0,HaZafon
 Salt Company,14.53,-22.67,1/12/2022,5/1/2022,Other,4260,wild,95849,Cape cormorant,200,0,0,0,0,Erongo
-Lickey Hills Worcestershire,-2,52.37,11/3/2022,11/2/2022,Other,4643,wild,108904,Canada Goose,1,1,0,0,0,England
+Lickey Hills Worcestershire,-2.0,52.37,11/3/2022,11/2/2022,Other,4643,wild,108904,Canada Goose,1,1,0,0,0,England
 Ardmore,-7.7202,51.9474,11/14/2021,6/13/2022,Not applicable,4049,wild,93007,Merlin,1,1,0,0,0,Waterford
 Kollmar,9.4418,53.742,12/29/2021,1/5/2022,Not applicable,4012,wild,96601,Anatidae (unidentified),7,7,0,0,0,Schleswig-Holstein
 Davidson County,-86.777,36.168,11/15/2022,12/31/1969,Backyard,4247,domestic,109598,Birds,0,0,14,14,0,Tennessee
@@ -6953,7 +6953,7 @@ Mikołajówek				,18.6768,52.23682,12/20/2021,1/21/2022,Backyard,4050,domestic,9
 Friesoythe,7.84,53.08,11/14/2021,12/18/2021,Farm,4071,domestic,92941,Birds,7,807,7480,7473,0,Niedersachsen
 A Dos Cunhados,-9.286183,39.128166,2/13/2022,3/20/2022,Farm,4208,domestic,97614,Birds,120,120,12414,12294,0,Lisboa
 Harderwijk,5.64,52.36,4/10/2022,12/31/1969,Other,4051,wild,101622,Mute Swan,1,1,0,0,0,Gelderland
-St Merryn,-5,50.54,8/27/2022,9/27/2022,Other,4030,wild,106567,Northern Gannet,2,2,0,0,0,England
+St Merryn,-5.0,50.54,8/27/2022,9/27/2022,Other,4030,wild,106567,Northern Gannet,2,2,0,0,0,England
 Sta Catalina,120.770063,15.736598,3/14/2022,4/6/2022,Farm,4328,domestic,102781,Birds,68,6,103,35,0,Nueva Ecija
 Otter Tail County,-96.121,46.289,4/9/2022,8/12/2022,Farm,4309,domestic,101716,Birds,0,0,36000,36000,0,Minnesota
 kwankwaso,8.3664,11.837,12/29/2021,2/2/2022,Farm,3533,domestic,97357,Birds,1700,1700,1700,0,0,Kano
@@ -7186,7 +7186,7 @@ Dolní Lhota,14.946,49.065,11/11/2021,11/14/2021,Backyard,4052,domestic,92730,Bi
 Verona,11.046331,45.406367,12/19/2021,12/30/2021,Farm,4017,domestic,94534,Birds,10924,10924,10924,0,0,Veneto
 Leiderdorp,4.51,52.17,4/4/2022,12/31/1969,Other,4051,wild,101430,Greylag Goose,1,1,0,0,0,Zuid-Holland
 Wichertów				,18.644079,51.96999,11/29/2021,12/28/2021,Farm,4050,domestic,93334,Birds,20,11039,11039,11019,0,Wielkopolskie
-Charlton Wiltshire ,-2,51.59,10/31/2022,10/30/2022,Other,4643,wild,108759,Common pheasant,1,1,0,0,0,England
+Charlton Wiltshire ,-2.0,51.59,10/31/2022,10/30/2022,Other,4643,wild,108759,Common pheasant,1,1,0,0,0,England
 Pedrera,-4.9209,37.2274,2/20/2022,5/1/2022,Farm,4252,domestic,98041,Birds,44319,49871,49871,5552,0,Andalucía
 Gombe,11.1342,10.2409,3/21/2021,4/4/2021,Farm,3533,domestic,87023,Birds,600,800,800,200,0,Gombe
 Devonport Devon,-4.18,50.38,8/30/2022,9/5/2022,Other,4030,wild,106620,Herring Gull;Northern Gannet,3,3,0,0,0,England
@@ -7522,7 +7522,7 @@ Maarssen,5.04,52.14,3/27/2022,12/31/1969,Other,4051,wild,101080,Greylag Goose,1,
 Niebla,-6.6742,37.3738,2/14/2022,3/30/2022,Farm,4252,domestic,97848,Birds,16950,16950,16950,0,0,Andalucía
 Oostende,2.85005,51.19414,7/22/2022,7/22/2022,Other,4073,wild,105523,Herring Gull,1,1,0,0,0,Vlaanderen
  Landéan (35142) ,-1.182454,48.391209,1/5/2023,2/7/2023,Backyard,4075,domestic,111969,Birds,18,77,77,59,0,Bretagne
-Arthog Gwynedd,-4,52.71,9/1/2022,10/6/2022,Backyard,4030,domestic,106610,Birds,6,12,44,38,0,Wales
+Arthog Gwynedd,-4.0,52.71,9/1/2022,10/6/2022,Backyard,4030,domestic,106610,Birds,6,12,44,38,0,Wales
 Kandiyohi County,-95.022,45.104,4/1/2022,7/28/2022,Farm,4309,domestic,101087,Birds,0,0,40000,40000,0,Minnesota
  La Jaudonnière (85115) ,-0.9487744,46.66137,12/6/2022,12/31/1969,Farm,4116,domestic,110275,Birds,0,15000,15000,15000,0,Pays de la Loire
 MARGALIYYOT,35.544207,33.214437,12/16/2021,12/26/2021,Farm,4004,domestic,94325,Birds,16000,20000,537146,521146,0,HaZafon
@@ -7553,7 +7553,7 @@ Csengele,19.885671,46.524114,11/30/2021,12/2/2021,Farm,4090,domestic,93750,Birds
 Volta Mantovana,10.618179,45.285595,12/13/2021,1/12/2022,Farm,4017,domestic,94171,Birds,110,10791,10791,10681,0,Lombardia
 Szank,19.571869,46.584834,4/25/2022,5/1/2022,Farm,4411,domestic,102653,Birds,2361,2361,8000,5639,0,Bács-Kiskun
 Kiskunmajsa,19.634669,46.534769,12/19/2021,12/19/2021,Farm,4077,domestic,94886,Birds,124,124,11989,11865,0,Bács-Kiskun
-Rheden,6.0355,52,3/27/2022,12/31/1969,Other,4051,wild,101078,Eurasian buzzard (common buzzard),1,1,0,0,0,Gelderland
+Rheden,6.0355,52.0,3/27/2022,12/31/1969,Other,4051,wild,101078,Eurasian buzzard (common buzzard),1,1,0,0,0,Gelderland
  Poulaines (36162) ,1.6186189,47.12815,12/8/2022,1/18/2023,Backyard,4075,domestic,110567,Birds,30,70,100,70,0,Centre-Val de Loire
 Martín de la Jara,-4.9307,37.1518,2/22/2022,5/1/2022,Farm,4252,domestic,98205,Birds,5500,5500,5500,0,0,Andalucía
 Hiriseni,28.290161,47.437752,12/31/2021,2/24/2022,Backyard,4268,domestic,95959,Birds,623,623,2800,2177,0,Teleneşti
@@ -7662,7 +7662,7 @@ Elst,5.27,51.9,3/27/2022,12/31/1969,Other,4051,wild,101072,Mute Swan,1,1,0,0,0,G
  Sèvremoine (49301) ,-1.0031301,47.14679,12/7/2022,12/31/1969,Farm,4116,domestic,110180,Birds,50,15000,30000,29950,0,Pays de la Loire
 Yellow Medicine County,-95.545,44.788,4/19/2022,8/17/2022,Farm,4309,domestic,102231,Birds,2483,0,46000,43517,0,Minnesota
 Bócsa,19.51327,46.645837,5/1/2022,5/3/2022,Farm,4411,domestic,103065,Birds,79,79,7506,7427,0,Bács-Kiskun
-Maywick Shetland,-1.32,60,4/5/2022,5/22/2022,Other,4030,wild,104261,Great Skua;Common Eider,5,5,0,0,0,Scotland
+Maywick Shetland,-1.32,60.0,4/5/2022,5/22/2022,Other,4030,wild,104261,Great Skua;Common Eider,5,5,0,0,0,Scotland
 UNGOGO,8.4209,12.0019,1/11/2022,1/15/2022,Farm,3533,domestic,96286,Birds,185,2900,2900,2715,0,Kano
 Catahoula Parish,-91.824,31.772,10/13/2022,12/31/1969,Zoo,4247,wild,108970,Gray Crowned-Crane,0,0,0,0,0,Louisiana
 Sampo-ri,128.531013,38.313993,2/27/2022,12/31/1969,Other,4045,wild,98351,Greater White-fronted Goose,1,1,0,0,0,Gangwon-do
@@ -8093,7 +8093,7 @@ Saki Mangu,8.825,9.7678,12/20/2021,12/23/2021,Farm,3533,domestic,94855,Birds,36,
  Le Pin (79210) ,-0.6568993,46.89639,12/2/2022,12/31/1969,Farm,4116,domestic,110038,Birds,0,0,912,912,0,Nouvelle-Aquitaine
 Greene County,-86.936,39.02,2/15/2022,5/18/2022,Farm,4309,domestic,97979,Birds,162,0,48211,48049,0,Indiana
 Western Rocks Isles of Scilly,-6.387,49.867,8/23/2022,8/23/2022,Other,4030,wild,106616,Northern Gannet,1,1,0,0,0,England
-Falkirk West Lothian ,-3.64,56,9/30/2022,9/29/2022,Other,4643,wild,107578,Mute Swan,1,1,0,0,0,Scotland
+Falkirk West Lothian ,-3.64,56.0,9/30/2022,9/29/2022,Other,4643,wild,107578,Mute Swan,1,1,0,0,0,Scotland
 Kane County,-88.345,41.894,4/20/2022,10/23/2022,Backyard,4247,domestic,102896,Birds,39,0,65,26,0,Illinois
 Sele,5.54984,58.82437,11/16/2021,11/29/2021,Other,4087,wild,93196,Eurasian Wigeon,0,1,0,1,0,Rogaland
 Radehova,15.8469,46.5589,12/29/2021,1/2/2022,Other,4203,wild,95210,Mute Swan,1,1,0,0,0,Podravska
@@ -9029,7 +9029,7 @@ Kollmar,9.461766,53.732022,11/7/2021,11/9/2021,Not applicable,4012,wild,94390,An
 Zandhoven,4.685936,51.193692,11/13/2021,11/13/2021,Other,4073,wild,92809,Eurasian buzzard (common buzzard),1,1,0,0,0,Vlaanderen
 Ponso,11.592481,45.202676,12/2/2021,12/12/2021,Farm,4017,domestic,93653,Birds,16279,28737,28737,12458,0,Veneto
 Okpe,5.7855,5.6368,8/10/2021,8/18/2021,Farm,3533,domestic,93452,Birds,800,3000,3000,2200,0,Delta
-Zutphen,6,52.24,2/10/2022,12/31/1969,Other,4051,wild,97807,Greylag Goose,1,1,0,0,0,Gelderland
+Zutphen,6.0,52.24,2/10/2022,12/31/1969,Other,4051,wild,97807,Greylag Goose,1,1,0,0,0,Gelderland
 Purmerend,5.02,52.48,10/27/2020,7/6/2021,Other,3374,wild,78020,Greylag Goose,1,1,0,0,0,Noord-Holland
 Foussais-Payré (85094),-0.7172011,46.523231,10/25/2022,12/31/1969,Farm,4116,domestic,108352,Birds,9,6000,6000,5991,0,Pays de la Loire
 Roiville (61351),0.23041581,48.870273,10/11/2022,12/20/2022,Backyard,4075,domestic,107695,Birds,40,104,104,64,0,Normandie
@@ -9643,7 +9643,7 @@ Jos,8.9077,9.8101,2/14/2017,2/16/2017,Farm,1682,domestic,47236,Birds,66,66,2500,
  Chanteloup (35054) ,-1.64805597,47.94342,10/10/2022,12/31/1969,Other,4075,wild,109241,Greylag Goose,10,10,0,0,0,Bretagne
 Obia/Akpor,6.521,5.0753,9/17/2015,9/21/2015,Farm,1687,domestic,37294,Birds,181,181,1209,1028,0,Rivers
 Grand marché d’Abobo,-4.014872,5.426107,12/23/2015,2/28/2016,Not applicable,1760,domestic,39169,Birds,3,3,2000,0,0,Abidjan
-Rhenen,5.54,52,1/30/2022,12/31/1969,Other,4051,wild,97736,Greylag Goose,1,1,0,0,0,Utrecht
+Rhenen,5.54,52.0,1/30/2022,12/31/1969,Other,4051,wild,97736,Greylag Goose,1,1,0,0,0,Utrecht
 Yellow River Wetland,111.11,34.46,1/13/2015,4/14/2015,Not applicable,1626,wild,33897,Common Pochard;Greater Scaup;Whooper Swan,93,93,0,0,0,Henan
 Kg. Paloh,102.1515994,5.884719,3/11/2017,3/31/2017,Backyard,2225,domestic,51237,Birds,0,5,5,5,0,Kelantan
 Klamath County,-121.766,42.201,8/21/2022,12/31/1969,Not applicable,4247,wild,106301,Cinnamon Teal,0,0,0,0,0,Oregon
@@ -10128,7 +10128,7 @@ Hoa Thanh,105.4911,18.9989,11/14/2015,12/8/2015,Backyard,1868,domestic,38237,Bir
 Umuoko Aluu,6.90532,4.92129,7/26/2015,8/1/2015,Farm,1687,domestic,36594,Birds,350,350,1850,1500,0,Rivers
 Kumbotso,8.4609,11.9237,3/13/2016,3/16/2016,Farm,1682,domestic,39856,Birds,200,200,2000,1800,0,Kano
 Sourgoubila,-1.9434,12.738,6/9/2015,11/19/2015,Farm,1725,domestic,37474,Birds,140,140,500,0,360,Kourweogo
-Leek,-2,53.11,1/25/2022,1/25/2022,Other,4030,wild,96481,Eurasian buzzard (common buzzard),1,1,0,0,0,England
+Leek,-2.0,53.11,1/25/2022,1/25/2022,Other,4030,wild,96481,Eurasian buzzard (common buzzard),1,1,0,0,0,England
 AlWahda,44.6705,33.1456,6/14/2016,10/11/2016,Farm,1988,domestic,41216,Birds,439799,439799,668000,228201,0,Baghdad
 Seneca County,-76.862,42.905,7/24/2022,12/31/1969,Not applicable,4247,wild,105536,Eastern Screech-Owl,0,0,0,0,0,New York
 An Thanh,106.2344,11.0753,3/2/2017,3/26/2017,Backyard,2200,domestic,48167,Birds,50,50,500,450,0,Tay Ninh
@@ -10220,7 +10220,7 @@ Hoorn,5.096999,52.639999,1/17/2022,12/31/1969,Other,4051,wild,95633,Gadwall,1,1,
 Pitmoaga,-1.8565,12.2494,4/8/2015,7/9/2015,Backyard,1725,domestic,37465,Birds,1005,1005,1500,0,373,Boulkiemde
 Washington County,-71.514,41.451,7/5/2022,12/31/1969,Not applicable,4247,wild,104785,Great black-backed Gull,0,0,0,0,0,Rhode Island
 Dange,5.3396,12.9057,3/11/2016,3/13/2016,Farm,1682,domestic,39838,Birds,1135,1135,6000,4865,0,Sokoto
-Dangkot Thnung,103.05,13,11/11/2015,11/16/2015,Backyard,1866,domestic,38105,Birds,3540,3540,4500,960,0,Battambang
+Dangkot Thnung,103.05,13.0,11/11/2015,11/16/2015,Backyard,1866,domestic,38105,Birds,3540,3540,4500,960,0,Battambang
 PAUILHAC,0.613333,43.876667,12/15/2016,12/20/2016,Farm,2115,domestic,45203,Birds,0,0,1000,1000,0,Gers
 Zevio,11.077991,45.380764,11/13/2021,12/1/2021,Farm,4017,domestic,92646,Birds,22859,22859,22859,0,0,Veneto
 Motithang City Camp,89.6421,27.4943,4/2/2015,11/22/2015,Backyard,1734,domestic,35319,Birds,16,16,37,21,0,Thimphu
@@ -10524,14 +10524,14 @@ CP Roman,-0.45118,5.51299,4/24/2016,5/5/2016,Farm,1762,domestic,40248,Birds,1278
 Peam Lvea,104.05,11.76,2/17/2014,2/24/2014,Village,1503,domestic,23834,Birds,210,210,450,240,0,Kg. Speu
 Zevio,11.152536,45.329575,11/8/2021,11/22/2021,Farm,4017,domestic,92589,Birds,176129,176129,176129,0,0,Veneto
 Otukpo,8.11628,7.2006,2/26/2016,3/3/2016,Backyard,1682,domestic,39723,Birds,148,148,350,202,0,Benue
-Romsey Test Valley,-1.6,51,12/27/2021,2/4/2022,Backyard,4030,domestic,95039,Birds,16,27,56,40,0,England
+Romsey Test Valley,-1.6,51.0,12/27/2021,2/4/2022,Backyard,4030,domestic,95039,Birds,16,27,56,40,0,England
 BAULE-ESCOUBLAC,-2.38361,47.281671,9/4/2022,12/31/1969,Other,4075,wild,106744,Herring Gull,1,1,0,0,0,Pays de la Loire
 Kroum Alkhail,23.835507,32.091846,3/3/2014,3/5/2014,Farm,1518,domestic,23897,Birds,15,19,50,35,0,Tubruq
 CAMPSEGRET,0.552346,44.927715,4/23/2022,8/1/2022,Farm,4116,domestic,102234,Birds,100,100,10980,10880,0,Nouvelle-Aquitaine
 Almere,5.27,52.367,1/13/2022,12/31/1969,Other,4051,wild,95493,Barnacle Goose,1,1,0,0,0,Flevoland
 Ablekuma NIC,-0.0030875,5.61156,4/14/2016,4/21/2016,Farm,1762,domestic,40245,Birds,393,393,1746,1353,0,Greater Accra
 Brevard County,-80.846,28.554,2/16/2022,12/31/1969,Not applicable,4247,wild,98073,Black Vulture,0,0,0,0,0,Florida
-Svay Prey,104.95,12,2/6/2014,2/10/2014,Village,1503,domestic,23759,Birds,4466,4466,5250,784,0,Kg. Cham
+Svay Prey,104.95,12.0,2/6/2014,2/10/2014,Village,1503,domestic,23759,Birds,4466,4466,5250,784,0,Kg. Cham
 Palù,11.14189,45.328268,11/8/2021,11/23/2021,Farm,4017,domestic,92588,Birds,13233,13233,13233,0,0,Veneto
 Angware,8.01702,9.85348,2/28/2016,3/2/2016,Farm,1682,domestic,39690,Birds,1500,1500,39763,38263,0,Plateau
 Renfrew,-4.38,55.88,12/15/2021,12/15/2021,Other,4030,wild,94986,Cygnus (unidentified),1,1,0,0,0,Scotland
@@ -10607,7 +10607,7 @@ Cuyahoga County,-81.685,41.494,5/3/2022,12/31/1969,Not applicable,4247,wild,1031
 BEAUREGARD-ET-BASSAC,0.652271,44.987277,4/13/2022,8/1/2022,Farm,4116,domestic,102034,Birds,0,8160,8160,8160,0,Nouvelle-Aquitaine
 Rantya,8.85663,9.83053,2/26/2016,3/1/2016,Backyard,1682,domestic,39682,Birds,30,30,456,426,0,Plateau
 Arcole,11.289463,45.375114,11/6/2021,11/18/2021,Farm,4017,domestic,92445,Birds,75632,75632,75632,0,0,Veneto
-Sumar,6,53.1632,1/12/2022,12/31/1969,Other,4051,wild,95476,Barnacle Goose,1,1,0,0,0,Friesland
+Sumar,6.0,53.1632,1/12/2022,12/31/1969,Other,4051,wild,95476,Barnacle Goose,1,1,0,0,0,Friesland
 37 Military Hospital Residence,-0.18666,5.59011,11/29/2015,12/1/2015,Backyard,1762,domestic,38697,Birds,7,7,40,33,0,Greater Accra
 Anjora,81.16,21.11,7/29/2013,11/10/2013,Farm,1415,domestic,22746,Birds,464,464,2149,1685,0,Chattisgarh
 SAINT-PAUL-DE-VARAX,5.138123,46.118731,9/2/2022,12/31/1969,Other,4075,wild,106582,Grey Heron,1,1,0,0,0,Auvergne-Rhône-Alpes
@@ -10971,7 +10971,7 @@ K/Namoda,6.58975,12.60031,2/8/2016,2/13/2016,Farm,1682,domestic,39442,Birds,3435
 Jamshedpur,86.12,22.48,10/29/2011,12/12/2011,Not applicable,1187,wild,17925,Wildlife (species unspecified),1143,1143,0,0,0,Jharkhand
 HongTa District,102.54,24.35,3/26/2012,3/26/2012,Farm,1152,domestic,20033,Birds,0,2,35018,35018,0,Yunnan
 Oostvoorne,4.05,51.919598,1/6/2022,12/31/1969,Other,4051,wild,95165,Barnacle Goose,1,1,0,0,0,Zuid-Holland
-Falkirk,-3.75,56,11/21/2021,11/21/2021,Other,4030,wild,93730,Cygnus (unidentified),1,1,0,0,0,Scotland
+Falkirk,-3.75,56.0,11/21/2021,11/21/2021,Other,4030,wild,93730,Cygnus (unidentified),1,1,0,0,0,Scotland
 Itahari Municipality-6,87.252,26.656,1/30/2012,2/13/2012,Farm,1150,domestic,18201,Birds,4647,4647,9500,4853,0,Koshi
 Nam Sang Wai Road,114.031686,22.462315,2/7/2012,2/7/2012,Not applicable,1157,wild,18032,Wildlife (species unspecified),1,1,0,0,0,Hong Kong
 Chabahil,85.3439,27.72155,7/12/2013,7/17/2013,Farm,1298,domestic,23020,Birds,6,6,30,24,0,Bagmati
@@ -11017,9 +11017,9 @@ Heung Sze Wui Road,113.973447,22.393403,2/5/2012,2/5/2012,Not applicable,1157,wi
 Cayuga County,-76.558,42.928,4/4/2022,12/31/1969,Not applicable,4247,wild,101552,Cooper's Hawk,0,0,0,0,0,New York
 Thach Tan,105.8904,18.3104,7/26/2012,8/17/2012,Village,76,domestic,21607,Birds,0,351,2921,2921,0,Ha Tinh
 DOLUS-D'OLERON,-1.289972,45.896462,8/22/2022,12/31/1969,Not applicable,4075,wild,106192,Northern Gannet,1,1,0,0,0,Nouvelle-Aquitaine
-Opong Moan,103.05,13,11/2/2011,11/6/2011,Farm,1090,domestic,17196,Birds,1050,1050,5206,4156,0,Battambang
+Opong Moan,103.05,13.0,11/2/2011,11/6/2011,Farm,1090,domestic,17196,Birds,1050,1050,5206,4156,0,Battambang
 Garo,8.1075,12.0279,2/6/2016,2/9/2016,Backyard,1682,domestic,39384,Birds,20,20,300,280,0,Kano
-Suameer,6,53.161,12/24/2021,12/31/1969,Other,4051,wild,95157,Barnacle Goose,1,1,0,0,0,Friesland
+Suameer,6.0,53.161,12/24/2021,12/31/1969,Other,4051,wild,95157,Barnacle Goose,1,1,0,0,0,Friesland
 Dembe jaya,122.3451,0.7358,4/5/2011,12/31/1969,Village,1046,domestic,16427,Birds,6,6,32,26,0,Gorontalo
 BEGROLLES-EN-MAUGES,-0.932822,47.112947,3/29/2022,9/4/2022,Farm,4116,domestic,101928,Birds,0,11500,11500,11500,0,Pays de la Loire
 West Belfast Lough,-5.87,54.62,11/26/2021,11/26/2021,Other,4030,wild,93363,Eurasian buzzard (common buzzard);Anserinae (unidentified),2,2,0,0,0,Northern Ireland
@@ -11671,7 +11671,7 @@ Phuoc Hau,105.9625,10.2131,4/22/2011,5/14/2011,Village,76,domestic,16435,Birds,1
 Jangdong-ri,126.330846,34.535091,1/7/2011,3/1/2011,Farm,968,domestic,15584,Birds,300,300,15000,14700,0,Jeollanam-Do
 Den Haag,4.337,52.1,12/7/2021,12/31/1969,Other,4051,wild,93970,Mute Swan,1,1,0,0,0,Zuid-Holland
 Sowkhel,85.2819,27.6136,2/4/2013,2/9/2013,Farm,1298,domestic,22179,Birds,820,820,2500,1680,0,Bagmati
-Khojiani,70,34.3,3/3/2007,4/29/2007,Village,157,domestic,2997,Birds,100,100,130,0,0,Nangarhar
+Khojiani,70.0,34.3,3/3/2007,4/29/2007,Village,157,domestic,2997,Birds,100,100,130,0,0,Nangarhar
 BEUZEC-CAP-SIZUN,-4.552005,48.075977,7/20/2022,12/31/1969,Other,4075,wild,105415,Northern Gannet,1,1,0,0,0,Bretagne
 CHEMILLE-EN-ANJOU,-0.761726,47.301595,3/29/2022,8/7/2022,Farm,4116,domestic,102192,Birds,10,9450,9450,9440,0,Pays de la Loire
 Jos,8.90053,9.93557,1/28/2016,1/31/2016,Farm,1682,domestic,39257,Birds,100,100,1890,1790,0,Plateau
@@ -11718,7 +11718,7 @@ Tudun wada,8.8159,9.8778,1/19/2016,1/24/2016,Farm,1682,domestic,39166,Birds,77,7
 Phedibazzar,85.291,27.7854,2/3/2013,2/8/2013,Farm,1298,domestic,22175,Birds,1110,1110,3500,2390,0,Bagmati
 Tan Phu,106.1843,10.4386,3/29/2011,4/19/2011,Village,76,domestic,16356,Birds,0,690,690,690,0,Tien Giang
 CHEMILLE-EN-ANJOU,-0.752218,47.303039,3/28/2022,8/7/2022,Farm,4116,domestic,102152,Birds,0,9000,9000,9000,0,Pays de la Loire
-Mizanur Rahman poultry farm,90,23.51,3/14/2011,3/14/2011,Farm,192,domestic,16248,Birds,10,10,45,35,0,Dhaka
+Mizanur Rahman poultry farm,90.0,23.51,3/14/2011,3/14/2011,Farm,192,domestic,16248,Birds,10,10,45,35,0,Dhaka
 Dhaligaon,90.33,26.28,12/18/2008,10/21/2009,Village,584,domestic,11547,Birds,20,20,3968,3948,0,Assam
 Izumi Crane Park,130.274954,32.102814,12/14/2010,12/23/2010,Not applicable,978,wild,15622,Wildlife (species unspecified),5,5,0,0,0,Kagoshima
 Sandong-ri,127.05401,36.502172,1/6/2011,2/17/2011,Farm,968,domestic,15580,Birds,100,100,53000,52900,0,Chungcheongnam-Do (2005-2013)
@@ -11796,7 +11796,7 @@ Poung,101.3146,20.7445,2/17/2008,2/28/2008,Village,451,domestic,11456,Birds,35,3
 AGBATA-DAGUE,1.385578,6.200039,9/8/2008,1/15/2009,Farm,544,domestic,11118,Birds,4231,4231,7771,3540,0,Région Maritime
 Oosthuizen,5.0128,52.579,11/30/2021,12/31/1969,Other,4051,wild,93314,Mute Swan,3,3,0,0,0,Noord-Holland
 Raigaon,85.2497,27.9061,12/29/2012,1/2/2013,Farm,1298,domestic,22075,Birds,101,101,499,398,0,Bagmati
-Jumoon-ri,128.0508,35,1/15/2011,2/5/2011,Not applicable,968,wild,15514,Wildlife (species unspecified),1,1,0,0,0,Gyeongsangnam-Do
+Jumoon-ri,128.0508,35.0,1/15/2011,2/5/2011,Not applicable,968,wild,15514,Wildlife (species unspecified),1,1,0,0,0,Gyeongsangnam-Do
 Fa village,102.2722,20.3732,8/26/2008,12/28/2008,Village,542,domestic,11098,Birds,197,247,5422,5225,0,Luangprabang
 Tu Son,106.7214,20.7201,3/16/2011,4/6/2011,Village,76,domestic,16270,Birds,500,887,887,387,0,Hai Phong
 Kheluwapara Pt-II,90.33,26.28,12/14/2008,10/21/2009,Village,584,domestic,11505,Birds,48,48,26838,26790,0,Assam
@@ -11808,7 +11808,7 @@ Almere-Stad,5.244,52.374,11/30/2021,12/31/1969,Other,4051,wild,93313,Corvidae (u
 Thongmai village,101.156,21.2161,2/11/2008,2/20/2008,Village,451,domestic,11455,Birds,977,977,2355,1378,0,Luangnamtha
 Sitapaila 1,85.2749,27.70575,12/30/2012,1/2/2013,Farm,1298,domestic,22074,Birds,360,360,3000,2640,0,Bagmati
 Dukho-ri,126.4644,34.6306,12/21/2010,1/11/2011,Not applicable,968,wild,15513,Wildlife (species unspecified),20,20,74,0,0,Jeollanam-Do
-Sariha Sakla,91,26.19,12/14/2008,10/21/2009,Village,584,domestic,11504,Birds,70,70,3455,3385,0,Assam
+Sariha Sakla,91.0,26.19,12/14/2008,10/21/2009,Village,584,domestic,11504,Birds,70,70,3455,3385,0,Assam
 Nalae village,101.5803,20.4035,8/31/2008,12/28/2008,Village,542,domestic,11095,Birds,23,23,1170,0,0,Oudomxay
 Kumbotso,8.2328,11.8156,1/17/2016,1/22/2016,Farm,1682,domestic,39130,Birds,116,116,2660,2544,0,Kano
 BLAINVILLE-SUR-ORNE,-0.301791,49.213002,6/22/2022,12/31/1969,Other,4075,wild,105311,Herring Gull,8,8,0,0,0,Normandie
@@ -11819,7 +11819,7 @@ Market Sadovod,37.46,55.38,2/18/2007,3/15/2007,Village,141,domestic,11274,Birds,
 Namma,101.41,20.95,1/31/2008,3/14/2008,Village,451,domestic,10176,Birds,765,765,1317,0,0,Luangnamtha
 Groot Ammers,4.804,51.919,11/30/2021,12/31/1969,Other,4051,wild,93312,Mute Swan,1,1,0,0,0,Zuid-Holland
 Sitapaila 1,85.274,27.70579,12/24/2012,12/27/2012,Farm,1298,domestic,22073,Birds,760,760,3000,2240,0,Bagmati
-Englishbazar,88.08,25,12/12/2008,10/21/2009,Village,584,domestic,11497,Birds,11,17,28706,28695,0,West Bengal
+Englishbazar,88.08,25.0,12/12/2008,10/21/2009,Village,584,domestic,11497,Birds,11,17,28706,28695,0,West Bengal
 Bakul poultry farm,90.4,23.46,3/11/2011,3/12/2011,Farm,192,domestic,16239,Birds,240,240,2080,1840,0,Dhaka
 Ungogo,8.3436,11.8827,1/18/2016,1/21/2016,Farm,1682,domestic,39129,Birds,219,219,3200,2981,0,Kano
 Chang-ri,126.221268,36.380855,11/28/2010,12/9/2010,Not applicable,968,wild,15447,Wildlife (species unspecified),2,2,0,0,0,Chungcheongnam-Do (2005-2013)
@@ -11872,7 +11872,7 @@ Salema,91.9784,23.8421,4/2/2008,11/3/2008,Village,435,domestic,10449,Birds,98,98
 Schoonrewoerd,5.12,51.94,11/30/2021,12/31/1969,Other,4051,wild,93307,Greylag Goose,3,3,0,0,0,Zuid-Holland
 Village 6,106.471,20.5631,2/11/2011,3/4/2011,Village,76,domestic,16072,Birds,1200,1580,2000,800,0,Quang Ninh
 MAUGES-SUR-LOIRE ,-1.066818,47.319867,3/18/2022,8/7/2022,Farm,4116,domestic,102157,Birds,0,18740,18740,18740,0,Pays de la Loire
-Katla,91,26,11/29/2008,10/21/2009,Village,584,domestic,11479,Birds,75,75,16039,15964,0,Assam
+Katla,91.0,26.0,11/29/2008,10/21/2009,Village,584,domestic,11479,Birds,75,75,16039,15964,0,Assam
 SAINT-VAAST-LA-HOUGUE,-1.24581,49.589463,7/4/2022,12/31/1969,Other,4075,wild,105156,Herring Gull,20,20,0,0,0,Normandie
 Sladkaya Balka,41.01,46.35,12/17/2007,1/17/2008,Village,141,domestic,9866,Birds,71,71,6868,105,0,Rostovskaya Oblast
 Ranaghat II,88.3484,23.4504,3/26/2008,11/3/2008,Village,435,domestic,10448,Birds,200,200,60941,60741,0,West Bengal
@@ -11994,7 +11994,7 @@ Marushkino,36.74,55.37,2/12/2007,3/12/2007,Village,141,domestic,2575,Birds,31,31
 Omi-dong,128.553416,35.594268,4/27/2008,5/2/2008,Farm,470,domestic,10697,Birds,46,46,46,0,0,Gyeongsangbuk-Do
 Sixian,113.42,23.05,9/4/2007,6/5/2008,Village,156,domestic,8559,Birds,9830,9830,32630,22800,0,Guangdong
 Suri-I Mayureshwar I Nanur,87.7133,23.8018,1/25/2008,11/3/2008,Village,435,domestic,10157,Birds,25,25,372711,372686,0,West Bengal
-Aftab Hossain poultry farm,88.59,25,3/6/2011,3/7/2011,Farm,192,domestic,16223,Birds,160,160,1150,990,0,Rajshahi
+Aftab Hossain poultry farm,88.59,25.0,3/6/2011,3/7/2011,Farm,192,domestic,16223,Birds,160,160,1150,990,0,Rajshahi
 Duy Thanh,108.1929,15.494,6/1/2010,6/22/2010,Village,76,domestic,14875,Birds,5000,5500,6525,1525,0,Quang Nam
 Kura,8.3842,11.8428,1/11/2016,1/17/2016,Farm,1682,domestic,39004,Birds,49,49,5970,5921,0,Kano
 DORNAC,1.346915,45.0699,4/5/2022,7/28/2022,Farm,4116,domestic,101944,Birds,0,20000,20000,20000,0,Nouvelle-Aquitaine
@@ -12015,7 +12015,7 @@ Middelburg,3.6,51.4977,11/25/2021,12/31/1969,Other,4051,wild,93022,Barnacle Goos
 Bujeok-myun,127.094139,36.121432,4/21/2008,4/24/2008,Farm,470,domestic,10695,Birds,6,6,7800,7794,0,Chungcheongnam-Do (2005-2013)
 M/S Rangers poultry farm,67.06,24.98,1/27/2008,3/3/2008,Farm,134,domestic,10095,Birds,2200,2200,5500,3300,0,Sindh
 Maklakovo,37.55,56.73,2/9/2007,3/9/2007,Village,141,domestic,2570,Birds,62,62,73,11,0,Moskovskaya Oblast
-Chengguan,91,29.75,2/28/2007,6/5/2008,Village,156,domestic,2833,Birds,680,680,7670,6990,0,Tibet
+Chengguan,91.0,29.75,2/28/2007,6/5/2008,Village,156,domestic,2833,Birds,680,680,7670,6990,0,Tibet
 Sadlowo Parcele,19.55,52.58,12/21/2007,1/30/2008,Village,420,domestic,9862,Birds,20,20,185435,185415,0,Mazowieckie
 Bazlur Rahman poultry farm,90.13,22.39,3/4/2011,3/5/2011,Farm,192,domestic,16221,Birds,655,655,1020,365,0,Barisal
 Shamsirganj,88.2627,24.1694,1/24/2008,11/3/2008,Village,435,domestic,10155,Birds,1975,1975,211920,209945,0,West Bengal
@@ -12054,7 +12054,7 @@ Lepno 1,19.996,54.102,12/11/2007,1/20/2008,Village,420,domestic,9814,Birds,30,0,
 Naqu (district),89.2637,31.9376,5/20/2006,6/5/2008,Not applicable,156,wild,2473,Wildlife (species unspecified),2579,2579,0,0,0,Tibet
 Keumku-myun,126.590756,35.470324,4/18/2008,4/21/2008,Farm,470,domestic,10692,Birds,240,240,35000,34760,0,Jeollabuk-Do
 Shihovo,36.86,55.73,2/9/2007,3/9/2007,Village,141,domestic,2316,Birds,17,17,21,4,0,Moskovskaya Oblast
-Al-Muzahmiyah,46,24,12/12/2007,1/28/2008,Not applicable,409,domestic,10218,Birds,1,0,0,0,0,Ar Riyad
+Al-Muzahmiyah,46.0,24.0,12/12/2007,1/28/2008,Not applicable,409,domestic,10218,Birds,1,0,0,0,0,Ar Riyad
 Manga,73.38,33.91,11/26/2007,3/3/2008,Farm,134,domestic,9812,Birds,8000,8000,18000,10000,0,Punjab
 Tinh Son,108.4227,15.0951,4/23/2010,5/14/2010,Farm,76,domestic,13633,Birds,150,550,3670,3520,0,Quang Ngai
 Kadarko quarters,7.62,12.97,7/21/2008,10/23/2008,Farm,511,domestic,11813,Birds,31,31,110,79,0,Katsina
@@ -12097,7 +12097,7 @@ Labinsk,39.685555,45.216666,1/11/2007,2/11/2007,Village,141,domestic,2178,Birds,
 M/S AiliaChicks Kotli Paeem Mansehra,73.13,34.41,7/20/2007,3/3/2008,Farm,134,domestic,4911,Birds,22607,37393,60000,37393,0,Khyber Pakhtoon Khuwa
 South Ar-Riyad,45.9253,20.7644,12/2/2007,1/28/2008,Not applicable,409,domestic,10214,Birds,0,0,575770,575770,0,Ar Riyad
 Yongji-myun,126.575254,35.515819,4/15/2008,4/18/2008,Farm,470,domestic,10689,Birds,13,13,20000,19987,0,Jeollabuk-Do
-Panjin,121,39,4/12/2006,4/12/2006,Not applicable,156,wild,2468,Wildlife (species unspecified),1,1,0,0,0,Liaoning
+Panjin,121.0,39.0,4/12/2006,4/12/2006,Not applicable,156,wild,2468,Wildlife (species unspecified),1,1,0,0,0,Liaoning
 Kafr hakeem,31.0836,29.9842,5/31/2008,12/31/1969,Farm,77,domestic,10837,Birds,7000,7000,40000,33000,0,Al Jizah
 Jos,8.8356,9.9388,1/12/2016,1/14/2016,Backyard,1682,domestic,38997,Birds,50,50,150,100,0,Plateau
 GENETS,-1.512748,48.660058,6/30/2022,12/31/1969,Other,4075,wild,104947,Herring Gull,1,1,0,0,0,Normandie
@@ -12196,7 +12196,7 @@ Yongji-myun 1,126.590428,35.500584,4/8/2008,4/11/2008,Farm,470,domestic,10459,Bi
 Shony,31.0016,30.7227,3/15/2008,12/31/1969,Not applicable,77,domestic,10827,Birds,5,5,35,30,0,Al Gharbiyah
 Usman shed No. 12,66.92,25.16,3/26/2007,3/3/2008,Farm,134,domestic,3213,Birds,799,1125,2500,1701,0,Sindh
 De Koog,4.74,53.08,11/17/2021,12/31/1969,Other,4051,wild,92690,Peregrin falcon,1,1,0,0,0,Noord-Holland
-Dhurma,47,24,11/19/2007,1/28/2008,Farm,409,domestic,10206,Birds,0,0,101000,101000,0,Ar Riyad
+Dhurma,47.0,24.0,11/19/2007,1/28/2008,Farm,409,domestic,10206,Birds,0,0,101000,101000,0,Ar Riyad
 Altbensdorf 12069A070005,12.347089,52.416584,12/20/2007,1/27/2008,Farm,427,domestic,9861,Birds,2,5,30,28,0,Brandenburg
 SAINT-COLOMB-DE-LAUZUN,0.494038,44.626788,4/20/2022,7/7/2022,Farm,4116,domestic,102110,Birds,0,1000,1000,1000,0,Nouvelle-Aquitaine
 Sinop,35.054491,41.898423,2/10/2008,3/11/2008,Village,440,domestic,10246,Birds,13,13,130,117,0,Sinop
@@ -12480,7 +12480,7 @@ Bahri,33.5,14.5,4/11/2006,9/3/2006,Farm,75,domestic,1382,Birds,9000,9000,20935,1
 J. M. T. poultry farm,90.43,23.57,2/25/2011,2/27/2011,Farm,192,domestic,16062,Birds,686,686,7500,6814,0,Dhaka
 9 ward,96.1024,16.9716,2/25/2007,7/20/2007,Farm,166,domestic,2628,Birds,68,68,1360,1292,0,Yangon (2005-2015)
 Iljuk-myun,127.281447,37.044092,2/8/2007,6/17/2007,Farm,90,domestic,2210,Birds,1188,1188,133000,131812,0,Gyeonggi-Do
-Parrega,5.47,53,10/31/2021,12/31/1969,Other,4051,wild,92260,Anatidae (unidentified),5,10,208,203,0,Friesland
+Parrega,5.47,53.0,10/31/2021,12/31/1969,Other,4051,wild,92260,Anatidae (unidentified),5,10,208,203,0,Friesland
 Village No 9,104.6612,16.5085,3/18/2007,6/17/2007,Village,110,domestic,3030,Birds,26,26,199,173,0,Mukdahan
 Aschheim 09184A070004,11.710233,48.206264,8/2/2007,9/2/2007,Not applicable,269,wild,10228,Wildlife (species unspecified),1,1,0,0,0,Bayern
 Igabi,7.706704,10.804954,12/11/2015,12/13/2015,Farm,1682,domestic,38561,Birds,1500,1500,7500,6000,0,Kaduna
@@ -12521,7 +12521,7 @@ Bauchi,9.855008,10.307245,2/5/2015,2/12/2015,Farm,1682,domestic,37253,Birds,652,
 L ans Z farm,8.4667,11.8596,3/2/2006,1/8/2008,Farm,88,domestic,1837,Birds,22,22,6000,0,0,Kano
 CAMIERS,1.6084,50.54092,5/23/2022,12/31/1969,Other,4075,wild,104612,White Stork,1,1,0,0,0,Hauts-de-France
 Al Sanayna,31.6001,31.4176,1/23/2008,12/31/1969,Village,77,domestic,10076,Birds,4,4,12,8,0,Dumyat
-Atbara,34,17,2/19/2006,9/3/2006,Farm,75,domestic,1378,Birds,100,100,1000,0,0,River Nile (2005-2011)
+Atbara,34.0,17.0,2/19/2006,9/3/2006,Farm,75,domestic,1378,Birds,100,100,1000,0,0,River Nile (2005-2011)
 SAIGNES,1.828187,44.782729,4/5/2022,7/5/2022,Farm,4116,domestic,101952,Birds,0,6162,6162,6162,0,Occitanie
 Hoang Nong,105.3333,21.3639,12/8/2009,12/29/2009,Farm,76,domestic,12711,Birds,310,350,900,590,0,Thai Nguyen (2005-2009)
 Sladkovo,70.33,55.53,8/26/2005,10/27/2005,Village,235,domestic,3666,Birds,21,21,18000,59,0,Tyumenskaya Oblast
@@ -12781,7 +12781,7 @@ Ullerslev,10.640555,55.375555,4/3/2006,6/29/2006,Not applicable,187,wild,3083,Wi
 PALUEL,0.663284,49.85986,5/29/2022,12/31/1969,Other,4075,wild,104115,Herring Gull,3,3,0,0,0,Normandie
 Kelbra 15087A070217,11.014993,51.438398,7/12/2007,10/29/2007,Not applicable,269,wild,4577,Wildlife (species unspecified),1,1,0,0,0,Sachsen-Anhalt
 Apollo crescent,8.82,9.96,2/23/2006,1/8/2008,Farm,88,domestic,1693,Birds,13,13,204,191,0,Plateau
-Nasima poultry farm,92,21.32,2/13/2011,2/15/2011,Farm,192,domestic,16036,Birds,195,195,1040,845,0,Chittagong
+Nasima poultry farm,92.0,21.32,2/13/2011,2/15/2011,Farm,192,domestic,16036,Birds,195,195,1040,845,0,Chittagong
 Met Al Karma,31.2767,31.0412,1/12/2008,12/31/1969,Farm,77,domestic,9987,Birds,1000,1000,12100,11100,0,Ad Daqahliyah
 Novorozhdestvenka,72.04,54.98,8/17/2005,10/27/2005,Village,235,domestic,3646,Birds,151,151,9257,1882,0,Omskaya Oblast
 Wafra,48.0207,28.6915,2/19/2007,3/18/2007,Farm,161,domestic,2543,Birds,0,2,670,668,0,Al Ahmadi
@@ -12924,7 +12924,7 @@ Shobra shehab,31.1618,30.2313,1/10/2008,12/31/1969,Farm,77,domestic,9978,Birds,3
 Krasnoflotske,34.95,45.366666,12/6/2005,6/20/2006,Village,210,domestic,3426,Birds,4,4,5500,3507,0,Crimean
 Krasnoozerskoye Ltd.,79.23,53.98,10/10/2005,10/27/2005,Farm,235,domestic,3636,Birds,28,28,5500,173,0,Novosibirskaya Oblast
 Kelbra 15087A070222,10.991328,51.445895,7/18/2007,10/29/2007,Not applicable,269,wild,4567,Wildlife (species unspecified),1,1,0,0,0,Sachsen-Anhalt
-Machachkala,47,43,2/4/2006,2/15/2006,Farm,149,domestic,2298,Birds,0,0,258000,258000,0,Respublika Dagestan
+Machachkala,47.0,43.0,2/4/2006,2/15/2006,Farm,149,domestic,2298,Birds,0,0,258000,258000,0,Respublika Dagestan
 An Xuyen,105.1108,9.1353,2/11/2009,3/4/2009,Farm,76,domestic,11765,Birds,10,110,796,786,0,Ca Mau
 Cakildak koyu,34.93,41.76,2/20/2006,5/16/2006,Village,165,domestic,2916,Birds,2,2,126,124,0,Sinop
 Cornetu,23.616666,44.733333,5/19/2006,6/30/2006,Village,153,domestic,2500,Birds,1,13,13,12,0,Bucuresti
@@ -12934,7 +12934,7 @@ HERBIERS,-1.072354,46.850469,3/30/2022,9/5/2022,Farm,4116,domestic,101133,Birds,
 SAINT-QUENTIN-EN-TOURMONT,1.59083,50.280906,5/16/2022,12/31/1969,Other,4075,wild,103381,Herring Gull,9,9,0,0,0,Hauts-de-France
 Fed. Low cost,8.83802,9.87362,3/30/2015,4/2/2015,Farm,1682,domestic,36072,Birds,25,25,1940,1915,0,Plateau
 Kakuri Market,7.577,10.2003,2/20/2006,1/8/2008,Farm,88,domestic,1683,Birds,1132,1132,1650,518,0,Kaduna
-Tuzla,28.64,44,2/15/2006,4/20/2006,Village,195,domestic,3290,Birds,19,37,37,18,0,Constanta
+Tuzla,28.64,44.0,2/15/2006,4/20/2006,Village,195,domestic,3290,Birds,19,37,37,18,0,Constanta
 Dmytrivka,35.066666,45.483333,12/6/2005,12/24/2005,Village,210,domestic,3425,Birds,26,26,8100,6224,0,Crimean
 Utyanka,79.75,54.71,10/16/2005,10/27/2005,Village,235,domestic,3635,Birds,67,67,0,1161,0,Novosibirskaya Oblast
 Bani Yussef,31.1609,30.1387,12/24/2007,12/26/2007,Not applicable,77,wild,9976,Wildlife (species unspecified),1,1,90,89,0,Al Jizah
@@ -12954,9 +12954,9 @@ Mironovka,77.66,54.1,10/2/2005,10/27/2005,Village,235,domestic,3634,Birds,10,10,
 Chornozemne,34.8,45.4,12/6/2005,6/20/2006,Village,210,domestic,3424,Birds,22,22,3923,2547,0,Crimean
 Mereni,28.44,44.01,2/16/2006,4/20/2006,Village,195,wild,3289,Wildlife (species unspecified),1,0,0,0,0,Constanta
 Shbeen Al Koom,31.045,30.6213,1/2/2008,12/31/1969,Village,77,domestic,9975,Birds,19,19,39,20,0,Al Minufiyah
-Machachkala,47,43,1/24/2006,2/4/2006,Farm,149,domestic,2296,Birds,0,0,274000,274000,0,Respublika Dagestan
+Machachkala,47.0,43.0,1/24/2006,2/4/2006,Farm,149,domestic,2296,Birds,0,0,274000,274000,0,Respublika Dagestan
 Auleben 16062A070009,10.966731,51.429563,7/17/2007,8/29/2007,Not applicable,269,wild,4565,Wildlife (species unspecified),1,1,0,0,0,Thuringen
-Dragutesti,23.25,45,5/25/2006,6/30/2006,Village,153,domestic,2498,Birds,16,50,50,34,0,Gorj
+Dragutesti,23.25,45.0,5/25/2006,6/30/2006,Village,153,domestic,2498,Birds,16,50,50,34,0,Gorj
 City,18.08,59.33,3/15/2006,4/25/2006,Not applicable,147,wild,12311,Wildlife (species unspecified),10,10,0,0,0,Stockholms Län
 An Dong,106.0458,21.0707,2/7/2009,2/19/2009,Village,76,domestic,11763,Birds,290,387,1820,1530,0,Bac Ninh
 Maroua (quartier Doualaré),14.25325,10.60883,2/20/2006,3/11/2006,Village,144,domestic,2259,Birds,50,50,58,8,0,Extreme-Nord
@@ -13035,7 +13035,7 @@ Voyinka,33.98,45.86,12/8/2005,6/20/2006,Village,210,domestic,3419,Birds,7,7,0,0,
 Al Bagor,31.045,30.3462,1/7/2008,12/31/1969,Village,77,domestic,9952,Birds,10,10,32,22,0,Al Minufiyah
 Villard Les Dombes,5.03103,45.99708,3/28/2006,4/17/2006,Not applicable,135,wild,2197,Wildlife (species unspecified),1,1,0,0,0,Ain
 Abuja,6.93,9.25,2/19/2006,1/8/2008,Farm,88,domestic,1676,Birds,22,22,357,0,0,Federal Capital Territory
-Nogersund,14.74,56,3/20/2006,4/25/2006,Not applicable,147,wild,12306,Wildlife (species unspecified),1,1,0,0,0,Blekinge Län
+Nogersund,14.74,56.0,3/20/2006,4/25/2006,Not applicable,147,wild,12306,Wildlife (species unspecified),1,1,0,0,0,Blekinge Län
 Cetate,23.04,44.1,2/2/2006,4/20/2006,Village,195,domestic,3260,Birds,10,10,0,0,0,Dolj
 Præstø,12.048611,55.121666,3/18/2006,6/29/2006,Not applicable,187,wild,3065,Wildlife (species unspecified),1,1,0,0,0,Storstrøms Amt (2005-2007)
 Border guard Bangladesh headquarters,90.21,23.47,2/5/2011,2/7/2011,Farm,192,domestic,15956,Birds,54,54,1793,1739,0,Dhaka
@@ -13084,7 +13084,7 @@ BEAUPREAU-EN-MAUGES,-0.880659,47.229926,3/28/2022,9/4/2022,Farm,4116,domestic,10
 Straubing-Bogen,12.48,48.82,4/26/2006,9/2/2006,Not applicable,125,wild,2177,Wildlife (species unspecified),0,2,0,0,0,Bayern
 Dealul Lui Negrila,24.566666,44.916666,5/28/2006,6/30/2006,Village,153,domestic,2489,Birds,77,197,197,120,0,Arges
 Koseli koyu,36.15,41.3,2/20/2006,5/16/2006,Village,165,domestic,2908,Birds,1,1,339,338,0,Samsun
-Nekrasovka,35,45.45,11/24/2005,12/12/2005,Village,210,domestic,3416,Birds,1210,1210,6076,4866,0,Crimean
+Nekrasovka,35.0,45.45,11/24/2005,12/12/2005,Village,210,domestic,3416,Birds,1210,1210,6076,4866,0,Crimean
 Villard Les Dombes,5.03103,45.99708,3/12/2006,4/17/2006,Not applicable,135,wild,2194,Wildlife (species unspecified),1,1,0,0,0,Ain
 Ærøskøbing,10.411388,54.893611,3/14/2006,6/29/2006,Not applicable,187,wild,3062,Wildlife (species unspecified),9,9,0,0,0,Fyns Amt (2005-2007)
 SAINT-MESMIN,-0.733009,46.793908,3/12/2022,12/31/1969,Backyard,4075,domestic,102197,Birds,10,10,10,0,0,Pays de la Loire
@@ -13177,7 +13177,7 @@ Jabalia 2,34.474,31.5289,3/20/2006,4/18/2006,Farm,128,domestic,2071,Birds,0,0,0,
 Kelbra 15087A070200,11.014165,51.434295,7/12/2007,10/29/2007,Not applicable,269,wild,4516,Wildlife (species unspecified),1,1,0,0,0,Sachsen-Anhalt
 El Shakwany,30.8037,28.1213,12/31/2007,12/31/1969,Village,77,domestic,9943,Birds,12,12,32,20,0,Al Minya
 Feuerthalen,8.658,47.69,3/1/2006,6/11/2006,Not applicable,151,wild,2321,Wildlife (species unspecified),1,1,0,0,0,Zurich
-Mirochov,14.9333,49,4/3/2006,5/8/2006,Not applicable,124,wild,1984,Wildlife (species unspecified),1,1,0,0,0,Jihoceský
+Mirochov,14.9333,49.0,4/3/2006,5/8/2006,Not applicable,124,wild,1984,Wildlife (species unspecified),1,1,0,0,0,Jihoceský
 Bhai Bhai poultry farm,90.4,23.47,2/3/2011,2/4/2011,Farm,192,domestic,15817,Birds,110,110,2000,1890,0,Dhaka
 Warta,18.39,51.42,5/6/2006,5/6/2006,Not applicable,123,wild,1985,Wildlife (species unspecified),1,1,0,0,0,Lodzkie
 Kovylnoye,76.63,55.02,8/3/2005,10/27/2005,Village,235,domestic,3619,Birds,6,6,0,1699,0,Novosibirskaya Oblast
@@ -13574,7 +13574,7 @@ MOZE-SUR-LOUET,-0.57605,47.342557,4/4/2022,8/7/2022,Farm,4116,domestic,101404,Bi
 Gurgoze koyu,41.67,37.92,2/23/2006,5/16/2006,Village,165,domestic,2888,Birds,0,0,0,0,0,Siirt
 Bodoglár 1,19.4298,46.5348,6/9/2006,10/15/2006,Farm,73,domestic,1330,Birds,0,0,28000,28000,0,Bacs-Kiskun
 Kelbra 15087A070147,11.011006,51.429504,7/5/2007,10/29/2007,Not applicable,269,wild,4491,Wildlife (species unspecified),1,1,0,0,0,Sachsen-Anhalt
-Mizanu Rahman poultry farm,92,21.42,2/19/2010,2/20/2010,Farm,192,domestic,13155,Birds,197,197,1000,803,0,Chittagong
+Mizanu Rahman poultry farm,92.0,21.42,2/19/2010,2/20/2010,Farm,192,domestic,13155,Birds,197,197,1000,803,0,Chittagong
 Meet ghamer,31.296,30.684,12/31/2007,12/31/1969,Not applicable,77,domestic,9907,Birds,10,10,1000,990,0,Ad Daqahliyah
 RokarChuor I,105.4362,11.3388,7/31/2006,8/13/2006,Farm,63,domestic,1100,Birds,1202,1202,1600,398,0,Prey Veng
 Rantya,8.81722,9.86281,3/13/2015,3/16/2015,Farm,1682,domestic,36034,Birds,86,86,3092,3006,0,Plateau
@@ -13598,7 +13598,7 @@ Monthieux,4.9333333,45.95,2/21/2006,2/21/2006,Not applicable,135,wild,2160,Wildl
 Alykes village of Epanomi,22.9,40.4166,3/3/2006,3/3/2006,Not applicable,67,wild,1119,Wildlife (species unspecified),1,1,1,0,0,Kentriki Makedonia
 Village No. 4,106.1536,10.3757,4/30/2008,5/21/2008,Village,76,domestic,10856,Birds,200,200,1000,800,0,Long An
 Ugento,16.7343,40.8404,2/11/2006,2/24/2006,Not applicable,95,wild,1741,Wildlife (species unspecified),1,0,0,0,0,Puglia
-Sigmaringen,9.29,48,4/18/2006,9/2/2006,Not applicable,125,wild,2117,Wildlife (species unspecified),0,2,0,0,0,Baden-Wurttemberg
+Sigmaringen,9.29,48.0,4/18/2006,9/2/2006,Not applicable,125,wild,2117,Wildlife (species unspecified),0,2,0,0,0,Baden-Wurttemberg
 Banesti,25.566666,44.733333,5/16/2006,6/30/2006,Village,153,domestic,2413,Birds,12,25,25,13,0,Prahova
 Musura bay N-NE zone,29.65,45.15,11/20/2005,11/20/2005,Not applicable,195,wild,3225,Wildlife (species unspecified),7,0,0,0,0,Tulcea
 BALIRACQ-MAUMUSSON,-0.254167,43.553373,1/19/2022,4/25/2022,Backyard,4075,domestic,97620,Birds,4,40,40,36,0,Nouvelle-Aquitaine
@@ -13606,7 +13606,7 @@ Yablonevka,76.57,54.71,8/18/2005,10/27/2005,Village,235,domestic,3595,Birds,2,2,
 Goncaaydin koyu,30.15,41.06,3/4/2006,5/16/2006,Village,165,domestic,2886,Birds,149,149,1684,1535,0,Kocaeli
 Kelbra 15087A070145,11.011086,51.432945,7/5/2007,10/29/2007,Not applicable,269,wild,4489,Wildlife (species unspecified),1,1,0,0,0,Sachsen-Anhalt
 SAINT-GENIES,1.293541,44.975684,3/31/2022,7/28/2022,Farm,4116,domestic,101109,Birds,70,750,750,680,0,Nouvelle-Aquitaine
-Saiful poultry farm,92,21.44,2/16/2010,2/17/2010,Farm,192,domestic,13153,Birds,175,175,700,525,0,Chittagong
+Saiful poultry farm,92.0,21.44,2/16/2010,2/17/2010,Farm,192,domestic,13153,Birds,175,175,700,525,0,Chittagong
 Al Saadat,31.5277,30.4669,12/25/2007,12/26/2007,Farm,77,domestic,9906,Birds,200,200,500,300,0,Ash Sharqiyah
 Toul Prich,104.58,11.25,3/21/2006,4/12/2006,Farm,63,domestic,1098,Birds,402,402,700,298,0,Kg. Speu
 Xirolimni Lakevillage of Fanari,25.15,40.96666,2/5/2006,3/3/2006,Not applicable,67,wild,1118,Wildlife (species unspecified),2,2,2,0,0,Kentriki Makedonia
@@ -13640,7 +13640,7 @@ Gamajigo,8.8236,9.97539,3/12/2015,3/15/2015,Farm,1682,domestic,36031,Birds,6,6,8
 Ploiesti,26.016666,44.95,5/15/2006,6/30/2006,Village,153,domestic,2411,Birds,23,148,148,125,0,Prahova
 Caraorman 1,29.4,45.08,11/14/2005,12/26/2005,Farm,195,domestic,3223,Birds,0,1,28,28,0,Tulcea
 Kelbra 15087A070143,11.017262,51.431473,7/5/2007,10/29/2007,Not applicable,269,wild,4487,Wildlife (species unspecified),1,1,0,0,0,Sachsen-Anhalt
-Aliko,20,39.87,2/15/2006,3/22/2006,Village,57,domestic,1010,Birds,60,63,1878,1818,0,Vlorë
+Aliko,20.0,39.87,2/15/2006,3/22/2006,Village,57,domestic,1010,Birds,60,63,1878,1818,0,Vlorë
 BOUSSAIS,-0.255992,46.83269,3/27/2022,8/1/2022,Farm,4116,domestic,101114,Birds,16000,20000,20000,4000,0,Nouvelle-Aquitaine
 Villars les Dombes,5.03103,45.99708,2/18/2006,3/5/2006,Not applicable,135,wild,2157,Wildlife (species unspecified),2,2,0,0,0,Ain
 Epanomi,22.9,40.4166,2/12/2006,3/3/2006,Not applicable,67,wild,1116,Wildlife (species unspecified),1,1,1,0,0,Kentriki Makedonia
@@ -13656,7 +13656,7 @@ Rantya,8.83757,9.86855,3/10/2015,3/13/2015,Backyard,1682,domestic,36030,Birds,6,
 Marina di Melilli,14.2796,37.4195,2/1/2006,2/24/2006,Not applicable,95,domestic,1738,Birds,1,20,0,0,0,Sicilia
 Kelbra 15087A070142,11.018099,51.435117,7/5/2007,10/29/2007,Not applicable,269,wild,4486,Wildlife (species unspecified),1,1,0,0,0,Sachsen-Anhalt
 Caraorman,29.4,45.08,11/14/2005,12/26/2005,Farm,195,domestic,3222,Birds,1,2,36,35,0,Tulcea
-çuke,20,39.97,2/15/2006,3/22/2006,Village,57,domestic,1009,Birds,60,60,60,0,0,Vlorë
+çuke,20.0,39.97,2/15/2006,3/22/2006,Village,57,domestic,1009,Birds,60,60,60,0,0,Vlorë
 CORCOUE-SUR-LOGNE,-1.638213,46.935173,3/5/2022,8/1/2022,Farm,4116,domestic,101123,Birds,0,3500,3500,3500,0,Pays de la Loire
 Truong Tho B,105.3651,9.5837,4/24/2008,5/20/2008,Village,76,domestic,10853,Birds,1131,1131,1960,829,0,Can Tho City (2005-2009)
 Ye Oo,95.5412,22.4901,4/24/2006,4/26/2006,Farm,50,domestic,718,Birds,0,0,1007,1007,0,Sagaing (2005-2015)
@@ -13878,7 +13878,7 @@ Charqala,69.183,34.51,3/11/2006,3/17/2006,Village,55,domestic,999,Birds,0,0,0,0,
 Kelbra 15087A070127,11.020338,51.431752,7/5/2007,10/29/2007,Not applicable,269,wild,4471,Wildlife (species unspecified),1,1,0,0,0,Sachsen-Anhalt
 Suzdalka,79.65,54.49,7/21/2005,10/27/2005,Village,235,domestic,3577,Birds,617,617,0,17022,0,Novosibirskaya Oblast
 Straubing Stadt,12.59,48.88,3/29/2006,9/2/2006,Not applicable,125,wild,2092,Wildlife (species unspecified),0,1,0,0,0,Bayern
-Mimi poultry farm,89,25.48,3/28/2009,3/29/2009,Farm,192,domestic,11972,Birds,32,32,500,468,0,Rajshahi
+Mimi poultry farm,89.0,25.48,3/28/2009,3/29/2009,Farm,192,domestic,11972,Birds,32,32,500,468,0,Rajshahi
 Beshet Amer,31.3346,30.4476,12/22/2007,12/23/2007,Farm,77,domestic,9880,Birds,4985,4985,15000,10015,0,Ash Sharqiyah
 Maierus,25.533333,45.9,5/12/2006,6/30/2006,Village,153,domestic,2391,Birds,9,11,11,2,0,Brasov
 Ye Oo 2,95.5412,22.4901,3/23/2006,4/26/2006,Farm,50,domestic,703,Birds,55,55,1200,1145,0,Sagaing (2005-2015)
@@ -14914,7 +14914,7 @@ Abo Kebir,31.6628,30.6696,4/13/2006,12/2/2007,Farm,77,domestic,6292,Birds,0,0,0,
 VERRIE,-0.997082,46.982629,3/18/2022,9/5/2022,Farm,4116,domestic,99371,Birds,200,16200,16200,16000,0,Pays de la Loire
 TT. Cai Nuoc,105.023781,8.930745,12/31/2006,1/21/2007,Farm,76,domestic,1759,Birds,2,2,32,13,0,Ca Mau
 Kelbra 15087A070061,11.006913,51.43717,7/5/2007,10/29/2007,Not applicable,269,wild,4341,Wildlife (species unspecified),1,1,0,0,0,Sachsen-Anhalt
-Merkez 1,41.4,40,1/1/2006,5/16/2006,Village,165,domestic,2622,Birds,0,35,4330,4330,0,Erzurum
+Merkez 1,41.4,40.0,1/1/2006,5/16/2006,Village,165,domestic,2622,Birds,0,35,4330,4330,0,Erzurum
 Bhai Bhai,89.77,25.04,2/20/2008,2/22/2008,Farm,192,domestic,10557,Birds,185,185,1364,1179,0,Dhaka
 Banha,31.1609,30.4379,4/13/2006,12/2/2007,Farm,77,domestic,6291,Birds,0,0,0,0,0,Al Qalyubiyah
 CHAMBRETAUD,-0.980556,46.92784,3/11/2022,9/5/2022,Farm,4116,domestic,99514,Birds,20,2000,2000,1980,0,Pays de la Loire
@@ -15021,7 +15021,7 @@ Khanh Hai,104.839648,9.104654,12/12/2006,1/9/2007,Village,76,domestic,1480,Birds
 Imbaba,30.8906,30.3028,4/9/2006,12/2/2007,Farm,77,domestic,6259,Birds,0,0,0,0,0,Al Jizah
 Kelbra,11.013253,51.432531,7/4/2007,10/29/2007,Not applicable,269,wild,4321,Wildlife (species unspecified),1,1,0,0,0,Sachsen-Anhalt
 Ridoy Koel,90.4,23.56,3/7/2008,3/10/2008,Farm,192,domestic,10538,Birds,200,200,9832,9632,0,Dhaka
-Khanh Binh Tay,105,9.1026,12/21/2006,1/15/2007,Village,76,domestic,1479,Birds,76,120,310,230,0,Ca Mau
+Khanh Binh Tay,105.0,9.1026,12/21/2006,1/15/2007,Village,76,domestic,1479,Birds,76,120,310,230,0,Ca Mau
 BEAUPREAU-EN-MAUGES,-1.111197,47.189726,3/18/2022,9/4/2022,Farm,4116,domestic,99392,Birds,0,103300,103300,103300,0,Pays de la Loire
 Kelbra 15087A070039,11.011357,51.430612,7/4/2007,10/29/2007,Not applicable,269,wild,4320,Wildlife (species unspecified),1,1,0,0,0,Sachsen-Anhalt
 Samanoud,31.2333,30.9543,4/9/2006,12/2/2007,Farm,77,domestic,6258,Birds,0,0,0,0,0,Al Gharbiyah
@@ -15268,7 +15268,7 @@ Mania Elkamh,31.3057,30.4524,4/2/2006,12/2/2007,Farm,77,domestic,6097,Birds,0,0,
 Jibon,92.03,24.52,1/3/2008,1/9/2008,Farm,192,domestic,10387,Birds,500,500,1283,783,0,Sylhet
 Elzakazik,31.4842,30.5875,4/2/2006,12/2/2007,Farm,77,domestic,6095,Birds,0,0,0,0,0,Ash Sharqiyah
 PINEAUX,-1.157381,46.588565,3/20/2022,8/8/2022,Farm,4116,domestic,99658,Birds,200,9500,9500,9300,0,Pays de la Loire
-Hannan,92,24.48,1/26/2008,1/30/2008,Farm,192,domestic,10386,Birds,450,450,1885,1435,0,Sylhet
+Hannan,92.0,24.48,1/26/2008,1/30/2008,Farm,192,domestic,10386,Birds,450,450,1885,1435,0,Sylhet
 Belbeis,31.5421,30.462,4/2/2006,12/2/2007,Farm,77,domestic,6093,Birds,0,0,0,0,0,Ash Sharqiyah
 PINEAUX,-1.208021,46.614558,3/18/2022,8/8/2022,Farm,4116,domestic,99416,Birds,0,10000,10000,10000,0,Pays de la Loire
 Saijuddin's house,90.36,22.69,1/12/2008,1/14/2008,Village,192,domestic,10385,Birds,1,1,1216,1215,0,Barisal
@@ -15512,7 +15512,7 @@ POUZAUGES,-0.866857,46.769771,3/8/2022,9/12/2022,Farm,4116,domestic,99197,Birds,
 Jeher Ali's house,88.76,25.68,6/1/2007,6/5/2007,Village,192,domestic,9834,Birds,4,4,2866,2862,0,Rajshahi
 REAUMUR,-0.843131,46.723243,3/8/2022,9/12/2022,Farm,4116,domestic,99025,Birds,20,3500,3500,3480,0,Pays de la Loire
 Elmunshah,31.8945,26.461,3/27/2006,12/2/2007,Village,77,domestic,5737,Birds,0,0,0,0,0,Suhaj
-Atiar's house,89,26.02,5/24/2007,5/31/2007,Village,192,domestic,9833,Birds,92,92,554,462,0,Rajshahi
+Atiar's house,89.0,26.02,5/24/2007,5/31/2007,Village,192,domestic,9833,Birds,92,92,554,462,0,Rajshahi
 REAUMUR,-0.844255,46.722795,3/8/2022,9/12/2022,Farm,4116,domestic,98889,Birds,20,2580,2580,2560,0,Pays de la Loire
 Toukh,31.2043,30.3896,3/27/2006,12/2/2007,Farm,77,domestic,5732,Birds,0,0,0,0,0,Al Qalyubiyah
 Amena's house,89.67,23.69,5/5/2007,5/5/2007,Village,192,domestic,9830,Birds,7,7,1968,1961,0,Dhaka
