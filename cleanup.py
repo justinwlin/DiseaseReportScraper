@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def deduplicate_csv(filepath):
     # read CSV file
     df = pd.read_csv(filepath)
@@ -16,4 +17,6 @@ def deduplicate_csv(filepath):
     # print message to confirm the new file was created
     print(f'Deduplicated file saved as "{output_filepath}"')
 
-deduplicate_csv('./data/data.csv')
+
+deduplicate_csv('./data/H5N8_outbreaks.csv')
+# deduplicate_csv('./data/outbreaks.csv')
